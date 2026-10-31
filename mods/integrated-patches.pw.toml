@@ -1,0 +1,13 @@
+name = "Integrated Patches"
+filename = "integrated_patches v1.2.0-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b03b55f5532f992b2448810f1c23c1a45926a322"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8995436
+project-id = 1690092

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "field_airship_village",
+  "title": "Airship Village",
+  "description": [
+    "Integrated Villages: a village that does not stay put"
+  ],
+  "icon": {
+    "item": "minecraft:oak_fence"
+  },
+  "x": -126,
+  "y": -135,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "field_manor"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:structure",
+      "structure": "integrated_villages:airship_village"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:emerald",
+      "count": 6
+    }
+  ]
+}

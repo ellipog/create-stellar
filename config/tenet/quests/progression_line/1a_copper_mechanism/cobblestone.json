@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "cobblestone",
+  "title": "Cobblestone",
+  "icon": {
+    "item": "minecraft:cobblestone"
+  },
+  "x": -280,
+  "y": -248,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "already_automated_cobblestone"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Ready"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_twin_screw",
+  "title": "Twin Screw",
+  "description": [
+    "Two propellers turning opposite ways: no torque, no drift",
+    "Torque: defeated by duplication."
+  ],
+  "icon": {
+    "item": "aeronautics:smart_propeller"
+  },
+  "x": 294,
+  "y": 108,
+  "shape": "diamond",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_smart_prop"
+  ],
+  "dependencyLines": {
+    "aero_smart_prop": {
+      "dash": "dotted"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Two propellers, opposing"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:electron_tube",
+      "count": 4
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "oil",
+  "title": "Oil",
+  "subtitle": "Don't tell USA you found this...",
+  "description": [
+    "Heated mixing"
+  ],
+  "icon": {
+    "item": "ad_astra:oil_bucket"
+  },
+  "x": -248,
+  "y": 8,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "water",
+    "coal",
+    "automated_49"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:oil_bucket"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

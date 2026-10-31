@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "pulverize",
+  "title": "Pulverize",
+  "subtitle": "1 -> 2",
+  "icon": {
+    "item": "create:crushing_wheel"
+  },
+  "x": -344,
+  "y": 104,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "silk_touch"
+  ],
+  "prerequisiteMode": "one_completed",
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Done"
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 name = "Create Confectionery"
-filename = "create-confectionery1.19.2_v1.0.9.jar"
+filename = "create-confectionery1.21.1_v1.1.3b.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "110acb4b8c5c2acd7dfb3f9a2b9cfbfd60d90be1"
+hash = "47e235efa862c5cbea53fdf8346d4c499674defa"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4561123
+file-id = 8063074
 project-id = 531834

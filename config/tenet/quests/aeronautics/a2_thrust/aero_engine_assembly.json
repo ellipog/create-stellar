@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_engine_assembly",
+  "title": "Engine Assembly",
+  "description": [
+    "Sequenced assembly off a steel mechanism. This is the gate everything else waits on"
+  ],
+  "icon": {
+    "item": "simulated:engine_assembly"
+  },
+  "x": 126,
+  "y": 0,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_in_thrust_we_trust"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "simulated:engine_assembly"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:iron_sheet",
+      "count": 8
+    }
+  ]
+}

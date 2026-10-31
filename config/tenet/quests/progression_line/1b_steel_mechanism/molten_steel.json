@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "molten_steel",
+  "title": "Molten Steel",
+  "description": [
+    "Mix the molten iron and the coal to get molten steel. "
+  ],
+  "icon": {
+    "item": "createbigcannons:molten_steel_bucket"
+  },
+  "x": -24,
+  "y": 40,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "molten_iron",
+    "automated_26"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "createbigcannons:molten_steel_bucket"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

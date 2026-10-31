@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_40",
+  "title": "Automated",
+  "description": [
+    "Blasting cinder flour will give you this more refined dust. "
+  ],
+  "icon": {
+    "item": "minecraft:redstone"
+  },
+  "x": 200,
+  "y": -120,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_41"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:redstone"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

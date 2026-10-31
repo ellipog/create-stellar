@@ -1,0 +1,77 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/chapter.schema.json",
+  "id": "field_notes",
+  "title": "Field Notes",
+  "icon": {
+    "item": "minecraft:filled_map"
+  },
+  "dependencyStyle": {
+    "form": "straight",
+    "arrowHead": "chevron",
+    "arrowPlace": "target",
+    "dash": "dashed",
+    "weight": "thin"
+  },
+  "completesWhen": [
+    "field_shrubland",
+    "field_baobab",
+    "field_boreal",
+    "field_temple",
+    "field_manor",
+    "field_bandit",
+    "field_airship_village",
+    "field_stronghold",
+    "field_dungeon",
+    "field_cave_candy",
+    "field_cave_primordial",
+    "field_cave_toxic",
+    "field_cave_abyssal",
+    "field_bear",
+    "field_whale",
+    "field_eagle",
+    "field_serpent",
+    "field_heart",
+    "field_echo",
+    "field_notes_done"
+  ],
+  "quests": [
+    "field_shrubland.json",
+    "field_baobab.json",
+    "field_boreal.json",
+    "field_temple.json",
+    "field_manor.json",
+    "field_bandit.json",
+    "field_airship_village.json",
+    "field_stronghold.json",
+    "field_dungeon.json",
+    "field_cave_candy.json",
+    "field_cave_primordial.json",
+    "field_cave_toxic.json",
+    "field_cave_abyssal.json",
+    "field_bear.json",
+    "field_whale.json",
+    "field_eagle.json",
+    "field_serpent.json",
+    "field_heart.json",
+    "field_echo.json",
+    "field_notes_done.json"
+  ],
+  "theme": "vanilla_plus",
+  "themePatch": {
+    "canvasBackground": {
+      "pattern": "speckle",
+      "space": "graph",
+      "spacing": 36,
+      "size": 1,
+      "density": 3,
+      "direction": "slash",
+      "fit": "tile",
+      "texture": "",
+      "tile": 16
+    },
+    "colours": {
+      "canvas": "#FF14170F",
+      "canvasPattern": "#A8C0A0FF"
+    }
+  }
+}

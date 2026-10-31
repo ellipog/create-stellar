@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "chapter_a1_lift",
+  "title": "Aeronautics A1) Lift",
+  "icon": {
+    "item": "aeronautics:adjustable_burner"
+  },
+  "x": -150,
+  "y": -216,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "copper_mechanism",
+    "chapter_1a_copper_mechanism"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Ready"
+    }
+  ]
+}

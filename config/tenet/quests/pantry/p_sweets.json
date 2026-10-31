@@ -1,0 +1,35 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "p_sweets",
+  "title": "Sweets",
+  "description": [
+    "Caramel. Two sugar and a bucket of water in a mixer, 250 mB per craft.",
+    "Compact it into bars to eat it."
+  ],
+  "icon": {
+    "item": "create_confectionery:caramel_bucket"
+  },
+  "x": 120,
+  "y": 128,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "p_pot"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:fluid",
+      "fluid": "create_confectionery:caramel",
+      "amount": 1000
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create_confectionery:marshmallow",
+      "count": 8
+    }
+  ]
+}

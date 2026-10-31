@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_102",
+  "title": "Automated",
+  "icon": {
+    "item": "ad_astra:venus_sand"
+  },
+  "x": 200,
+  "y": 72,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_10"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:venus_sand"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

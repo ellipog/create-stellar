@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "already_automated_cobblestone",
+  "title": "Already Automated: Cobblestone",
+  "icon": {
+    "item": "forbidden_arcanus:dark_matter"
+  },
+  "x": -280,
+  "y": -344,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_2"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_2",
+  "title": "Automated",
+  "description": [
+    "Mixing 1 piece of tuff and 1 iron nugget will give you tuff alloy. "
+  ],
+  "icon": {
+    "item": "create:andesite_alloy"
+  },
+  "x": 72,
+  "y": 40,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_8",
+    "automated_11"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:andesite_alloy"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

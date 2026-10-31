@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_72",
+  "title": "Automated",
+  "description": [
+    "Snip snip, rolling sheets give you wires. "
+  ],
+  "icon": {
+    "item": "createaddition:copper_wire"
+  },
+  "x": -248,
+  "y": -56,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_66"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "createaddition:copper_wire"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

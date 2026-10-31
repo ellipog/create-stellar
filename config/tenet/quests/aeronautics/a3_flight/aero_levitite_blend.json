@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_levitite_blend",
+  "title": "Levitite Blend",
+  "description": [
+    "End stone powder + a bucket: the floating end of the tech tree"
+  ],
+  "icon": {
+    "item": "aeronautics:levitite_blend_bucket"
+  },
+  "x": -126,
+  "y": -48,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_sails"
+  ],
+  "dependencyLines": {
+    "aero_sails": {
+      "form": "curved",
+      "fromHandle": [
+        0.32,
+        -0.16
+      ],
+      "toHandle": [
+        0.68,
+        0.16
+      ]
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "aeronautics:levitite_blend_bucket"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_124",
+  "title": "Automated",
+  "description": [
+    "Putting mars sand into a centrifugal seperator will spin in until it hardens into ostrum nuggets. "
+  ],
+  "icon": {
+    "item": "ad_astra:ostrum_nugget"
+  },
+  "x": 168,
+  "y": 8,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_125"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:ostrum_nugget"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

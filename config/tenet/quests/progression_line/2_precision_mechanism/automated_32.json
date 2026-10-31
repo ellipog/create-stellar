@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_32",
+  "title": "Automated",
+  "description": [
+    "Crush or mill the brass ingots. Or autocraft the nuggets. "
+  ],
+  "icon": {
+    "item": "create:brass_nugget"
+  },
+  "x": -152,
+  "y": 104,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_34"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:brass_nugget"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

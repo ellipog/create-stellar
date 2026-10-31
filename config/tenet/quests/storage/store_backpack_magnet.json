@@ -1,0 +1,40 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_backpack_magnet",
+  "title": "Magnet",
+  "description": [
+    "Advanced magnet. Picks drops up from further away."
+  ],
+  "icon": {
+    "item": "sophisticatedbackpacks:advanced_magnet_upgrade"
+  },
+  "x": -264,
+  "y": 144,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "store_backpack_stack"
+  ],
+  "dependencyLines": {
+    "store_backpack_stack": {
+      "dash": "dashed",
+      "form": "curved",
+      "fromHandle": [
+        0.6127954461081548,
+        -0.4140576661304294
+      ],
+      "toHandle": [
+        0.4609578022521965,
+        0.3262591263457493
+      ]
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "sophisticatedbackpacks:advanced_magnet_upgrade"
+    }
+  ]
+}

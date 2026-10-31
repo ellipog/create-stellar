@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "molten_nether_quartz_2",
+  "title": "Molten Nether Quartz",
+  "icon": {
+    "item": "create_stellar:molten_nether_quartz_bucket"
+  },
+  "x": -120,
+  "y": -248,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "already_automated_molten_nether_quartz"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Ready"
+    }
+  ]
+}

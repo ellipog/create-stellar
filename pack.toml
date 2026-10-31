@@ -1,11 +1,13 @@
-name = "Stellar R"
+name = "Create Stellar v2.0"
+author = "ellipog"
+version = "2.0.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "fea8a256e6f48e39493ec19456a236e2f8bcd7f902d6aeb1d08b5823aaba94ad"
+hash = "e5817741bb515d0882de1b9f0a952cb8f089bc10c6833d7533ed999c81ed960d"
 
 [versions]
-forge = "43.2.23"
-minecraft = "1.19.2"
+minecraft = "1.21.1"
+neoforge = "21.1.264"

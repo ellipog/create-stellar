@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "bigger_crafting",
+  "title": "Bigger Crafting",
+  "x": 418,
+  "y": 354,
+  "shape": "hexagon",
+  "size": 60,
+  "iconScale": 1,
+  "dependsOn": [
+    "quest_733088ef"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:mechanical_crafter",
+      "count": 3
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:crafter_slot_cover",
+      "count": 5
+    }
+  ]
+}

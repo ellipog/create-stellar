@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "molten_zinc",
+  "title": "Molten Zinc",
+  "description": [
+    "Melt the zinc in a foundry basin. "
+  ],
+  "icon": {
+    "item": "create_stellar:molten_zinc_bucket"
+  },
+  "x": -344,
+  "y": 264,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_35"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create_stellar:molten_zinc_bucket"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

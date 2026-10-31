@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_61",
+  "title": "Automated",
+  "description": [
+    "Pour molten nether quartz over soul sand. "
+  ],
+  "icon": {
+    "item": "minecraft:glowstone"
+  },
+  "x": -152,
+  "y": -152,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "soul_sand",
+    "molten_nether_quartz_2"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:glowstone"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "field_cave_abyssal",
+  "title": "Abyssal Chasm",
+  "description": [
+    "Down, then down, then the lights stop helping"
+  ],
+  "icon": {
+    "item": "minecraft:prismarine"
+  },
+  "x": 0,
+  "y": 0,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "field_cave_toxic"
+  ],
+  "dependencyLines": {
+    "field_cave_toxic": {
+      "dash": "dotted"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:biome",
+      "biome": "alexscaves:abyssal_chasm"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:prismarine_bricks",
+      "count": 8
+    }
+  ]
+}

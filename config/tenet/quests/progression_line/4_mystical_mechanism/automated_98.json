@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_98",
+  "title": "Automated",
+  "icon": {
+    "item": "mysticalagriculture:inferium_essence"
+  },
+  "x": 264,
+  "y": 8,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_9"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "mysticalagriculture:inferium_essence"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

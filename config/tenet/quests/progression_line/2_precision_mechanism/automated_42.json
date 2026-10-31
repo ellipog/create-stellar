@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_42",
+  "title": "Automated",
+  "description": [
+    "Mix lava and cobblestone. "
+  ],
+  "icon": {
+    "item": "minecraft:netherrack"
+  },
+  "x": 104,
+  "y": -216,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "cobblestone_2",
+    "lava"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:netherrack"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

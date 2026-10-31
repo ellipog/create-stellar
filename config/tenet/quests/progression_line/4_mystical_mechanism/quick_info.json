@@ -1,0 +1,36 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "quick_info",
+  "title": "Quick Info",
+  "description": [
+    "You have now reached a point where you know most of the create mod like the back of your hand. ",
+    "",
+    "Because of that you will now be less handheld through the quests. ",
+    "",
+    "There will be no signs telling you if you already have automated something, and there will be steps skipped, that you have to figure out yourself by using the JEI menu. ",
+    "",
+    "You got this, good luck!"
+  ],
+  "icon": {
+    "item": "create_stellar:mystical_mechanism"
+  },
+  "x": 72,
+  "y": -184,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_9"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Ready"
+    }
+  ],
+  "dependencyLines": {
+    "ready_9": {
+      "dash": "dashed"
+    }
+  }
+}

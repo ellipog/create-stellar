@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "field_cave_toxic",
+  "title": "Toxic Caves",
+  "description": [
+    "Bring a bucket. Bring two"
+  ],
+  "icon": {
+    "item": "minecraft:slime_block"
+  },
+  "x": -126,
+  "y": 0,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "field_cave_primordial"
+  ],
+  "dependencyLines": {
+    "field_cave_primordial": {
+      "dash": "dotted"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:biome",
+      "biome": "alexscaves:toxic_caves"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:slime_ball",
+      "count": 8
+    }
+  ]
+}

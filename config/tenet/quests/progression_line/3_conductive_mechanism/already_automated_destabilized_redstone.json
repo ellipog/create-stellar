@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "already_automated_destabilized_redstone",
+  "title": "Already Automated: Destabilized Redstone",
+  "icon": {
+    "item": "forbidden_arcanus:dark_matter"
+  },
+  "x": -184,
+  "y": 456,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_7"
+  ],
+  "hideDependencyLines": true,
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

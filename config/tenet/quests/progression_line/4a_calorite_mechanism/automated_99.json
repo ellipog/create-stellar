@@ -1,0 +1,40 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_99",
+  "title": "Automated",
+  "icon": {
+    "item": "create_stellar:calorite_mechanism"
+  },
+  "x": -36,
+  "y": 156,
+  "shape": "gear",
+  "size": 72,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_101",
+    "automated_100",
+    "automated_105",
+    "automated_103",
+    "automated_104"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create_stellar:calorite_mechanism"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:glacio_globe"
+    },
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:red_flag"
+    }
+  ]
+}

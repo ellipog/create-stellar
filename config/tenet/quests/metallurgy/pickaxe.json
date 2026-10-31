@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "pickaxe",
+  "title": "Pickaxe",
+  "icon": {
+    "item": "minecraft:stone_pickaxe"
+  },
+  "x": -350,
+  "y": -190,
+  "shape": "hexagon",
+  "size": 60,
+  "iconScale": 1,
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Done"
+    }
+  ]
+}

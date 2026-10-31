@@ -1,0 +1,36 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "mining_time",
+  "title": "Mining time",
+  "subtitle": "I am a dwarf and im digging a hole",
+  "x": 328,
+  "y": -184,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "quest_55f4f118"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:iron_pickaxe"
+    },
+    {
+      "type": "tenet:item",
+      "item": "minecraft:iron_axe"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:lantern",
+      "count": 16
+    },
+    {
+      "type": "tenet:item",
+      "item": "minecraft:bread",
+      "count": 32
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_long_haul",
+  "title": "Long Haul",
+  "description": [
+    "Cargo across 1000 blocks. Distance is the only real test of a ship"
+  ],
+  "icon": {
+    "item": "create:item_vault"
+  },
+  "x": -328,
+  "y": -136,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_sensors"
+  ],
+  "dependencyLines": {
+    "aero_sensors": {
+      "form": "curved",
+      "fromHandle": [
+        0.32,
+        -0.16
+      ],
+      "toHandle": [
+        0.68,
+        0.16
+      ]
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Delivered cargo across 1000 blocks"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:item_vault",
+      "count": 4
+    }
+  ]
+}

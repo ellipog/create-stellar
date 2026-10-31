@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_46",
+  "title": "Automated",
+  "description": [
+    "Washing moon sand has a chance of leaving you with desh nuggets. "
+  ],
+  "icon": {
+    "item": "ad_astra:desh_nugget"
+  },
+  "x": 200,
+  "y": 168,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_47"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:desh_nugget"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_ballast",
+  "title": "Ballast",
+  "description": [
+    "Industrial iron blocks as counterweight. Light ships tip, loaded ships do not",
+    "Weight you added on purpose, so the accidents weigh less."
+  ],
+  "icon": {
+    "item": "create:industrial_iron_block"
+  },
+  "x": 216,
+  "y": 106,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_cargo_hold"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:industrial_iron_block",
+      "count": 16
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Balanced the ship"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:precision_mechanism"
+    }
+  ]
+}

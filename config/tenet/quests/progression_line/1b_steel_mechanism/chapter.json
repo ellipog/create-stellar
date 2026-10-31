@@ -1,0 +1,57 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/chapter.schema.json",
+  "id": "1b_steel_mechanism",
+  "title": "1b) Steel Mechanism",
+  "icon": {
+    "item": "create_stellar:steel_mechanism"
+  },
+  "dependsOn": [
+    "1_basic_mechanism"
+  ],
+  "hideUntilDependenciesComplete": true,
+  "dependencyStyle": {
+    "form": "straight",
+    "arrowHead": "none"
+  },
+  "completesWhen": [
+    "steel_mechanism",
+    "molten_steel",
+    "automated_24",
+    "already_automated_basic_mechanism_2",
+    "basic_mechanism_3",
+    "automated_25",
+    "molten_iron",
+    "automated_26",
+    "automated_27",
+    "flint",
+    "automated_28",
+    "tuff",
+    "automated_29",
+    "already_automated_tuff",
+    "already_automated_flint",
+    "iron_nugget",
+    "already_automated_iron_nugget",
+    "ready_3"
+  ],
+  "quests": [
+    "steel_mechanism.json",
+    "molten_steel.json",
+    "automated_24.json",
+    "already_automated_basic_mechanism_2.json",
+    "basic_mechanism_3.json",
+    "automated_25.json",
+    "molten_iron.json",
+    "automated_26.json",
+    "automated_27.json",
+    "flint.json",
+    "automated_28.json",
+    "tuff.json",
+    "automated_29.json",
+    "already_automated_tuff.json",
+    "already_automated_flint.json",
+    "iron_nugget.json",
+    "already_automated_iron_nugget.json",
+    "ready_3.json"
+  ],
+  "theme": "monochrome"
+}

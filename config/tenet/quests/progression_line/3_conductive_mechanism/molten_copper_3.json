@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "molten_copper_3",
+  "title": "Molten Copper",
+  "icon": {
+    "item": "create_stellar:molten_copper_bucket"
+  },
+  "x": -408,
+  "y": 8,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "already_automated_molten_copper_2"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Ready"
+    }
+  ]
+}

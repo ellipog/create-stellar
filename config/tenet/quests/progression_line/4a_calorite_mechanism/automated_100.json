@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_100",
+  "title": "Automated",
+  "icon": {
+    "item": "create_stellar:ostrum_mechanism"
+  },
+  "x": -24,
+  "y": 296,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_10"
+  ],
+  "hideDependencyLines": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create_stellar:ostrum_mechanism"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

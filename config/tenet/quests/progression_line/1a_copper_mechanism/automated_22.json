@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_22",
+  "title": "Automated",
+  "description": [
+    "Pour the molten quartz over the cobblestone (in a basin) and mix until diorite comes out. "
+  ],
+  "icon": {
+    "item": "minecraft:diorite"
+  },
+  "x": -184,
+  "y": -248,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "molten_nether_quartz",
+    "cobblestone"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:diorite"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

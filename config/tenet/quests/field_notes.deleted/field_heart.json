@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "field_heart",
+  "title": "Heart of the Sea",
+  "description": [
+    "Buried treasure: the map was the hard part"
+  ],
+  "icon": {
+    "item": "minecraft:heart_of_the_sea"
+  },
+  "x": 5,
+  "y": 161,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "field_whale"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:heart_of_the_sea"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:conduit"
+    }
+  ]
+}

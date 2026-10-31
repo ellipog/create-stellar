@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "oxygen",
+  "title": "Oxygen",
+  "description": [
+    "Water in an oxygen loader."
+  ],
+  "icon": {
+    "item": "ad_astra:oxygen_bucket"
+  },
+  "x": -56,
+  "y": 72,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "water_2"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:oxygen_bucket"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

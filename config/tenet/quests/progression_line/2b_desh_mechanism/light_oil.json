@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "light_oil",
+  "title": "Light Oil",
+  "description": [
+    "Heated mixing of oil and water                             ",
+    "Produced at the same time as the sulfuric heavy oil"
+  ],
+  "icon": {
+    "item": "ad_astra:oil_bucket"
+  },
+  "x": -184,
+  "y": 104,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "oil"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:oil_bucket"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

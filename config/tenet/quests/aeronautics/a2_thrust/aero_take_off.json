@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_take_off",
+  "title": "Take Off",
+  "description": [
+    "Thrust + balance = horizontal flight. Balloon to airship",
+    "The balloon got you up. The engine makes it a decision."
+  ],
+  "icon": {
+    "item": "aeronautics:smart_propeller"
+  },
+  "x": 296,
+  "y": -14,
+  "shape": "gear",
+  "size": 84,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_portable_power"
+  ],
+  "dependencyLines": {
+    "aero_portable_power": {
+      "weight": "thin",
+      "arrowHead": "diamond"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Left the ground under thrust"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "aeronautics:aviators_goggles"
+    }
+  ]
+}

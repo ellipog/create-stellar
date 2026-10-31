@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_compacting",
+  "title": "Compacting Drawers",
+  "description": [
+    "Nuggets, ingots and blocks in one drawer."
+  ],
+  "icon": {
+    "item": "storagedrawers:compacting_drawers_3"
+  },
+  "x": -340,
+  "y": -132,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "store_drawers_upg"
+  ],
+  "dependencyLines": {
+    "store_drawers_upg": {
+      "dash": "dashed"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "storagedrawers:compacting_drawers_3",
+      "count": 2
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "storagedrawers:compacting_drawers_2"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "field_bandit",
+  "title": "Bandit Towers",
+  "description": [
+    "Vertical ambition, horizontal morals"
+  ],
+  "icon": {
+    "item": "minecraft:iron_bars"
+  },
+  "x": 0,
+  "y": -266,
+  "shape": "hexagon",
+  "size": 52,
+  "iconScale": 1,
+  "dependsOn": [
+    "field_temple"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:structure",
+      "structure": "dungeons_arise:bandit_towers"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:iron_ingot",
+      "count": 8
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_ghostbuster",
+  "title": "Ghostbuster",
+  "description": [
+    "One phantom, one airborne potato cannon",
+    "Finally, an answer to why the cannon exists."
+  ],
+  "icon": {
+    "item": "aeronautics:mounted_potato_cannon"
+  },
+  "x": 42,
+  "y": 120,
+  "shape": "diamond",
+  "size": 44,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_heavier_artillery"
+  ],
+  "dependencyLines": {
+    "aero_heavier_artillery": {
+      "dash": "dotted",
+      "form": "curved",
+      "fromHandle": [
+        0.32,
+        0.16
+      ],
+      "toHandle": [
+        0.68,
+        -0.16
+      ]
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:advancement",
+      "advancement": "aeronautics:ghostbuster"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:phantom_membrane",
+      "count": 8
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_hold_on",
+  "title": "Hold On",
+  "description": [
+    "Iron Handle: grab the ship instead of the world",
+    "Grab the ship, not the world. The world is heavier."
+  ],
+  "icon": {
+    "item": "simulated:iron_handle"
+  },
+  "x": 264,
+  "y": -193,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_anchor"
+  ],
+  "dependencyLines": {
+    "aero_anchor": {
+      "dash": "dashed"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "simulated:iron_handle"
+    }
+  ]
+}

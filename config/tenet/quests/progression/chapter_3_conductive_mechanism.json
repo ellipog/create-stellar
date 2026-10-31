@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "chapter_3_conductive_mechanism",
+  "title": "Chapter 3) Conductive Mechanism",
+  "icon": {
+    "item": "create_stellar:conductive_mechanism"
+  },
+  "x": 226,
+  "y": -94,
+  "shape": "hexagon",
+  "size": 60,
+  "iconScale": 1,
+  "dependsOn": [
+    "chapter_2_precision_mechanism",
+    "automated_30"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Ready"
+    }
+  ],
+  "dependencyLines": {
+    "chapter_2_precision_mechanism": {
+      "bend": 0.2,
+      "arrowHead": "chevron",
+      "arrowPlace": "mid"
+    }
+  }
+}

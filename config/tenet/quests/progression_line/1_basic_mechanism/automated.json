@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated",
+  "title": "Automated",
+  "description": [
+    "Planks -> Press -> Upgrade Base"
+  ],
+  "icon": {
+    "item": "sophisticatedstorage:upgrade_base"
+  },
+  "x": -120,
+  "y": 40,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_5"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "sophisticatedstorage:upgrade_base"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

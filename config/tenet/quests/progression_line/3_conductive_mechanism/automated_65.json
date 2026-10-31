@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_65",
+  "title": "Automated",
+  "description": [
+    "Smashing ingots give you their sheet form."
+  ],
+  "icon": {
+    "item": "createdeco:zinc_sheet"
+  },
+  "x": -280,
+  "y": 168,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_71"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "createdeco:zinc_sheet"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

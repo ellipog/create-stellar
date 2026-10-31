@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_rs_controller",
+  "title": "Controller",
+  "description": [
+    "Refined Storage controller. The network needs one to run."
+  ],
+  "icon": {
+    "item": "refinedstorage:controller"
+  },
+  "x": -64,
+  "y": -32,
+  "shape": "gear",
+  "size": 72,
+  "iconScale": 1,
+  "dependsOn": [
+    "quest_186cab4c"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "refinedstorage:controller"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "refinedstorage:cable",
+      "count": 8
+    }
+  ]
+}

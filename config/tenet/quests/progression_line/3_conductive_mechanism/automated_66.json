@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_66",
+  "title": "Automated",
+  "description": [
+    "Holy sheet!"
+  ],
+  "icon": {
+    "item": "create:copper_sheet"
+  },
+  "x": -216,
+  "y": 40,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_74"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:copper_sheet"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

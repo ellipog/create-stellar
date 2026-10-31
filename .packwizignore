@@ -1,0 +1,4 @@
+# Repository files, not pack files: keep them out of index.toml and the export.
+README.md
+LICENSE
+.github/

@@ -14,12 +14,12 @@
       {
         "type": "BIOME_TAG",
         "negate": true,
-        "value": "forge:is_cold/overworld"
+        "value": "c:is_cold_overworld"
       },
       {
         "type": "BIOME_TAG",
         "negate": true,
-        "value": "forge:is_hot/overworld"
+        "value": "c:is_hot_overworld"
       },
       {
         "type": "REGISTRY_NAME",

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_64",
+  "title": "Automated",
+  "description": [
+    "UNLIMITED POWER!!!",
+    "",
+    "Literally... this turns rotation into electricity. "
+  ],
+  "icon": {
+    "item": "createaddition:alternator"
+  },
+  "x": -29,
+  "y": 9,
+  "shape": "hexagon",
+  "size": 58,
+  "iconScale": 1,
+  "dependsOn": [
+    "tuff_alloy",
+    "automated_70",
+    "iron_sheet",
+    "iron_rod",
+    "automated_63"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "createaddition:alternator"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ],
+  "dependencyLines": {
+    "tuff_alloy": {
+      "fromAnchor": -89.57506008458549
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "iron_ingot",
+  "title": "Iron Ingot",
+  "icon": {
+    "item": "minecraft:iron_ingot"
+  },
+  "x": 136,
+  "y": -120,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "already_automated_iron_ingot"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Ready"
+    }
+  ]
+}

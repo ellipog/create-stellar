@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_see_the_forces",
+  "title": "See the Forces",
+  "description": [
+    "Assembler + Paper -> Contraption Diagram, then open it",
+    "The arrows are not decorative. Look at the arrows."
+  ],
+  "icon": {
+    "item": "simulated:contraption_diagram"
+  },
+  "x": -168,
+  "y": 48,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_off_the_grid"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "simulated:contraption_diagram"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Opened the diagram"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:paper",
+      "count": 16
+    }
+  ]
+}

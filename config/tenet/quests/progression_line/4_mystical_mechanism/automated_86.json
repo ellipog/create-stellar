@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_86",
+  "title": "Automated",
+  "icon": {
+    "item": "quark:clear_shard"
+  },
+  "x": -216,
+  "y": 264,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_87"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "quark:clear_shard"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

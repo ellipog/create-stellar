@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_rs_cable",
+  "title": "Cable",
+  "description": [
+    "Connects network blocks."
+  ],
+  "icon": {
+    "item": "refinedstorage:cable"
+  },
+  "x": -112,
+  "y": 96,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "store_rs_controller"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "refinedstorage:cable",
+      "count": 8
+    }
+  ],
+  "dependencyLines": {
+    "store_rs_controller": {
+      "toAnchor": -81.89924442111379,
+      "fromAnchor": 89.59767768892209
+    }
+  }
+}

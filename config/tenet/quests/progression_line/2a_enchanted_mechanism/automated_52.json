@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_52",
+  "title": "Automated",
+  "description": [
+    "HOT SLIME!?!??!?!?"
+  ],
+  "icon": {
+    "item": "minecraft:magma_cream"
+  },
+  "x": 72,
+  "y": 40,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "lava_2",
+    "automated_54"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

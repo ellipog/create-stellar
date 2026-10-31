@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_6",
+  "title": "Automated",
+  "description": [
+    "Log -> Saw -> Stripped Log"
+  ],
+  "icon": {
+    "item": "minecraft:stripped_oak_log"
+  },
+  "x": -216,
+  "y": -56,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_7"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:stripped_oak_log"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

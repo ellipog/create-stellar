@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_93",
+  "title": "Automated",
+  "icon": {
+    "item": "mysticalagriculture:inferium_seeds"
+  },
+  "x": 168,
+  "y": 72,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_98",
+    "automated_97"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "mysticalagriculture:inferium_seeds"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

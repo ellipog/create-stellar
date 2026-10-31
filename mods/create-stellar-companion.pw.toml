@@ -1,0 +1,13 @@
+name = "Create Stellar Companion"
+filename = "create-stellar-companion-1.21.1-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "625837567ec49f9c2d9aa92f0f11a3cd02cc0c43"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9296777
+project-id = 1743150

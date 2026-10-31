@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_77",
+  "title": "Automated",
+  "icon": {
+    "item": "refinedstorage:processor_binding"
+  },
+  "x": -24,
+  "y": 8,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "slimeball_2",
+    "automated_79"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "refinedstorage:processor_binding"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

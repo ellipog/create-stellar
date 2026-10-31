@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_82",
+  "title": "Automated",
+  "icon": {
+    "item": "refinedstorage:quartz_enriched_iron"
+  },
+  "x": 104,
+  "y": 168,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "iron_ingot_2"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "refinedstorage:quartz_enriched_iron"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

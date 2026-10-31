@@ -1,0 +1,43 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/chapter.schema.json",
+  "id": "4a_calorite_mechanism",
+  "title": "4a) Calorite Mechanism",
+  "icon": {
+    "item": "create_stellar:calorite_mechanism"
+  },
+  "dependsOn": [
+    "4_mystical_mechanism"
+  ],
+  "hideUntilDependenciesComplete": true,
+  "dependencyStyle": {
+    "form": "straight",
+    "arrowHead": "none"
+  },
+  "completesWhen": [
+    "automated_99",
+    "automated_100",
+    "automated_101",
+    "automated_102",
+    "automated_103",
+    "automated_104",
+    "automated_105",
+    "automated_106",
+    "automated_107",
+    "automated_108",
+    "ready_10"
+  ],
+  "quests": [
+    "automated_99.json",
+    "automated_100.json",
+    "automated_101.json",
+    "automated_102.json",
+    "automated_103.json",
+    "automated_104.json",
+    "automated_105.json",
+    "automated_106.json",
+    "automated_107.json",
+    "automated_108.json",
+    "ready_10.json"
+  ],
+  "theme": "redstone"
+}

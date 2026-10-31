@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_8",
+  "title": "Automated",
+  "subtitle": "Shiny!! :OO",
+  "description": [
+    "Wash the gravel to get this shiny nugget. "
+  ],
+  "icon": {
+    "item": "minecraft:iron_nugget"
+  },
+  "x": 72,
+  "y": -56,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_9"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

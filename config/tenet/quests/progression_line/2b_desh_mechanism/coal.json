@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "coal",
+  "title": "Coal",
+  "icon": {
+    "item": "minecraft:coal"
+  },
+  "x": -408,
+  "y": -120,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "already_automated_coal"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Coal"
+    }
+  ]
+}

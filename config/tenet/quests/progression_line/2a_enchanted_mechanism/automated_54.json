@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_54",
+  "title": "Automated",
+  "description": [
+    "Dough + lime dye?????"
+  ],
+  "icon": {
+    "item": "minecraft:slime_ball"
+  },
+  "x": 104,
+  "y": -56,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_56",
+    "automated_58"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

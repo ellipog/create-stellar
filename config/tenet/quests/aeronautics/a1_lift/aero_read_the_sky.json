@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_read_the_sky",
+  "title": "Read the Sky",
+  "description": [
+    "Altitude falls with pressure -- a sensor says how much lift you have left"
+  ],
+  "icon": {
+    "item": "simulated:altitude_sensor"
+  },
+  "x": 165,
+  "y": -77,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_first_lift"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "simulated:altitude_sensor"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "simulated:gimbal_sensor"
+    }
+  ]
+}

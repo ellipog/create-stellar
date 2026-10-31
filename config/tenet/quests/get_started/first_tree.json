@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "first_tree",
+  "title": "First Tree",
+  "icon": {
+    "item": "minecraft:oak_log"
+  },
+  "x": -36,
+  "y": -36,
+  "shape": "hexagon",
+  "size": 72,
+  "iconScale": 1,
+  "tasks": [
+    {
+      "type": "tenet:item_tag",
+      "tag": "minecraft:logs_that_burn",
+      "count": 16,
+      "title": "Wood Logs"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "farmersdelight:steak_and_potatoes",
+      "count": 3
+    },
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:earth_globe"
+    }
+  ]
+}

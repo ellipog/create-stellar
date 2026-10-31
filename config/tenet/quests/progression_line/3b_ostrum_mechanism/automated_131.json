@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_131",
+  "title": "Automated",
+  "description": [
+    "You already have the required items automated, just put them in a mechanical crafter."
+  ],
+  "icon": {
+    "item": "create:fluid_pipe"
+  },
+  "x": 136,
+  "y": 232,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_12"
+  ],
+  "hideDependencyLines": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:fluid_pipe"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+name = "Puzzles Lib"
+filename = "puzzleslib-v21.1.64-mc1.21.1+neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8562ac65d4f2a55365d4522934fb0e00cd3d3ec3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9130151
+project-id = 495476

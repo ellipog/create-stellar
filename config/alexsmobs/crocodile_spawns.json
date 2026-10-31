@@ -4,7 +4,7 @@
       {
         "type": "BIOME_TAG",
         "negate": false,
-        "value": "forge:is_swamp"
+        "value": "c:is_swamp"
       }
     ],
     [
@@ -23,7 +23,7 @@
       {
         "type": "BIOME_TAG",
         "negate": true,
-        "value": "forge:is_cold"
+        "value": "c:is_cold"
       }
     ],
     [

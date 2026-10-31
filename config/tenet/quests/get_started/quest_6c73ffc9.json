@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "quest_6c73ffc9",
+  "title": "Bread",
+  "x": 680,
+  "y": 40,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "quest_4f3a83e1"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:bread",
+      "count": 8
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "farmersdelight:glow_berry_custard",
+      "count": 2
+    }
+  ]
+}

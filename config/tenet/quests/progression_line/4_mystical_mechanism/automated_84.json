@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_84",
+  "title": "Automated",
+  "icon": {
+    "item": "mysticalagriculture:prosperity_shard"
+  },
+  "x": -152,
+  "y": 168,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_86",
+    "automated_88"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "mysticalagriculture:prosperity_shard"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

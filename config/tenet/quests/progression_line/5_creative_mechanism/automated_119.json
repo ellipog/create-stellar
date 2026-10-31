@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_119",
+  "title": "Automated",
+  "icon": {
+    "item": "create:crushing_wheel"
+  },
+  "x": -312,
+  "y": 8,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_11"
+  ],
+  "hideDependencyLines": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:crushing_wheel"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "stone_age",
+  "title": "Stone Age",
+  "x": 200,
+  "y": -24,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "wooden_pickaxe"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:cobblestone",
+      "count": 16
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:stone_pickaxe"
+    },
+    {
+      "type": "tenet:item",
+      "item": "minecraft:stone_axe"
+    }
+  ]
+}

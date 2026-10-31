@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_110",
+  "title": "Automated",
+  "icon": {
+    "item": "forbidden_arcanus:deorum_ingot"
+  },
+  "x": -152,
+  "y": 104,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_118",
+    "automated_117"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "forbidden_arcanus:deorum_ingot"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

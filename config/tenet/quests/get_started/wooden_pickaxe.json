@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "wooden_pickaxe",
+  "title": "Wooden Pickaxe",
+  "x": 104,
+  "y": -88,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "first_tree"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:wooden_pickaxe"
+    },
+    {
+      "type": "tenet:item",
+      "item": "minecraft:wooden_axe"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:oak_log",
+      "count": 16
+    }
+  ]
+}

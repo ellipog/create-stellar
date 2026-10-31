@@ -1,0 +1,34 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_bearings",
+  "title": "Bearings",
+  "description": [
+    "Slab + Iron sheet + Steel mechanism -> Propeller Bearing",
+    "A fan that argues with the sky."
+  ],
+  "icon": {
+    "item": "aeronautics:propeller_bearing"
+  },
+  "x": -310,
+  "y": -7,
+  "shape": "gear",
+  "size": 72,
+  "iconScale": 1,
+  "dependsOn": [
+    "chapter_a2_thrust"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "aeronautics:propeller_bearing"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:shaft",
+      "count": 16
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "quest_73ce2704",
+  "title": "Blaze Burner",
+  "x": 520,
+  "y": 168,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "quest_77723784"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:empty_blaze_burner"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:obsidian",
+      "count": 10
+    }
+  ]
+}

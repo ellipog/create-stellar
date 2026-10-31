@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_backpack",
+  "title": "On Your Back",
+  "description": [
+    "Backpack. An inventory that follows you."
+  ],
+  "icon": {
+    "item": "sophisticatedbackpacks:backpack"
+  },
+  "x": -360,
+  "y": 88,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "quest_186cab4c"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "sophisticatedbackpacks:backpack"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "sophisticatedbackpacks:pickup_upgrade"
+    }
+  ]
+}

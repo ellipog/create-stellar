@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_sails",
+  "title": "Sails",
+  "description": [
+    "Symmetric sails: wind for free, when the wind agrees",
+    "Free thrust, subject to negotiation with the weather."
+  ],
+  "icon": {
+    "item": "simulated:white_symmetric_sail"
+  },
+  "x": -210,
+  "y": 24,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_nav_table"
+  ],
+  "dependencyLines": {
+    "aero_nav_table": {
+      "form": "curved",
+      "fromHandle": [
+        0.32,
+        -0.16
+      ],
+      "toHandle": [
+        0.68,
+        0.16
+      ]
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "simulated:white_symmetric_sail",
+      "count": 8
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:white_sail",
+      "count": 8
+    }
+  ]
+}

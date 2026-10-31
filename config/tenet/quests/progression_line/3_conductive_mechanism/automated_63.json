@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_63",
+  "title": "Automated",
+  "description": [
+    "Mechanical crafters are your friends now. "
+  ],
+  "icon": {
+    "item": "createaddition:capacitor"
+  },
+  "x": -157,
+  "y": 163,
+  "shape": "hexagon",
+  "size": 58,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_67",
+    "automated_65",
+    "automated_66"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "createaddition:capacitor"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

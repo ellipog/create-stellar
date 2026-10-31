@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "lava",
+  "title": "Lava",
+  "description": [
+    "There are lots of ways to automate lava, one of the easier ones is using dripstones and cauldrons. "
+  ],
+  "icon": {
+    "item": "minecraft:lava_bucket"
+  },
+  "x": 200,
+  "y": -216,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_4"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

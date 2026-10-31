@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "drill_machine",
+  "title": "Drill Machine",
+  "x": 872,
+  "y": -120,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "super_glue"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:mechanical_drill"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:chest",
+      "count": 2
+    },
+    {
+      "type": "tenet:item",
+      "item": "create:white_seat"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "quest_73aaf044",
+  "title": "Basic Mechanism",
+  "x": -24,
+  "y": 296,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "already_automated_basic_mechanism_3"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create_stellar:basic_mechanism"
+    }
+  ]
+}

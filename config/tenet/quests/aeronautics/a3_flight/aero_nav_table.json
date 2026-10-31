@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_nav_table",
+  "title": "Navigation",
+  "description": [
+    "Brass sheet + Precision mechanism -> Navigation Table"
+  ],
+  "icon": {
+    "item": "simulated:navigation_table"
+  },
+  "x": -294,
+  "y": 96,
+  "shape": "gear",
+  "size": 72,
+  "iconScale": 1,
+  "dependsOn": [
+    "chapter_a3_flight"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "simulated:navigation_table"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:compass",
+      "count": 2
+    }
+  ]
+}

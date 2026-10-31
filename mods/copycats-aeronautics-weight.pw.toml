@@ -1,0 +1,13 @@
+name = "Copycats+ aeronautics weight"
+filename = "aerocopycats-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3a93862421d0a8cdae1e3a3d7f0d4bd01e049007"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7977632
+project-id = 1520961

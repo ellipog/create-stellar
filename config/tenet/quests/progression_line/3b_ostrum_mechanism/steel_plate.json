@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "steel_plate",
+  "title": "Steel Plate",
+  "icon": {
+    "item": "ad_astra:steel_plate"
+  },
+  "x": -312,
+  "y": -152,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "already_automated_steel_plate"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Ready"
+    }
+  ]
+}

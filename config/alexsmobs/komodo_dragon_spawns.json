@@ -9,7 +9,7 @@
       {
         "type": "BIOME_TAG",
         "negate": true,
-        "value": "forge:is_dense/overworld"
+        "value": "c:is_dense_overworld"
       }
     ],
     [

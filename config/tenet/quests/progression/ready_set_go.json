@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "ready_set_go",
+  "title": "Ready... set... go!!",
+  "description": [
+    "This is the main progression line for the modpack. It will guide you through everything you need to know about create and all other mods needed. "
+  ],
+  "icon": {
+    "item": "ad_astra:red_flag"
+  },
+  "x": 182,
+  "y": -394,
+  "shape": "hexagon",
+  "size": 84,
+  "iconScale": 1,
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "GOOO!!!!"
+    }
+  ]
+}

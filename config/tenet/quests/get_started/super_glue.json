@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "super_glue",
+  "title": "Super Glue",
+  "x": 770,
+  "y": -30,
+  "shape": "hexagon",
+  "size": 60,
+  "iconScale": 1,
+  "dependsOn": [
+    "quest_3dfcc600"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:super_glue"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:rope_pulley"
+    }
+  ]
+}

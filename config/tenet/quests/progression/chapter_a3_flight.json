@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "chapter_a3_flight",
+  "title": "Aeronautics A3) Flight",
+  "icon": {
+    "item": "simulated:navigation_table"
+  },
+  "x": 0,
+  "y": -150,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "precision_mechanism",
+    "chapter_2_precision_mechanism"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Ready"
+    }
+  ]
+}

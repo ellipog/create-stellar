@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "quest_1bd603a8",
+  "title": "Cooking Pot",
+  "x": 72,
+  "y": -248,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "farming_time"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "farmersdelight:cooking_pot"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "farmersdelight:noodle_soup"
+    },
+    {
+      "type": "tenet:item",
+      "item": "farmersdelight:vegetable_soup"
+    }
+  ]
+}

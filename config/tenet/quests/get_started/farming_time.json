@@ -1,0 +1,41 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "farming_time",
+  "title": "Farming Time!!",
+  "x": 168,
+  "y": -184,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "wooden_pickaxe"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:wooden_hoe"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "type": "tenet:item",
+      "item": "minecraft:pumpkin_seeds"
+    },
+    {
+      "type": "tenet:item",
+      "item": "minecraft:melon_seeds"
+    },
+    {
+      "type": "tenet:item",
+      "item": "farmersdelight:cabbage_seeds"
+    },
+    {
+      "type": "tenet:item",
+      "item": "farmersdelight:tomato_seeds"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_76",
+  "title": "Automated",
+  "icon": {
+    "item": "refinedstorage:silicon"
+  },
+  "x": -216,
+  "y": 104,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "tuff_alloy_2",
+    "molten_nether_quartz_3"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "refinedstorage:silicon"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

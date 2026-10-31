@@ -1,13 +1,13 @@
-name = "Item Highlighter [Forge]"
-filename = "Highlighter-1.19.1-1.1.4.jar"
+name = "Item Highlighter [Neo/Forge]"
+filename = "Highlighter-1.21-neoforge-1.1.11.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "3551e5c46cfdc0e702adcf7fc91660f15df44c45"
+hash = "22d29eba774530b40a540fdf5ce2d14d89bbe036"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3907155
+file-id = 5591015
 project-id = 521590

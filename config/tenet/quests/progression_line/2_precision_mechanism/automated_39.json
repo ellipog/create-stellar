@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_39",
+  "title": "Automated",
+  "description": [
+    "Mix redstone and quartz in a basin. "
+  ],
+  "icon": {
+    "item": "create:rose_quartz"
+  },
+  "x": 200,
+  "y": -24,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_40",
+    "nether_quartz"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:rose_quartz"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

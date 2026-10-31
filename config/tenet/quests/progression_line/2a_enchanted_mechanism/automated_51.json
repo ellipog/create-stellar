@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_51",
+  "title": "Automated",
+  "description": [
+    "Pouring liquid experience over glowstone dust will give this gem."
+  ],
+  "icon": {
+    "item": "apotheosis:gem_dust"
+  },
+  "x": -120,
+  "y": 40,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_55",
+    "automated_53"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "apotheosis:gem_dust"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

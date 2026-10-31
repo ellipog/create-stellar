@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_91",
+  "title": "Automated",
+  "icon": {
+    "item": "minecraft:packed_ice"
+  },
+  "x": -440,
+  "y": -24,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_92"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

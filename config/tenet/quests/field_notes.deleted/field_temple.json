@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "field_temple",
+  "title": "Abandoned Temple",
+  "description": [
+    "Dungeons Arise: the temple did not abandon itself"
+  ],
+  "icon": {
+    "item": "minecraft:chiseled_stone_bricks"
+  },
+  "x": -126,
+  "y": -270,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "field_baobab"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:structure",
+      "structure": "dungeons_arise:abandoned_temple"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:gold_ingot",
+      "count": 4
+    }
+  ]
+}

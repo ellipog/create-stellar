@@ -1,0 +1,36 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "p_cutting",
+  "title": "Cutting Board",
+  "description": [
+    "Cutting board and knife. More food out of the same harvest."
+  ],
+  "icon": {
+    "item": "farmersdelight:cutting_board"
+  },
+  "x": -64,
+  "y": 104,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "farming_time"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "farmersdelight:cutting_board"
+    },
+    {
+      "type": "tenet:item",
+      "item": "farmersdelight:iron_knife"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "farmersdelight:flint_knife"
+    }
+  ]
+}

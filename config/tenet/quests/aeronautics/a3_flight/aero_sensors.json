@@ -1,0 +1,43 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_sensors",
+  "title": "Instrument Panel",
+  "description": [
+    "Velocity + gimbal sensors: what the ship is doing, in numbers"
+  ],
+  "icon": {
+    "item": "simulated:velocity_sensor"
+  },
+  "x": -304,
+  "y": -32,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_song_of_the_sky"
+  ],
+  "dependencyLines": {
+    "aero_song_of_the_sky": {
+      "form": "curved",
+      "fromHandle": [
+        0.32,
+        0.16
+      ],
+      "toHandle": [
+        0.68,
+        -0.16
+      ]
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "simulated:velocity_sensor"
+    },
+    {
+      "type": "tenet:item",
+      "item": "simulated:gimbal_sensor"
+    }
+  ]
+}

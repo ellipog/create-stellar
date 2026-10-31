@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_goggles",
+  "title": "Aviator's Goggles",
+  "description": [
+    "Leather + Create goggles. They read stress, lift and volume in the HUD",
+    "Reads stress, lift and volume. Does not fix your face."
+  ],
+  "icon": {
+    "item": "aeronautics:aviators_goggles"
+  },
+  "x": -80,
+  "y": 131,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_see_the_forces"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "aeronautics:aviators_goggles"
+    }
+  ]
+}

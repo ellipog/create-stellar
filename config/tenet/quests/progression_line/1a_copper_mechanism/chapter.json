@@ -1,0 +1,61 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/chapter.schema.json",
+  "id": "1a_copper_mechanism",
+  "title": "1a) Copper Mechanism",
+  "icon": {
+    "item": "create_stellar:copper_mechanism"
+  },
+  "dependsOn": [
+    "1_basic_mechanism"
+  ],
+  "hideUntilDependenciesComplete": true,
+  "dependencyStyle": {
+    "form": "straight",
+    "arrowHead": "none"
+  },
+  "completesWhen": [
+    "copper_mechanism",
+    "basic_mechanism_2",
+    "molten_copper",
+    "automated_14",
+    "already_automated_basic_mechanism",
+    "automated_15",
+    "automated_16",
+    "automated_17",
+    "automated_18",
+    "gravel",
+    "already_automated_gravel",
+    "automated_19",
+    "cobblestone",
+    "already_automated_cobblestone",
+    "automated_20",
+    "molten_nether_quartz",
+    "automated_21",
+    "ready_2",
+    "automated_22",
+    "automated_23"
+  ],
+  "quests": [
+    "copper_mechanism.json",
+    "basic_mechanism_2.json",
+    "molten_copper.json",
+    "automated_14.json",
+    "already_automated_basic_mechanism.json",
+    "automated_15.json",
+    "automated_16.json",
+    "automated_17.json",
+    "automated_18.json",
+    "gravel.json",
+    "already_automated_gravel.json",
+    "automated_19.json",
+    "cobblestone.json",
+    "already_automated_cobblestone.json",
+    "automated_20.json",
+    "molten_nether_quartz.json",
+    "automated_21.json",
+    "ready_2.json",
+    "automated_22.json",
+    "automated_23.json"
+  ],
+  "theme": "copper"
+}

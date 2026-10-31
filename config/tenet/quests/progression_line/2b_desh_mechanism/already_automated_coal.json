@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "already_automated_coal",
+  "title": "Already automated: Coal",
+  "icon": {
+    "item": "forbidden_arcanus:dark_matter"
+  },
+  "x": -408,
+  "y": -248,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_5"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Already automated"
+    }
+  ]
+}

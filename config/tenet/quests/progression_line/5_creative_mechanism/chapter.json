@@ -1,0 +1,53 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/chapter.schema.json",
+  "id": "5_creative_mechanism",
+  "title": "5) Creative Mechanism",
+  "icon": {
+    "item": "create_stellar:creative_mechanism"
+  },
+  "dependsOn": [
+    "4_mystical_mechanism"
+  ],
+  "hideUntilDependenciesComplete": true,
+  "dependencyStyle": {
+    "form": "straight",
+    "arrowHead": "none"
+  },
+  "completesWhen": [
+    "automated_109",
+    "automated_110",
+    "automated_111",
+    "automated_112",
+    "ready_11",
+    "quick_info_2",
+    "automated_113",
+    "automated_114",
+    "automated_115",
+    "automated_116",
+    "automated_117",
+    "automated_118",
+    "automated_119",
+    "automated_120",
+    "automated_121",
+    "quest_6b926c1e"
+  ],
+  "quests": [
+    "automated_109.json",
+    "automated_110.json",
+    "automated_111.json",
+    "automated_112.json",
+    "ready_11.json",
+    "quick_info_2.json",
+    "automated_113.json",
+    "automated_114.json",
+    "automated_115.json",
+    "automated_116.json",
+    "automated_117.json",
+    "automated_118.json",
+    "automated_119.json",
+    "automated_120.json",
+    "automated_121.json",
+    "quest_6b926c1e.json"
+  ],
+  "theme": "amethyst"
+}

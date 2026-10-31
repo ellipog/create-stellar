@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "ready_8",
+  "title": "Ready?",
+  "icon": {
+    "item": "ad_astra:red_flag"
+  },
+  "x": 450,
+  "y": -62,
+  "shape": "hexagon",
+  "size": 60,
+  "iconScale": 1,
+  "dependsOn": [
+    "chapter_3a_refined_mechanism"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Ready?"
+    }
+  ]
+}

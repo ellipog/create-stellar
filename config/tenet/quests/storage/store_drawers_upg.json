@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_drawers_upg",
+  "title": "Stack Upgrades",
+  "description": [
+    "More stacks behind the same face."
+  ],
+  "icon": {
+    "item": "storagedrawers:iron_storage_upgrade"
+  },
+  "x": -340,
+  "y": -232,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "store_drawers"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "storagedrawers:iron_storage_upgrade"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "storagedrawers:upgrade_template",
+      "count": 2
+    }
+  ]
+}

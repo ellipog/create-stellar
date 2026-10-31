@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_7",
+  "title": "Automated",
+  "description": [
+    "For this you will need saws, deployers, and some rotational force. "
+  ],
+  "icon": {
+    "item": "minecraft:oak_log"
+  },
+  "x": -216,
+  "y": -152,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:oak_log"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/chapter.schema.json",
+  "id": "3b_ostrum_mechanism",
+  "title": "3b) Ostrum Mechanism",
+  "icon": {
+    "item": "create_stellar:ostrum_mechanism"
+  },
+  "dependsOn": [
+    "3_conductive_mechanism"
+  ],
+  "hideUntilDependenciesComplete": true,
+  "dependencyStyle": {
+    "form": "straight",
+    "arrowHead": "none"
+  },
+  "completesWhen": [
+    "automated_122",
+    "automated_123",
+    "molten_ostrum",
+    "automated_124",
+    "automated_125",
+    "automated_126",
+    "fuel",
+    "oil_2",
+    "oxygen",
+    "water_2",
+    "automated_127",
+    "automated_128",
+    "automated_129",
+    "automated_130",
+    "steel_plate",
+    "already_automated_steel_plate",
+    "already_automated_water",
+    "already_automated_oil",
+    "ready_12",
+    "automated_131",
+    "desh_mechanism",
+    "already_automated_desh_mechanism"
+  ],
+  "quests": [
+    "automated_122.json",
+    "automated_123.json",
+    "molten_ostrum.json",
+    "automated_124.json",
+    "automated_125.json",
+    "automated_126.json",
+    "fuel.json",
+    "oil_2.json",
+    "oxygen.json",
+    "water_2.json",
+    "automated_127.json",
+    "automated_128.json",
+    "automated_129.json",
+    "automated_130.json",
+    "steel_plate.json",
+    "already_automated_steel_plate.json",
+    "already_automated_water.json",
+    "already_automated_oil.json",
+    "ready_12.json",
+    "automated_131.json",
+    "desh_mechanism.json",
+    "already_automated_desh_mechanism.json"
+  ],
+  "theme": "modern"
+}

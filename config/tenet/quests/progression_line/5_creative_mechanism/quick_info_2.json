@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "quick_info_2",
+  "title": "Quick Info",
+  "description": [
+    "Congratulations!",
+    "",
+    "Starting from just sticks and stones, who would have thought you would ever reach this!",
+    "",
+    "This is the final and biggest stage yet. You will need some of the hardest to obatin items from some of the biggest mods in the pack. ",
+    "",
+    "There will be close to no help here, so it will look quite taunting. But trust me its easier than it looks. ",
+    "",
+    "We all believe in you, good luck!"
+  ],
+  "icon": {
+    "item": "create_stellar:creative_mechanism"
+  },
+  "x": 392,
+  "y": 104,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_11"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Ready"
+    }
+  ],
+  "dependencyLines": {
+    "ready_11": {
+      "dash": "dashed"
+    }
+  }
+}

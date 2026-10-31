@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "p_rich_soil",
+  "title": "Rich Soil",
+  "description": [
+    "Rich soil. Crops grow faster on it."
+  ],
+  "icon": {
+    "item": "farmersdelight:rich_soil"
+  },
+  "x": -344,
+  "y": -88,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "p_compost"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "farmersdelight:rich_soil",
+      "count": 8
+    }
+  ]
+}

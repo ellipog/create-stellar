@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "already_automated_oil",
+  "title": "Already Automated: Oil",
+  "icon": {
+    "item": "forbidden_arcanus:dark_matter"
+  },
+  "x": 104,
+  "y": -88,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_12"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

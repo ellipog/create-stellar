@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "p_cheese",
+  "title": "Cheese",
+  "description": [
+    "Cheese cask. Milk in, cheese out, days later."
+  ],
+  "icon": {
+    "item": "expandeddelight:cheese_cask"
+  },
+  "x": 126,
+  "y": -180,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "p_pot"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "expandeddelight:cheese_cask"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "expandeddelight:cheese_wheel"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_ready_for_thrust",
+  "title": "Ready for Thrust",
+  "description": [
+    "Balloon holds altitude. Next chapter adds the engines"
+  ],
+  "icon": {
+    "item": "aeronautics:propeller_bearing"
+  },
+  "x": 252,
+  "y": -24,
+  "shape": "gear",
+  "size": 72,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_read_the_sky"
+  ],
+  "dependencyLines": {
+    "aero_read_the_sky": {
+      "weight": "thin"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Ready"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "aeronautics:andesite_propeller",
+      "count": 2
+    }
+  ]
+}

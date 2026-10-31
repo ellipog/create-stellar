@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_57",
+  "title": "Automated",
+  "description": [
+    "Rotation + harvester + water = kelp"
+  ],
+  "icon": {
+    "item": "minecraft:kelp"
+  },
+  "x": 200,
+  "y": -152,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_6"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:kelp"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

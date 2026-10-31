@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "fuel",
+  "title": "Fuel",
+  "description": [
+    "Put the oil in a fuel refinery."
+  ],
+  "icon": {
+    "item": "ad_astra:fuel_bucket"
+  },
+  "x": 8,
+  "y": 72,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "oil_2"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:fuel_bucket"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

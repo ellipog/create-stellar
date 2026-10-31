@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "quest_22f892fd",
+  "title": "Mechanical Mixer",
+  "x": 392,
+  "y": 200,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "quest_77723784"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:mechanical_mixer"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:coal",
+      "count": 8
+    }
+  ]
+}

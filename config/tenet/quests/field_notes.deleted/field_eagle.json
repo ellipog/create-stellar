@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "field_eagle",
+  "title": "Bald Eagle",
+  "description": [
+    "The bird had every advantage and lost anyway"
+  ],
+  "icon": {
+    "item": "minecraft:feather"
+  },
+  "x": -245,
+  "y": -213,
+  "shape": "diamond",
+  "size": 44,
+  "iconScale": 1,
+  "dependsOn": [
+    "field_manor"
+  ],
+  "dependencyLines": {
+    "field_manor": {
+      "dash": "dotted"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:kill",
+      "entity": "alexsmobs:bald_eagle",
+      "value": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:feather",
+      "count": 16
+    }
+  ]
+}

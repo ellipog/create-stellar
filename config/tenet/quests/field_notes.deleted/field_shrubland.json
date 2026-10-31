@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "field_shrubland",
+  "title": "Allium Shrubland",
+  "description": [
+    "Biomes We've Gone adds biomes the map never shows you"
+  ],
+  "icon": {
+    "item": "minecraft:allium"
+  },
+  "x": -393,
+  "y": -280,
+  "shape": "gear",
+  "size": 72,
+  "iconScale": 1,
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:biome",
+      "biome": "biomeswevegone:allium_shrubland"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:allium",
+      "count": 8
+    }
+  ]
+}

@@ -9,12 +9,12 @@
       {
         "type": "BIOME_TAG",
         "negate": false,
-        "value": "forge:is_plains"
+        "value": "c:is_plains"
       },
       {
         "type": "BIOME_TAG",
         "negate": false,
-        "value": "forge:is_plateau"
+        "value": "c:is_plateau"
       }
     ],
     [

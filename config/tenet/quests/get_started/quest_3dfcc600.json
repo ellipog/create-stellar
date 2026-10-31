@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "quest_3dfcc600",
+  "title": "Slime Ball",
+  "x": 680,
+  "y": -88,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "quest_4f3a83e1"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:slime_ball"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:lime_dye",
+      "count": 5
+    }
+  ]
+}

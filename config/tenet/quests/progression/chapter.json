@@ -1,0 +1,72 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/chapter.schema.json",
+  "id": "progression",
+  "title": "Progression",
+  "icon": {
+    "item": "ad_astra:red_flag"
+  },
+  "dependencyStyle": {
+    "form": "curved",
+    "arrowHead": "none"
+  },
+  "completesWhen": [
+    "chapter_1_basic_mechanism",
+    "chapter_1a_copper_mechanism",
+    "chapter_1b_steel_mechanism",
+    "chapter_2_precision_mechanism",
+    "chapter_2a_enchanted_mechanism",
+    "chapter_2b_desh_mechanism",
+    "chapter_3_conductive_mechanism",
+    "chapter_3a_refined_mechanism",
+    "chapter_3b_ostrum_mechanism",
+    "chapter_4_mystical_mechanism",
+    "chapter_4a_calorite_mechanism",
+    "chapter_5_creative_mechanism",
+    "ready_set_go",
+    "quick_start",
+    "already_automated",
+    "hi_d",
+    "chapter_a1_lift",
+    "chapter_a2_thrust",
+    "chapter_a3_flight"
+  ],
+  "quests": [
+    "chapter_1_basic_mechanism.json",
+    "chapter_1a_copper_mechanism.json",
+    "chapter_1b_steel_mechanism.json",
+    "chapter_2_precision_mechanism.json",
+    "chapter_2a_enchanted_mechanism.json",
+    "chapter_2b_desh_mechanism.json",
+    "chapter_3_conductive_mechanism.json",
+    "chapter_3a_refined_mechanism.json",
+    "chapter_3b_ostrum_mechanism.json",
+    "chapter_4_mystical_mechanism.json",
+    "chapter_4a_calorite_mechanism.json",
+    "chapter_5_creative_mechanism.json",
+    "ready_set_go.json",
+    "quick_start.json",
+    "already_automated.json",
+    "hi_d.json",
+    "chapter_a1_lift.json",
+    "chapter_a2_thrust.json",
+    "chapter_a3_flight.json"
+  ],
+  "theme": "default",
+  "themePatch": {
+    "canvasBackground": {
+      "pattern": "speckle",
+      "space": "graph",
+      "spacing": 42,
+      "size": 1,
+      "density": 2,
+      "direction": "backslash",
+      "fit": "tile",
+      "texture": "",
+      "tile": 16
+    },
+    "colours": {
+      "canvasPattern": "#91FFFFFF",
+      "canvas": "#FF070710"
+    }
+  }
+}

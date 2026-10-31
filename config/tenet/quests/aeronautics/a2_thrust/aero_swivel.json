@@ -1,0 +1,40 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_swivel",
+  "title": "Swivel",
+  "description": [
+    "Swivel bearing: aim the thrust instead of the ship",
+    "Aim the push instead of the ship. Cheaper than turning."
+  ],
+  "icon": {
+    "item": "simulated:swivel_bearing"
+  },
+  "x": 42,
+  "y": -108,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_steer"
+  ],
+  "dependencyLines": {
+    "aero_steer": {
+      "dash": "dashed"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "simulated:swivel_bearing",
+      "count": 2
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:brass_casing",
+      "count": 4
+    }
+  ]
+}

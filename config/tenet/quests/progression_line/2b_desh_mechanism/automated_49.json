@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_49",
+  "title": "Automated",
+  "description": [
+    "Crushing wheels"
+  ],
+  "icon": {
+    "item": "alexscaves:sulfur_dust"
+  },
+  "x": -408,
+  "y": 8,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "quest_6f3daff9"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "alexscaves:sulfur_dust"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

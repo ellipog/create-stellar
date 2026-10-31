@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "sulfuric_heavy_oil",
+  "title": "Sulfuric Heavy Oil",
+  "description": [
+    "Heated mixing of oil and water",
+    "",
+    "Produced at the same time as the light oil"
+  ],
+  "icon": {
+    "item": "create_stellar:sulfuric_heavy_oil_bucket"
+  },
+  "x": -312,
+  "y": 104,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "oil"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create_stellar:sulfuric_heavy_oil_bucket"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

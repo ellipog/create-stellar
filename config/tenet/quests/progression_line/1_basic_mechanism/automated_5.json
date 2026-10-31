@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_5",
+  "title": "Automated",
+  "description": [
+    "Stripped Log -> Saw -> Planks"
+  ],
+  "icon": {
+    "item": "minecraft:oak_planks"
+  },
+  "x": -120,
+  "y": -56,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_6"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:oak_planks"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

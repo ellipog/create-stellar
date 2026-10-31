@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "p_slice",
+  "title": "Slicer",
+  "description": [
+    "Slicer. Automates the cutting board."
+  ],
+  "icon": {
+    "item": "sliceanddice:slicer"
+  },
+  "x": -126,
+  "y": 180,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "p_cutting"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "sliceanddice:slicer"
+    }
+  ]
+}

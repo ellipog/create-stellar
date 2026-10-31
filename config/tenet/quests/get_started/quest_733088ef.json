@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "quest_733088ef",
+  "title": "Brass Ingot",
+  "x": 488,
+  "y": 264,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "quest_22f892fd",
+    "quest_73ce2704"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:brass_ingot",
+      "count": 8
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:copper_ingot",
+      "count": 8
+    },
+    {
+      "type": "tenet:item",
+      "item": "create:zinc_ingot",
+      "count": 8
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "quest_597222d6",
+  "title": "Millstone",
+  "x": 488,
+  "y": 8,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "tuff_age"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:millstone"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:water_wheel"
+    }
+  ]
+}

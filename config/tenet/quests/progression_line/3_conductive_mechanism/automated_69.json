@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_69",
+  "title": "Automated",
+  "description": [
+    "Rolling ingots give you rods."
+  ],
+  "icon": {
+    "item": "createaddition:copper_rod"
+  },
+  "x": 104,
+  "y": 32,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_74"
+  ],
+  "hideDependencyLines": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "createaddition:copper_rod"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

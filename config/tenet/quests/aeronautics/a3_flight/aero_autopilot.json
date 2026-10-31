@@ -1,0 +1,52 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_autopilot",
+  "title": "Autopilot",
+  "description": [
+    "Gyroscope + Stepper Servos -> a heading it keeps without a hand on the lever",
+    "The ship flies itself. You are cargo with opinions."
+  ],
+  "icon": {
+    "item": "aeroworks:gyroscope"
+  },
+  "x": 192,
+  "y": 96,
+  "shape": "gear",
+  "size": 72,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_docking"
+  ],
+  "dependencyLines": {
+    "aero_docking": {
+      "form": "curved",
+      "fromHandle": [
+        0.32,
+        -0.16
+      ],
+      "toHandle": [
+        0.68,
+        0.16
+      ]
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "aeroworks:gyroscope"
+    },
+    {
+      "type": "tenet:item",
+      "item": "aeroworks:stepper_servo",
+      "count": 2
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "aeroworks:mechanical_servo",
+      "count": 2
+    }
+  ]
+}

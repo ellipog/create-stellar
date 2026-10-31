@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "quest_4dbb2225",
+  "title": "Mechanical Press",
+  "x": 456,
+  "y": -120,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "tuff_age"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:mechanical_press"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:iron_sheet",
+      "count": 6
+    },
+    {
+      "type": "tenet:item",
+      "item": "create:golden_sheet",
+      "count": 3
+    }
+  ]
+}

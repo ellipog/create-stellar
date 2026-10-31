@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_88",
+  "title": "Automated",
+  "icon": {
+    "item": "minecraft:snowball"
+  },
+  "x": -216,
+  "y": 72,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_89"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:snowball"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

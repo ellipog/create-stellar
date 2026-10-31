@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "chapter_3a_refined_mechanism",
+  "title": "Chapter 3a) Refined Mechanism",
+  "icon": {
+    "item": "create_stellar:refined_mechanism"
+  },
+  "x": 264,
+  "y": -184,
+  "shape": "octagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "chapter_3_conductive_mechanism",
+    "quest_219bdcf1"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Ready"
+    }
+  ],
+  "dependencyLines": {
+    "chapter_3_conductive_mechanism": {
+      "bend": -0.2230769230769231,
+      "dash": "dashed"
+    }
+  }
+}

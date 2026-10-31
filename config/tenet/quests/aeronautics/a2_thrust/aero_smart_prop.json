@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_smart_prop",
+  "title": "Smart Propeller",
+  "description": [
+    "Conductive mechanism + gyro -> a propeller that levels itself",
+    "A propeller that levels itself. Rude, but useful."
+  ],
+  "icon": {
+    "item": "aeronautics:smart_propeller"
+  },
+  "x": 210,
+  "y": 108,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_gyro_bearing"
+  ],
+  "dependencyLines": {
+    "aero_gyro_bearing": {
+      "dash": "dotted"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "aeronautics:smart_propeller",
+      "count": 2
+    }
+  ]
+}

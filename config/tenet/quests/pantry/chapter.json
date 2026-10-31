@@ -1,0 +1,70 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/chapter.schema.json",
+  "id": "pantry",
+  "title": "Pantry",
+  "icon": {
+    "item": "farmersdelight:cooking_pot"
+  },
+  "dependencyStyle": {
+    "form": "curved",
+    "bend": 0.14,
+    "arrowHead": "chevron",
+    "arrowPlace": "target",
+    "dash": "solid",
+    "weight": "thin"
+  },
+  "completesWhen": [
+    "p_cutting",
+    "p_pot",
+    "p_stove",
+    "p_basket",
+    "p_compost",
+    "p_rich_soil",
+    "p_asparagus",
+    "p_chili",
+    "p_cheese",
+    "p_ocean",
+    "p_sweets",
+    "p_gingerbread",
+    "p_slice",
+    "p_sprinkler",
+    "p_automate",
+    "p_banquet"
+  ],
+  "quests": [
+    "p_cutting.json",
+    "p_pot.json",
+    "p_stove.json",
+    "p_basket.json",
+    "p_compost.json",
+    "p_rich_soil.json",
+    "p_asparagus.json",
+    "p_chili.json",
+    "p_cheese.json",
+    "p_ocean.json",
+    "p_sweets.json",
+    "p_gingerbread.json",
+    "p_slice.json",
+    "p_sprinkler.json",
+    "p_automate.json",
+    "p_banquet.json"
+  ],
+  "theme": "vanilla_plus",
+  "themePatch": {
+    "canvasBackground": {
+      "pattern": "dot_grid",
+      "space": "graph",
+      "spacing": 24,
+      "size": 1,
+      "density": 4,
+      "direction": "slash",
+      "fit": "tile",
+      "texture": "",
+      "tile": 16
+    },
+    "colours": {
+      "canvas": "#FF1A1410",
+      "canvasPattern": "#C8A06AFF"
+    }
+  }
+}

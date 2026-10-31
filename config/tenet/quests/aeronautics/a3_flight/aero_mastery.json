@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_mastery",
+  "title": "Aeronautics Complete",
+  "description": [
+    "A balloon, an engine, a docking clamp and a heading that holds itself. That is a fleet",
+    "Not a ship. A fleet somebody left alone."
+  ],
+  "icon": {
+    "item": "aeronautics:pearlescent_levitite"
+  },
+  "x": 294,
+  "y": 24,
+  "shape": "gear",
+  "size": 96,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_autopilot"
+  ],
+  "dependencyLines": {
+    "aero_autopilot": {
+      "weight": "thin",
+      "arrowHead": "chevron",
+      "form": "curved",
+      "fromHandle": [
+        0.32,
+        0.16
+      ],
+      "toHandle": [
+        0.68,
+        -0.16
+      ]
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Aeronautics complete"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create_stellar:calorite_mechanism"
+    }
+  ]
+}

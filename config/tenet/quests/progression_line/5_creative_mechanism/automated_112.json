@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_112",
+  "title": "Automated",
+  "icon": {
+    "item": "refinedstorage:64k_storage_part"
+  },
+  "x": -24,
+  "y": 40,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_121"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "refinedstorage:64k_storage_part"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

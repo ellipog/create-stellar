@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "tuff_age",
+  "title": "Tuff Age",
+  "x": 386,
+  "y": -30,
+  "shape": "hexagon",
+  "size": 60,
+  "iconScale": 1,
+  "dependsOn": [
+    "quest_55f4f118",
+    "quest_083b7b50"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:andesite_alloy",
+      "count": 4
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:shaft",
+      "count": 2
+    }
+  ]
+}

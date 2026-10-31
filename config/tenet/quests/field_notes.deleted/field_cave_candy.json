@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "field_cave_candy",
+  "title": "Candy Cavity",
+  "description": [
+    "Do not eat the walls. Do not eat the walls"
+  ],
+  "icon": {
+    "item": "minecraft:honey_block"
+  },
+  "x": -378,
+  "y": 0,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "field_temple"
+  ],
+  "dependencyLines": {
+    "field_temple": {
+      "dash": "dotted"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:biome",
+      "biome": "alexscaves:candy_cavity"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:sugar",
+      "count": 16
+    }
+  ]
+}

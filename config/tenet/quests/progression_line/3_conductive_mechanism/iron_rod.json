@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "iron_rod",
+  "title": "Iron Rod",
+  "description": [
+    "Rolling ingots give you rods."
+  ],
+  "icon": {
+    "item": "createaddition:iron_rod"
+  },
+  "x": 72,
+  "y": -56,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "iron_ingot"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item_tag",
+      "tag": "c:rods/iron",
+      "count": 1,
+      "title": "Iron Rod"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

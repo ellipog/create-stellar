@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_38",
+  "title": "Automated",
+  "description": [
+    "Wash the rose quartz, or use sandpaper, your choice. "
+  ],
+  "icon": {
+    "item": "create:polished_rose_quartz"
+  },
+  "x": 200,
+  "y": 72,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_39"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:polished_rose_quartz"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_backpack_upg",
+  "title": "Pickup Upgrade",
+  "description": [
+    "Pickup upgrade. Items you walk over end up in the bag."
+  ],
+  "icon": {
+    "item": "sophisticatedbackpacks:pickup_upgrade"
+  },
+  "x": -299,
+  "y": -1,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "store_backpack"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "sophisticatedbackpacks:pickup_upgrade"
+    },
+    {
+      "type": "tenet:item",
+      "item": "sophisticatedbackpacks:advanced_pickup_upgrade"
+    }
+  ],
+  "dependencyLines": {
+    "store_backpack": {
+      "form": "curved",
+      "fromHandle": [
+        0.5879291595463725,
+        -0.28188597172595936
+      ],
+      "toHandle": [
+        0.6691005126611774,
+        0.29578996426906945
+      ]
+    }
+  }
+}

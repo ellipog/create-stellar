@@ -9,7 +9,7 @@
       {
         "type": "BIOME_TAG",
         "negate": false,
-        "value": "forge:is_swamp"
+        "value": "c:is_swamp"
       }
     ],
     [

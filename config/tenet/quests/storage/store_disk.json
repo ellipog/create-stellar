@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_disk",
+  "title": "Storage Disk",
+  "description": [
+    "4,096 items in one item."
+  ],
+  "icon": {
+    "item": "refinedstorage:4k_storage_disk"
+  },
+  "x": 200,
+  "y": 48,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "store_disk_drive"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "refinedstorage:4k_storage_disk"
+    }
+  ],
+  "dependencyLines": {
+    "store_disk_drive": {
+      "fromAnchor": 70.49964874529398,
+      "toAnchor": -91.34509572307377
+    }
+  }
+}

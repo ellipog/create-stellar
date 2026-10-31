@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_79",
+  "title": "Automated",
+  "icon": {
+    "item": "minecraft:string"
+  },
+  "x": 40,
+  "y": -56,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "kelp"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:string"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

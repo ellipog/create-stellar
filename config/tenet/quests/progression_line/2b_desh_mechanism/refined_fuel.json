@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "refined_fuel",
+  "title": "Refined Fuel",
+  "description": [
+    "mix solid fuel with light oil"
+  ],
+  "icon": {
+    "item": "create_stellar:refined_fuel_bucket"
+  },
+  "x": -152,
+  "y": 296,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "light_oil",
+    "solid_fuel_clump"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create_stellar:refined_fuel_bucket"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

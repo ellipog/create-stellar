@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_48",
+  "title": "Automated",
+  "description": [
+    "Look at the recipe for this in JEI.",
+    "Make a cobble gen with a desh block underneath."
+  ],
+  "icon": {
+    "item": "ad_astra:moon_cobblestone"
+  },
+  "x": 296,
+  "y": 72,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_5"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:moon_cobblestone"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

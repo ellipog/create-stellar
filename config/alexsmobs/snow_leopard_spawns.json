@@ -9,7 +9,7 @@
       {
         "type": "BIOME_TAG",
         "negate": false,
-        "value": "forge:is_snowy"
+        "value": "c:is_snowy"
       }
     ],
     [

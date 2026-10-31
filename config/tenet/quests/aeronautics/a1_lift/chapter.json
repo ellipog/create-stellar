@@ -1,0 +1,71 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/chapter.schema.json",
+  "id": "a1_lift",
+  "title": "A1) Lift",
+  "icon": {
+    "item": "aeronautics:adjustable_burner"
+  },
+  "dependencyStyle": {
+    "form": "curved",
+    "bend": 0.16,
+    "arrowHead": "chevron",
+    "arrowPlace": "target",
+    "dash": "solid",
+    "weight": "thin"
+  },
+  "dependsOn": [
+    "1a_copper_mechanism"
+  ],
+  "completesWhen": [
+    "aero_off_the_grid",
+    "aero_see_the_forces",
+    "aero_seal_the_air",
+    "aero_hot_air",
+    "aero_first_lift",
+    "aero_read_the_sky",
+    "aero_ready_for_thrust",
+    "aero_goggles",
+    "aero_high_fashion",
+    "aero_anchor",
+    "aero_hold_on",
+    "aero_bigger_balloon",
+    "aero_steam_vent",
+    "aero_cargo_hold",
+    "aero_ballast"
+  ],
+  "quests": [
+    "aero_off_the_grid.json",
+    "aero_see_the_forces.json",
+    "aero_seal_the_air.json",
+    "aero_hot_air.json",
+    "aero_first_lift.json",
+    "aero_read_the_sky.json",
+    "aero_ready_for_thrust.json",
+    "aero_goggles.json",
+    "aero_high_fashion.json",
+    "aero_anchor.json",
+    "aero_hold_on.json",
+    "aero_bigger_balloon.json",
+    "aero_steam_vent.json",
+    "aero_cargo_hold.json",
+    "aero_ballast.json"
+  ],
+  "theme": "vanilla_plus",
+  "themePatch": {
+    "canvasBackground": {
+      "pattern": "dot_grid",
+      "space": "graph",
+      "spacing": 30,
+      "size": 1,
+      "density": 4,
+      "direction": "slash",
+      "fit": "tile",
+      "texture": "",
+      "tile": 16
+    },
+    "colours": {
+      "canvas": "#FF0E1A2E",
+      "canvasPattern": "#99BFD8FF"
+    }
+  }
+}

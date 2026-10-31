@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "p_basket",
+  "title": "Basket",
+  "description": [
+    "Wooden basket. Keeps your food in one place."
+  ],
+  "icon": {
+    "item": "farmersdelight:wooden_basket"
+  },
+  "x": -210,
+  "y": 120,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "p_pot"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "farmersdelight:wooden_basket"
+    }
+  ]
+}

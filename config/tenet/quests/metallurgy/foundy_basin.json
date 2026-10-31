@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "foundy_basin",
+  "title": "Foundy Basin",
+  "subtitle": "1 -> 2",
+  "icon": {
+    "item": "create:basin"
+  },
+  "x": -472,
+  "y": 232,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "crushing",
+    "pulverize"
+  ],
+  "prerequisiteMode": "one_completed",
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Done"
+    }
+  ]
+}

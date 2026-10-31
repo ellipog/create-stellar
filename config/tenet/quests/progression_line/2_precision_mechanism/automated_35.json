@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_35",
+  "title": "Automated",
+  "description": [
+    "Haunting iron nuggets will give you zinc nuggets. "
+  ],
+  "icon": {
+    "item": "create:zinc_nugget"
+  },
+  "x": -440,
+  "y": 264,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "iron_nugget_2"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:zinc_nugget"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

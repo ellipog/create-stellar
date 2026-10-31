@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "quest_55f4f118",
+  "title": "Raw Iron",
+  "x": 296,
+  "y": -88,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "stone_age"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:raw_iron",
+      "count": 8
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:coal",
+      "count": 16
+    },
+    {
+      "type": "tenet:item",
+      "item": "minecraft:iron_ingot",
+      "count": 3
+    }
+  ]
+}

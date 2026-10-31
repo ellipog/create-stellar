@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "molten_copper",
+  "title": "Molten Copper",
+  "description": [
+    "Melt the copper nuggets in a basin foundry. "
+  ],
+  "icon": {
+    "item": "create_stellar:molten_copper_bucket"
+  },
+  "x": 8,
+  "y": 40,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_15"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create_stellar:molten_copper_bucket",
+      "icon": {
+        "item": "create_stellar:molten_copper_bucket"
+      }
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

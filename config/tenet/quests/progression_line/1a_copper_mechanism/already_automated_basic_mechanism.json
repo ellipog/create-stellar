@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "already_automated_basic_mechanism",
+  "title": "Already Automated: Basic Mechanism",
+  "icon": {
+    "item": "forbidden_arcanus:dark_matter"
+  },
+  "x": -184,
+  "y": 40,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_2"
+  ],
+  "hideDetailsUntilStartable": true,
+  "hideDependencyLines": true,
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

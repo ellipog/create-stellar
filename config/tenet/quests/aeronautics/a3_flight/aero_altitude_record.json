@@ -1,0 +1,47 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_altitude_record",
+  "title": "Altitude Record",
+  "description": [
+    "Above the clouds with the burner off. Levitite does the holding",
+    "Levitite holds. You check anyway. That is the ritual."
+  ],
+  "icon": {
+    "item": "aeronautics:levitite"
+  },
+  "x": -384,
+  "y": -64,
+  "shape": "diamond",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_long_haul"
+  ],
+  "dependencyLines": {
+    "aero_long_haul": {
+      "form": "curved",
+      "fromHandle": [
+        0.32,
+        0.16
+      ],
+      "toHandle": [
+        0.68,
+        -0.16
+      ]
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Above the clouds, engine off"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:precision_mechanism",
+      "count": 2
+    }
+  ]
+}

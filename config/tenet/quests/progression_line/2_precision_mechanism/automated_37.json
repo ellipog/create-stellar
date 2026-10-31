@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_37",
+  "title": "Automated",
+  "description": [
+    "Compacting molten iron will give you iron ingots. "
+  ],
+  "icon": {
+    "item": "minecraft:iron_ingot"
+  },
+  "x": 200,
+  "y": 264,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "molten_iron_2"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_cargo_hold",
+  "title": "Cargo Hold",
+  "description": [
+    "Item Vaults on the deck. Everything you lift is something you can sell",
+    "Every flight ends with someone asking what it can carry."
+  ],
+  "icon": {
+    "item": "create:item_vault"
+  },
+  "x": 149,
+  "y": 31,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_bigger_balloon"
+  ],
+  "dependencyLines": {
+    "aero_bigger_balloon": {
+      "dash": "dashed"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:item_vault",
+      "count": 4
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:chute",
+      "count": 8
+    }
+  ]
+}

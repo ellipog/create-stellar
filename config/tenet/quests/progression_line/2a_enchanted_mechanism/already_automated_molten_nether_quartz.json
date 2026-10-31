@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "already_automated_molten_nether_quartz",
+  "title": "Already Automated: Molten Nether Quartz",
+  "icon": {
+    "item": "forbidden_arcanus:dark_matter"
+  },
+  "x": -216,
+  "y": -248,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_6"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

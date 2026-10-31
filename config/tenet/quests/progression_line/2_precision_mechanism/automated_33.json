@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_33",
+  "title": "Automated",
+  "description": [
+    "Pour the destabilized redstone onto the iron sheet. "
+  ],
+  "icon": {
+    "item": "create:electron_tube"
+  },
+  "x": 104,
+  "y": 168,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_36",
+    "destabilized_redstone"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:electron_tube"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "quest_186cab4c",
+  "title": "Chest",
+  "x": 104,
+  "y": 40,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "first_tree"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:chest"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:chest",
+      "count": 3
+    }
+  ]
+}

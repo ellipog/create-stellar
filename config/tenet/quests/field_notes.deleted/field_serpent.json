@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "field_serpent",
+  "title": "Bone Serpent",
+  "description": [
+    "Arrows worked. Everything works if you bring enough"
+  ],
+  "icon": {
+    "item": "minecraft:bone"
+  },
+  "x": -121,
+  "y": 78,
+  "shape": "diamond",
+  "size": 44,
+  "iconScale": 1,
+  "dependsOn": [
+    "field_cave_toxic"
+  ],
+  "dependencyLines": {
+    "field_cave_toxic": {
+      "dash": "dotted"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:kill",
+      "entity": "alexsmobs:bone_serpent",
+      "value": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:bone_meal",
+      "count": 16
+    }
+  ]
+}

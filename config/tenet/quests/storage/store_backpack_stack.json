@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_backpack_stack",
+  "title": "Room to Carry",
+  "description": [
+    "More stacks per slot."
+  ],
+  "icon": {
+    "item": "sophisticatedbackpacks:stack_upgrade_tier_1"
+  },
+  "x": -223,
+  "y": 59,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "store_backpack_upg"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "sophisticatedbackpacks:stack_upgrade_tier_1"
+    }
+  ],
+  "dependencyLines": {
+    "store_backpack_upg": {
+      "form": "curved",
+      "fromHandle": [
+        0.6723549488054607,
+        -0.34001706484641636
+      ],
+      "toHandle": [
+        0.5379692832764505,
+        0.2397610921501706
+      ]
+    }
+  }
+}

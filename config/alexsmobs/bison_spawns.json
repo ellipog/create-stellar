@@ -9,7 +9,7 @@
       {
         "type": "BIOME_TAG",
         "negate": false,
-        "value": "forge:is_plains"
+        "value": "c:is_plains"
       },
       {
         "type": "BIOME_TAG",
@@ -19,7 +19,7 @@
       {
         "type": "BIOME_TAG",
         "negate": true,
-        "value": "forge:is_hot/overworld"
+        "value": "c:is_hot_overworld"
       }
     ],
     [

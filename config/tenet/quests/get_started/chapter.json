@@ -1,0 +1,90 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/chapter.schema.json",
+  "id": "get_started",
+  "title": "Get Started",
+  "icon": {
+    "item": "create:andesite_alloy"
+  },
+  "dependencyStyle": {
+    "form": "straight",
+    "arrowHead": "chevron",
+    "arrowDensity": "medium",
+    "dash": "solid",
+    "arrowPlace": "target"
+  },
+  "completesWhen": [
+    "first_tree",
+    "wooden_pickaxe",
+    "quest_186cab4c",
+    "stone_age",
+    "quest_55f4f118",
+    "quest_083b7b50",
+    "tuff_age",
+    "farming_time",
+    "quest_1bd603a8",
+    "drawers",
+    "drawer_upgrade",
+    "mining_time",
+    "quest_4dbb2225",
+    "quest_597222d6",
+    "quest_22f892fd",
+    "quest_77723784",
+    "quest_73ce2704",
+    "quest_733088ef",
+    "bigger_crafting",
+    "extendo_grip",
+    "quest_4f3a83e1",
+    "quest_6c73ffc9",
+    "quest_3dfcc600",
+    "super_glue",
+    "drill_machine",
+    "automated_farms",
+    "quest_14f87c7f"
+  ],
+  "quests": [
+    "first_tree.json",
+    "wooden_pickaxe.json",
+    "quest_186cab4c.json",
+    "stone_age.json",
+    "quest_55f4f118.json",
+    "quest_083b7b50.json",
+    "tuff_age.json",
+    "farming_time.json",
+    "quest_1bd603a8.json",
+    "drawers.json",
+    "drawer_upgrade.json",
+    "mining_time.json",
+    "quest_4dbb2225.json",
+    "quest_597222d6.json",
+    "quest_22f892fd.json",
+    "quest_77723784.json",
+    "quest_73ce2704.json",
+    "quest_733088ef.json",
+    "bigger_crafting.json",
+    "extendo_grip.json",
+    "quest_4f3a83e1.json",
+    "quest_6c73ffc9.json",
+    "quest_3dfcc600.json",
+    "super_glue.json",
+    "drill_machine.json",
+    "automated_farms.json",
+    "quest_14f87c7f.json"
+  ],
+  "theme": "default",
+  "themePatch": {
+    "canvasBackground": {
+      "pattern": "hatch",
+      "space": "graph",
+      "spacing": 25,
+      "size": 1,
+      "density": 5,
+      "direction": "slash",
+      "fit": "tile",
+      "texture": "",
+      "tile": 16
+    },
+    "colours": {
+      "canvasPattern": "#33ABABAB"
+    }
+  }
+}

@@ -9,7 +9,7 @@
       {
         "type": "BIOME_TAG",
         "negate": false,
-        "value": "forge:is_swamp"
+        "value": "c:is_swamp"
       },
       {
         "type": "REGISTRY_NAME",
@@ -31,7 +31,7 @@
       {
         "type": "BIOME_TAG",
         "negate": true,
-        "value": "forge:is_cold/overworld"
+        "value": "c:is_cold_overworld"
       }
     ],
     [

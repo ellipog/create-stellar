@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_27",
+  "title": "Automated",
+  "description": [
+    "Haunting tuff will give you cobbled deepslate."
+  ],
+  "icon": {
+    "item": "minecraft:cobbled_deepslate"
+  },
+  "x": -312,
+  "y": -56,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "tuff"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:cobbled_deepslate"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_83",
+  "title": "Automated",
+  "icon": {
+    "item": "create_stellar:mystical_mechanism"
+  },
+  "x": -36,
+  "y": 156,
+  "shape": "gear",
+  "size": 72,
+  "iconScale": 1,
+  "dependsOn": [
+    "quest_418e28c6",
+    "automated_85",
+    "automated_84"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create_stellar:mystical_mechanism"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "mysticalagriculture:supremium_essence",
+      "count": 4
+    },
+    {
+      "type": "tenet:item",
+      "item": "mysticalagriculture:inferium_seeds",
+      "count": 46
+    }
+  ]
+}

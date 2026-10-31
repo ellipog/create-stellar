@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_14",
+  "title": "Automated",
+  "description": [
+    "Cogwheels are the backbone of automation. "
+  ],
+  "icon": {
+    "item": "create:cogwheel"
+  },
+  "x": 104,
+  "y": 40,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "molten_copper"
+  ],
+  "hideDetailsUntilStartable": true,
+  "ignoreRewardBlocking": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:cogwheel",
+      "count": 8
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

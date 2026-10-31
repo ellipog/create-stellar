@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_disk_drive",
+  "title": "Disk Drive",
+  "description": [
+    "Disk drive. Holds the disks that hold the items."
+  ],
+  "icon": {
+    "item": "refinedstorage:disk_drive"
+  },
+  "x": 120,
+  "y": -24,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "store_rs_exporter"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "refinedstorage:disk_drive"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "refinedstorage:1k_storage_part"
+    }
+  ],
+  "dependencyLines": {
+    "store_rs_exporter": {
+      "toAnchor": 108.2913585591399,
+      "fromAnchor": -86.86922447389733
+    }
+  }
+}

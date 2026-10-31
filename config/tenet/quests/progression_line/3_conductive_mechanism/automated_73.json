@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_73",
+  "title": "Automated",
+  "description": [
+    "Nugget + bing bang boom = Spool"
+  ],
+  "icon": {
+    "item": "createaddition:spool"
+  },
+  "x": -184,
+  "y": -152,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "iron_nugget_3",
+    "iron_sheet"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "createaddition:spool"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

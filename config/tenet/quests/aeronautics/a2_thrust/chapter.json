@@ -1,0 +1,73 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/chapter.schema.json",
+  "id": "a2_thrust",
+  "title": "A2) Thrust",
+  "icon": {
+    "item": "aeronautics:propeller_bearing"
+  },
+  "dependencyStyle": {
+    "form": "orthogonal",
+    "arrowHead": "chevron",
+    "arrowPlace": "stream",
+    "arrowDensity": "low",
+    "dash": "solid",
+    "weight": "thin"
+  },
+  "dependsOn": [
+    "1b_steel_mechanism"
+  ],
+  "completesWhen": [
+    "aero_bearings",
+    "aero_wooden_props",
+    "aero_andesite_props",
+    "aero_for_every_action",
+    "aero_in_thrust_we_trust",
+    "aero_engine_assembly",
+    "aero_portable_power",
+    "aero_take_off",
+    "aero_throttle",
+    "aero_steer",
+    "aero_swivel",
+    "aero_control_desk",
+    "aero_gyro",
+    "aero_gyro_bearing",
+    "aero_smart_prop",
+    "aero_twin_screw"
+  ],
+  "quests": [
+    "aero_bearings.json",
+    "aero_wooden_props.json",
+    "aero_andesite_props.json",
+    "aero_for_every_action.json",
+    "aero_in_thrust_we_trust.json",
+    "aero_engine_assembly.json",
+    "aero_portable_power.json",
+    "aero_take_off.json",
+    "aero_throttle.json",
+    "aero_steer.json",
+    "aero_swivel.json",
+    "aero_control_desk.json",
+    "aero_gyro.json",
+    "aero_gyro_bearing.json",
+    "aero_smart_prop.json",
+    "aero_twin_screw.json"
+  ],
+  "theme": "vanilla_plus",
+  "themePatch": {
+    "canvasBackground": {
+      "pattern": "hatch",
+      "space": "graph",
+      "spacing": 22,
+      "size": 1,
+      "density": 4,
+      "direction": "backslash",
+      "fit": "tile",
+      "texture": "",
+      "tile": 16
+    },
+    "colours": {
+      "canvas": "#FF10161C",
+      "canvasPattern": "#4DAFC4D4"
+    }
+  }
+}

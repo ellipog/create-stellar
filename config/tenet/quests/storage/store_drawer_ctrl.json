@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_drawer_ctrl",
+  "title": "Drawer Controller",
+  "description": [
+    "Controller. Every touching drawer becomes one inventory."
+  ],
+  "icon": {
+    "item": "storagedrawers:controller"
+  },
+  "x": -240,
+  "y": -232,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "store_drawers_upg"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "storagedrawers:controller"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "storagedrawers:oak_full_drawers_1",
+      "count": 2
+    }
+  ]
+}

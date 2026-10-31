@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "field_echo",
+  "title": "Echo Shard",
+  "description": [
+    "Deep dark. Loud is a choice you stop making"
+  ],
+  "icon": {
+    "item": "minecraft:echo_shard"
+  },
+  "x": 126,
+  "y": 80,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "field_cave_abyssal"
+  ],
+  "dependencyLines": {
+    "field_cave_abyssal": {
+      "dash": "dotted"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:echo_shard"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:sculk",
+      "count": 16
+    }
+  ]
+}

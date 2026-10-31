@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_115",
+  "title": "Automated",
+  "icon": {
+    "item": "create_stellar:molten_diamond_bucket"
+  },
+  "x": 104,
+  "y": 104,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_116"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create_stellar:molten_diamond_bucket"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

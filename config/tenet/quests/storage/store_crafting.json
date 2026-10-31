@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_crafting",
+  "title": "Crafting Grid",
+  "description": [
+    "Crafts straight out of the network."
+  ],
+  "icon": {
+    "item": "refinedstorage:crafting_grid"
+  },
+  "x": 48,
+  "y": 232,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "store_grid"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "refinedstorage:crafting_grid"
+    }
+  ]
+}

@@ -1,0 +1,1982 @@
+{
+  "quests": [
+    {
+      "source": "003C83227B023483",
+      "id": "003c83227b023483",
+      "slug": "automated_22",
+      "chapter": "chapters/1a_copper_mechanism.snbt"
+    },
+    {
+      "source": "012BCFE977B090AE",
+      "id": "012bcfe977b090ae",
+      "slug": "molten_copper_2",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "01DACB0EF20611D9",
+      "id": "01dacb0ef20611d9",
+      "slug": "already_automated_iron_nugget_2",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "02A02875F802F269",
+      "id": "02a02875f802f269",
+      "slug": "molten_iron",
+      "chapter": "chapters/1b_steel_mechanism.snbt"
+    },
+    {
+      "source": "02C14BF85C75B362",
+      "id": "02c14bf85c75b362",
+      "slug": "destabilized_redstone_2",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "02C268BAB3D4D268",
+      "id": "02c268bab3d4d268",
+      "slug": "automated_116",
+      "chapter": "chapters/5_creative_engine.snbt"
+    },
+    {
+      "source": "03396FD3F1EA30DB",
+      "id": "03396fd3f1ea30db",
+      "slug": "molten_zinc_2",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "03B4FCDA0CCE8AC7",
+      "id": "03b4fcda0cce8ac7",
+      "slug": "molten_ostrum",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "03D90B23637CBFED",
+      "id": "03d90b23637cbfed",
+      "slug": "molten_nether_quartz",
+      "chapter": "chapters/1a_copper_mechanism.snbt"
+    },
+    {
+      "source": "042775BF5A2A7267",
+      "id": "042775bf5a2a7267",
+      "slug": "refined_fuel",
+      "chapter": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "04CBDCCDEF86F4FF",
+      "id": "04cbdccdef86f4ff",
+      "slug": "pickaxe",
+      "chapter": "chapters/metallurgy.snbt"
+    },
+    {
+      "source": "0519068C35258C6B",
+      "id": "0519068c35258c6b",
+      "slug": "automated_6",
+      "chapter": "chapters/1_basic_mechanism.snbt"
+    },
+    {
+      "source": "05933AD3A22BB044",
+      "id": "05933ad3a22bb044",
+      "slug": "already_automated_molten_copper_2",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "05A19A3BB36FAD47",
+      "id": "05a19a3bb36fad47",
+      "slug": "automated_45",
+      "chapter": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "06A075161A4D54AD",
+      "id": "06a075161a4d54ad",
+      "slug": "automated_75",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "071052080EC287F6",
+      "id": "071052080ec287f6",
+      "slug": "automated_66",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "07475055962E8658",
+      "id": "07475055962e8658",
+      "slug": "basic_mechanism_3",
+      "chapter": "chapters/1b_steel_mechanism.snbt"
+    },
+    {
+      "source": "074808135B643547",
+      "id": "074808135b643547",
+      "slug": "automated_76",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "07F601B51D226598",
+      "id": "07f601b51d226598",
+      "slug": "light_oil",
+      "chapter": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "080B8F7D781218C4",
+      "id": "080b8f7d781218c4",
+      "slug": "iron_nugget",
+      "chapter": "chapters/1b_steel_mechanism.snbt"
+    },
+    {
+      "source": "083B7B50536F84A1",
+      "id": "083b7b50536f84a1",
+      "slug": "quest_083b7b50",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "0894459AE33AD906",
+      "id": "0894459ae33ad906",
+      "slug": "already_automated_precision_mechanism_2",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "08BC21AE08E5DB51",
+      "id": "08bc21ae08e5db51",
+      "slug": "chapter_5_creative_mechanism",
+      "chapter": "chapters/progression.snbt"
+    },
+    {
+      "source": "090D625AA155E0DE",
+      "id": "090d625aa155e0de",
+      "slug": "molten_nether_quartz_3",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "0992CA2DBFF2B92C",
+      "id": "0992ca2dbff2b92c",
+      "slug": "tuff_alloy",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "0998B3ED4C56642F",
+      "id": "0998b3ed4c56642f",
+      "slug": "automated_17",
+      "chapter": "chapters/1a_copper_mechanism.snbt"
+    },
+    {
+      "source": "09A943226CCFEA68",
+      "id": "09a943226ccfea68",
+      "slug": "already_automated_brass_nugget",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "0A31605145012EF6",
+      "id": "0a31605145012ef6",
+      "slug": "already_automated_lava",
+      "chapter": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "0BB4369209245C6D",
+      "id": "0bb4369209245c6d",
+      "slug": "automated_68",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "0C35789DE72DCCEF",
+      "id": "0c35789de72dccef",
+      "slug": "already_automated_molten_iron",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "0C8E877701963A52",
+      "id": "0c8e877701963a52",
+      "slug": "iron_nugget_2",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "0D7A3AA989D3ED5D",
+      "id": "0d7a3aa989d3ed5d",
+      "slug": "automated_51",
+      "chapter": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "0D98E4DE75721518",
+      "id": "0d98e4de75721518",
+      "slug": "automated_28",
+      "chapter": "chapters/1b_steel_mechanism.snbt"
+    },
+    {
+      "source": "0DD923DD5C53AE2D",
+      "id": "0dd923dd5c53ae2d",
+      "slug": "automated_26",
+      "chapter": "chapters/1b_steel_mechanism.snbt"
+    },
+    {
+      "source": "0F053CC798392F55",
+      "id": "0f053cc798392f55",
+      "slug": "automated_88",
+      "chapter": "chapters/4_mystical_mechanism.snbt"
+    },
+    {
+      "source": "0F86161AA571C0D3",
+      "id": "0f86161aa571c0d3",
+      "slug": "chapter_2b_desh_mechanism",
+      "chapter": "chapters/progression.snbt"
+    },
+    {
+      "source": "1025F7CE4301F74E",
+      "id": "1025f7ce4301f74e",
+      "slug": "automated_91",
+      "chapter": "chapters/4_mystical_mechanism.snbt"
+    },
+    {
+      "source": "104D0FDF239ACAB4",
+      "id": "104d0fdf239acab4",
+      "slug": "automated_33",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "107E0676429E8B08",
+      "id": "107e0676429e8b08",
+      "slug": "water_2",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "10890C94D17654A3",
+      "id": "10890c94d17654a3",
+      "slug": "fortune_3",
+      "chapter": "chapters/metallurgy.snbt"
+    },
+    {
+      "source": "10A794A3289F66DA",
+      "id": "10a794a3289f66da",
+      "slug": "automated_2",
+      "chapter": "chapters/1_basic_mechanism.snbt"
+    },
+    {
+      "source": "10D98E062CD7586B",
+      "id": "10d98e062cd7586b",
+      "slug": "already_automated_oil",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "10E03896EF9B10B3",
+      "id": "10e03896ef9b10b3",
+      "slug": "automated_128",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "112DBC175DF9FA9F",
+      "id": "112dbc175df9fa9f",
+      "slug": "precision_mechanism",
+      "chapter": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "11BDC90F0150A95D",
+      "id": "11bdc90f0150a95d",
+      "slug": "automated_113",
+      "chapter": "chapters/5_creative_engine.snbt"
+    },
+    {
+      "source": "11DB2E0C03885788",
+      "id": "11db2e0c03885788",
+      "slug": "molten_copper_3",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "122592F7DED1580F",
+      "id": "122592f7ded1580f",
+      "slug": "ready_4",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "1254D6AF436C0829",
+      "id": "1254d6af436c0829",
+      "slug": "automated_18",
+      "chapter": "chapters/1a_copper_mechanism.snbt"
+    },
+    {
+      "source": "12DABABB5794B955",
+      "id": "12dababb5794b955",
+      "slug": "automated_72",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "13221ACBA0BBE0AA",
+      "id": "13221acba0bbe0aa",
+      "slug": "already_automated_tuff_alloy_2",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "149095E8801F8AF6",
+      "id": "149095e8801f8af6",
+      "slug": "slimeball",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "14C8BE360FCBAFC6",
+      "id": "14c8be360fcbafc6",
+      "slug": "crushing",
+      "chapter": "chapters/metallurgy.snbt"
+    },
+    {
+      "source": "14F87C7FBC9F0501",
+      "id": "14f87c7fbc9f0501",
+      "slug": "quest_14f87c7f",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "15A5F30F530D5EA8",
+      "id": "15a5f30f530d5ea8",
+      "slug": "automated_112",
+      "chapter": "chapters/5_creative_engine.snbt"
+    },
+    {
+      "source": "1605026899AAE3F5",
+      "id": "1605026899aae3f5",
+      "slug": "automated_46",
+      "chapter": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "161AEEE031730EF3",
+      "id": "161aeee031730ef3",
+      "slug": "automated_12",
+      "chapter": "chapters/1_basic_mechanism.snbt"
+    },
+    {
+      "source": "162125BC2556AD73",
+      "id": "162125bc2556ad73",
+      "slug": "automated_5",
+      "chapter": "chapters/1_basic_mechanism.snbt"
+    },
+    {
+      "source": "16433D374BDCAE04",
+      "id": "16433d374bdcae04",
+      "slug": "automated_54",
+      "chapter": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "1723946D7F945EC3",
+      "id": "1723946d7f945ec3",
+      "slug": "already_automated_iron_nugget_3",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "1731E0AAB8089A74",
+      "id": "1731e0aab8089a74",
+      "slug": "brass_nugget",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "17A347E160C3A639",
+      "id": "17a347e160c3a639",
+      "slug": "automated_35",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "17AB18E2790BB03D",
+      "id": "17ab18e2790bb03d",
+      "slug": "automated_50",
+      "chapter": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "17B43D90033712A5",
+      "id": "17b43d90033712a5",
+      "slug": "already_automated_molten_copper",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "17B47BE61F0BFAD2",
+      "id": "17b47be61f0bfad2",
+      "slug": "already_automated_kelp",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "17B48F77A5B10B31",
+      "id": "17b48f77a5b10b31",
+      "slug": "already_automated_basic_mechanism",
+      "chapter": "chapters/1a_copper_mechanism.snbt"
+    },
+    {
+      "source": "182A04D8B493B224",
+      "id": "182a04d8b493b224",
+      "slug": "automated_124",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "186CAB4C5B982DA1",
+      "id": "186cab4c5b982da1",
+      "slug": "quest_186cab4c",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "18B03422974A5132",
+      "id": "18b03422974a5132",
+      "slug": "automated_63",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "1990F8721ABBED08",
+      "id": "1990f8721abbed08",
+      "slug": "automated_104",
+      "chapter": "chapters/4a_calorite_mechanism.snbt"
+    },
+    {
+      "source": "19C9AB859834E3D6",
+      "id": "19c9ab859834e3d6",
+      "slug": "automated_9",
+      "chapter": "chapters/1_basic_mechanism.snbt"
+    },
+    {
+      "source": "19ECB06807F45FE4",
+      "id": "19ecb06807f45fe4",
+      "slug": "automated_126",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "1A897F463E38094C",
+      "id": "1a897f463e38094c",
+      "slug": "automated_8",
+      "chapter": "chapters/1_basic_mechanism.snbt"
+    },
+    {
+      "source": "1B81EA4D88ED6C66",
+      "id": "1b81ea4d88ed6c66",
+      "slug": "automated_119",
+      "chapter": "chapters/5_creative_engine.snbt"
+    },
+    {
+      "source": "1BD603A86A020153",
+      "id": "1bd603a86a020153",
+      "slug": "quest_1bd603a8",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "1BDA70436D8A81D1",
+      "id": "1bda70436d8a81d1",
+      "slug": "lava",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "1C81E6222A8BAE63",
+      "id": "1c81e6222a8bae63",
+      "slug": "automated_121",
+      "chapter": "chapters/5_creative_engine.snbt"
+    },
+    {
+      "source": "1C9B58CEA7D64869",
+      "id": "1c9b58cea7d64869",
+      "slug": "tuff_age",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "1CBE279F281F7CF9",
+      "id": "1cbe279f281f7cf9",
+      "slug": "already_automated_water",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "1D3BF16B14641EC1",
+      "id": "1d3bf16b14641ec1",
+      "slug": "iron_nugget_3",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "1D6C95682F395BB0",
+      "id": "1d6c95682f395bb0",
+      "slug": "oil",
+      "chapter": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "1D79A6A4E0507638",
+      "id": "1d79a6a4e0507638",
+      "slug": "molten_zinc",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "1E04B2A8A47C93B2",
+      "id": "1e04b2a8a47c93b2",
+      "slug": "chapter_4a_calorite_mechanism",
+      "chapter": "chapters/progression.snbt"
+    },
+    {
+      "source": "1E8B22F79EF9F931",
+      "id": "1e8b22f79ef9f931",
+      "slug": "automated_40",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "1E961616F56F1749",
+      "id": "1e961616f56f1749",
+      "slug": "automated_118",
+      "chapter": "chapters/5_creative_engine.snbt"
+    },
+    {
+      "source": "1EFE28880E6159DF",
+      "id": "1efe28880e6159df",
+      "slug": "iron_nugget_4",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "1F0D5BA61DC0A8B2",
+      "id": "1f0d5ba61dc0a8b2",
+      "slug": "automated_108",
+      "chapter": "chapters/4a_calorite_mechanism.snbt"
+    },
+    {
+      "source": "1F4B1205716E9542",
+      "id": "1f4b1205716e9542",
+      "slug": "steel_mechanism",
+      "chapter": "chapters/1b_steel_mechanism.snbt"
+    },
+    {
+      "source": "1F8D93FEA6F33BAC",
+      "id": "1f8d93fea6f33bac",
+      "slug": "molten_iron_2",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "1FA3181C1871E677",
+      "id": "1fa3181c1871e677",
+      "slug": "desh_mechanism",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "1FFE58C0D7428C57",
+      "id": "1ffe58c0d7428c57",
+      "slug": "automated_43",
+      "chapter": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "20029B73BA195B4F",
+      "id": "20029b73ba195b4f",
+      "slug": "automated_99",
+      "chapter": "chapters/4a_calorite_mechanism.snbt"
+    },
+    {
+      "source": "20E916CBADA657B6",
+      "id": "20e916cbada657b6",
+      "slug": "quest_20e916cb",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "20ED02F3A7BCBE1B",
+      "id": "20ed02f3a7bcbe1b",
+      "slug": "destabilized_redstone",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "213A70340C15A957",
+      "id": "213a70340c15a957",
+      "slug": "automated_38",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "219BDCF15255EB0F",
+      "id": "219bdcf15255eb0f",
+      "slug": "quest_219bdcf1",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "21A59FC91ABCCD44",
+      "id": "21a59fc91abccd44",
+      "slug": "silk_touch",
+      "chapter": "chapters/metallurgy.snbt"
+    },
+    {
+      "source": "22B25AA70EC610F8",
+      "id": "22b25aa70ec610f8",
+      "slug": "automated_48",
+      "chapter": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "22CC20489B6D62D7",
+      "id": "22cc20489b6d62d7",
+      "slug": "automated_20",
+      "chapter": "chapters/1a_copper_mechanism.snbt"
+    },
+    {
+      "source": "22F892FD88926F82",
+      "id": "22f892fd88926f82",
+      "slug": "quest_22f892fd",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "2322EBB85740BB6C",
+      "id": "2322ebb85740bb6c",
+      "slug": "steel_mechanism_2",
+      "chapter": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "23670D0EE8A726EC",
+      "id": "23670d0ee8a726ec",
+      "slug": "automated_16",
+      "chapter": "chapters/1a_copper_mechanism.snbt"
+    },
+    {
+      "source": "23CD434061EE36EA",
+      "id": "23cd434061ee36ea",
+      "slug": "automated_95",
+      "chapter": "chapters/4_mystical_mechanism.snbt"
+    },
+    {
+      "source": "242ABB83630152FE",
+      "id": "242abb83630152fe",
+      "slug": "solid_fuel_clump",
+      "chapter": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "24B3DE80805CE475",
+      "id": "24b3de80805ce475",
+      "slug": "planks",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "24FCC29685A38B86",
+      "id": "24fcc29685a38b86",
+      "slug": "automated_41",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "2545A4B2BDB1DE9A",
+      "id": "2545a4b2bdb1de9a",
+      "slug": "ingot",
+      "chapter": "chapters/metallurgy.snbt"
+    },
+    {
+      "source": "25EDD7DDCA11A6E2",
+      "id": "25edd7ddca11a6e2",
+      "slug": "already_automated_conductive_mechanism",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "26136A688F2FCB81",
+      "id": "26136a688f2fcb81",
+      "slug": "automated_101",
+      "chapter": "chapters/4a_calorite_mechanism.snbt"
+    },
+    {
+      "source": "26255A66DEED56BE",
+      "id": "26255a66deed56be",
+      "slug": "automated_84",
+      "chapter": "chapters/4_mystical_mechanism.snbt"
+    },
+    {
+      "source": "26AD54005D23503F",
+      "id": "26ad54005d23503f",
+      "slug": "automated_87",
+      "chapter": "chapters/4_mystical_mechanism.snbt"
+    },
+    {
+      "source": "26C528A5A65FC2E0",
+      "id": "26c528a5a65fc2e0",
+      "slug": "molten_brass",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "26DDCABB8EDC615F",
+      "id": "26ddcabb8edc615f",
+      "slug": "automated_111",
+      "chapter": "chapters/5_creative_engine.snbt"
+    },
+    {
+      "source": "2755EDAE69281B47",
+      "id": "2755edae69281b47",
+      "slug": "automated_15",
+      "chapter": "chapters/1a_copper_mechanism.snbt"
+    },
+    {
+      "source": "27575DED15E71D35",
+      "id": "27575ded15e71d35",
+      "slug": "already_automated_iron_sheet",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "276966D073FD6B11",
+      "id": "276966d073fd6b11",
+      "slug": "tuff",
+      "chapter": "chapters/1b_steel_mechanism.snbt"
+    },
+    {
+      "source": "27C2E3E2C2126A02",
+      "id": "27c2e3e2c2126a02",
+      "slug": "molten_nether_quartz_2",
+      "chapter": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "2819E4E2DF073780",
+      "id": "2819e4e2df073780",
+      "slug": "automated_61",
+      "chapter": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "2844D91CB47165B8",
+      "id": "2844d91cb47165b8",
+      "slug": "automated_67",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "2890136C854671A8",
+      "id": "2890136c854671a8",
+      "slug": "melting",
+      "chapter": "chapters/metallurgy.snbt"
+    },
+    {
+      "source": "289EF8A679DD7EB2",
+      "id": "289ef8a679dd7eb2",
+      "slug": "ready_6",
+      "chapter": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "28A50B6DDE6FF1FD",
+      "id": "28a50b6dde6ff1fd",
+      "slug": "cobblestone",
+      "chapter": "chapters/1a_copper_mechanism.snbt"
+    },
+    {
+      "source": "28DF3EB71425118A",
+      "id": "28df3eb71425118a",
+      "slug": "automated_4",
+      "chapter": "chapters/1_basic_mechanism.snbt"
+    },
+    {
+      "source": "2B2975894614E6EC",
+      "id": "2b2975894614e6ec",
+      "slug": "automated_107",
+      "chapter": "chapters/4a_calorite_mechanism.snbt"
+    },
+    {
+      "source": "2B6019F36DA153CB",
+      "id": "2b6019f36da153cb",
+      "slug": "already_automated_iron_nugget",
+      "chapter": "chapters/1b_steel_mechanism.snbt"
+    },
+    {
+      "source": "2B9ECCBAA5C22D20",
+      "id": "2b9eccbaa5c22d20",
+      "slug": "automated_98",
+      "chapter": "chapters/4_mystical_mechanism.snbt"
+    },
+    {
+      "source": "2BE85083F37B60A7",
+      "id": "2be85083f37b60a7",
+      "slug": "raw_ore",
+      "chapter": "chapters/metallurgy.snbt"
+    },
+    {
+      "source": "2BED9E3F75725A8A",
+      "id": "2bed9e3f75725a8a",
+      "slug": "automated_86",
+      "chapter": "chapters/4_mystical_mechanism.snbt"
+    },
+    {
+      "source": "2C88E940B5A8A0C6",
+      "id": "2c88e940b5a8a0c6",
+      "slug": "automated_32",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "2DB10FAD8E522E3C",
+      "id": "2db10fad8e522e3c",
+      "slug": "lava_2",
+      "chapter": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "2DFADB2AD3C5CC40",
+      "id": "2dfadb2ad3c5cc40",
+      "slug": "chapter_2_precision_mechanism",
+      "chapter": "chapters/progression.snbt"
+    },
+    {
+      "source": "2E0765C22A39DD59",
+      "id": "2e0765c22a39dd59",
+      "slug": "automated_125",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "2F509ED9CCFDC2AB",
+      "id": "2f509ed9ccfdc2ab",
+      "slug": "automated_122",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "2FED9866DF846494",
+      "id": "2fed9866df846494",
+      "slug": "quest_2fed9866",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "30067EA96D925288",
+      "id": "30067ea96d925288",
+      "slug": "chapter_2a_enchanted_mechanism",
+      "chapter": "chapters/progression.snbt"
+    },
+    {
+      "source": "307F85AC7172C300",
+      "id": "307f85ac7172c300",
+      "slug": "automated_52",
+      "chapter": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "3131FC00BE30D466",
+      "id": "3131fc00be30d466",
+      "slug": "already_automated_molten_zinc",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "313EAA2F63AF1D8F",
+      "id": "313eaa2f63af1d8f",
+      "slug": "already_automated_basic_mechanism_3",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "32DA4059EB3A729A",
+      "id": "32da4059eb3a729a",
+      "slug": "already_automated_gravel",
+      "chapter": "chapters/1a_copper_mechanism.snbt"
+    },
+    {
+      "source": "32EDD546B9E71DD8",
+      "id": "32edd546b9e71dd8",
+      "slug": "already_automated_flint",
+      "chapter": "chapters/1b_steel_mechanism.snbt"
+    },
+    {
+      "source": "333E23A3FB659E46",
+      "id": "333e23a3fb659e46",
+      "slug": "automated_102",
+      "chapter": "chapters/4a_calorite_mechanism.snbt"
+    },
+    {
+      "source": "33EB4EC03B9BF13A",
+      "id": "33eb4ec03b9bf13a",
+      "slug": "hi_d",
+      "chapter": "chapters/progression.snbt"
+    },
+    {
+      "source": "341751318062B1D3",
+      "id": "341751318062b1d3",
+      "slug": "quick_start",
+      "chapter": "chapters/progression.snbt"
+    },
+    {
+      "source": "352B121C2D97BB63",
+      "id": "352b121c2d97bb63",
+      "slug": "automated_129",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "35BD973E603C5475",
+      "id": "35bd973e603c5475",
+      "slug": "chapter_4_mystical_mechanism",
+      "chapter": "chapters/progression.snbt"
+    },
+    {
+      "source": "361C23F4BD6E70A0",
+      "id": "361c23f4bd6e70a0",
+      "slug": "quick_info",
+      "chapter": "chapters/4_mystical_mechanism.snbt"
+    },
+    {
+      "source": "3683DF10F14D3F19",
+      "id": "3683df10f14d3f19",
+      "slug": "oil_2",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "36D2DEEE8C125EE9",
+      "id": "36d2deee8c125ee9",
+      "slug": "automated_120",
+      "chapter": "chapters/5_creative_engine.snbt"
+    },
+    {
+      "source": "39011101D1E3CEFB",
+      "id": "39011101d1e3cefb",
+      "slug": "automated_55",
+      "chapter": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "39261C749C11CBF7",
+      "id": "39261c749c11cbf7",
+      "slug": "already_automated_nether_quartz",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "39CBBD45D916EAED",
+      "id": "39cbbd45d916eaed",
+      "slug": "automated_30",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "3A375F4591B7BE0F",
+      "id": "3a375f4591b7be0f",
+      "slug": "automated_56",
+      "chapter": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "3B40F6CCA3320E6B",
+      "id": "3b40f6cca3320e6b",
+      "slug": "oxygen",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "3B66CDCF18A31BDA",
+      "id": "3b66cdcf18a31bda",
+      "slug": "molten_steel",
+      "chapter": "chapters/1b_steel_mechanism.snbt"
+    },
+    {
+      "source": "3D81037EE620028C",
+      "id": "3d81037ee620028c",
+      "slug": "wooden_pickaxe",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "3DD25EE5E9E4B852",
+      "id": "3dd25ee5e9e4b852",
+      "slug": "automated_31",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "3DFCC60037A9AAFA",
+      "id": "3dfcc60037a9aafa",
+      "slug": "quest_3dfcc600",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "3E0CE48A15962FF5",
+      "id": "3e0ce48a15962ff5",
+      "slug": "water",
+      "chapter": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "3E166B771BE3C8BC",
+      "id": "3e166b771be3c8bc",
+      "slug": "chapter_3b_ostrum_mechanism",
+      "chapter": "chapters/progression.snbt"
+    },
+    {
+      "source": "3EFBB78EFF940D5A",
+      "id": "3efbb78eff940d5a",
+      "slug": "ready_5",
+      "chapter": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "3F9CF99CED3ADAD0",
+      "id": "3f9cf99ced3adad0",
+      "slug": "automated_117",
+      "chapter": "chapters/5_creative_engine.snbt"
+    },
+    {
+      "source": "4088EEFAC8145EC1",
+      "id": "4088eefac8145ec1",
+      "slug": "ready_set_go",
+      "chapter": "chapters/progression.snbt"
+    },
+    {
+      "source": "418E28C6BD99EC04",
+      "id": "418e28c6bd99ec04",
+      "slug": "quest_418e28c6",
+      "chapter": "chapters/4_mystical_mechanism.snbt"
+    },
+    {
+      "source": "42E6800E43AD8B37",
+      "id": "42e6800e43ad8b37",
+      "slug": "tuff_alloy_2",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "42FBC731EBB8D0DD",
+      "id": "42fbc731ebb8d0dd",
+      "slug": "automated_39",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "432BDF5B73D05FF8",
+      "id": "432bdf5b73d05ff8",
+      "slug": "steel_plate",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "43AF46D76543AFC0",
+      "id": "43af46d76543afc0",
+      "slug": "automated_114",
+      "chapter": "chapters/5_creative_engine.snbt"
+    },
+    {
+      "source": "441973AFFB94228B",
+      "id": "441973affb94228b",
+      "slug": "already_automated_iron_ingot",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "44457B4782895567",
+      "id": "44457b4782895567",
+      "slug": "ready_10",
+      "chapter": "chapters/4a_calorite_mechanism.snbt"
+    },
+    {
+      "source": "4468FAF070F83E4E",
+      "id": "4468faf070f83e4e",
+      "slug": "ready_7",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "44BE2E9971E8E416",
+      "id": "44be2e9971e8e416",
+      "slug": "chapter_3_conductive_mechanism",
+      "chapter": "chapters/progression.snbt"
+    },
+    {
+      "source": "44DEF13A9934BCFB",
+      "id": "44def13a9934bcfb",
+      "slug": "automated_3",
+      "chapter": "chapters/1_basic_mechanism.snbt"
+    },
+    {
+      "source": "453C4723561555E3",
+      "id": "453c4723561555e3",
+      "slug": "already_automated_destabilized_redstone_2",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "457597CFDE8860FF",
+      "id": "457597cfde8860ff",
+      "slug": "automated_105",
+      "chapter": "chapters/4a_calorite_mechanism.snbt"
+    },
+    {
+      "source": "45957049272CC997",
+      "id": "45957049272cc997",
+      "slug": "automated_74",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "478D9745807DB26E",
+      "id": "478d9745807db26e",
+      "slug": "basic_mechanism",
+      "chapter": "chapters/1_basic_mechanism.snbt"
+    },
+    {
+      "source": "47AFE2384BD2BB5E",
+      "id": "47afe2384bd2bb5e",
+      "slug": "automated_24",
+      "chapter": "chapters/1b_steel_mechanism.snbt"
+    },
+    {
+      "source": "48002AB392EBA1F8",
+      "id": "48002ab392eba1f8",
+      "slug": "wash",
+      "chapter": "chapters/metallurgy.snbt"
+    },
+    {
+      "source": "488D3A15EF5863E4",
+      "id": "488d3a15ef5863e4",
+      "slug": "automated_97",
+      "chapter": "chapters/4_mystical_mechanism.snbt"
+    },
+    {
+      "source": "48A3252FC1348A90",
+      "id": "48a3252fc1348a90",
+      "slug": "automated_81",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "49BB8723EB2E9DC2",
+      "id": "49bb8723eb2e9dc2",
+      "slug": "automated_11",
+      "chapter": "chapters/1_basic_mechanism.snbt"
+    },
+    {
+      "source": "4A421E9D4CE24876",
+      "id": "4a421e9d4ce24876",
+      "slug": "already_automated_slimeball",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "4B87CDEAAA05CAEF",
+      "id": "4b87cdeaaa05caef",
+      "slug": "ready",
+      "chapter": "chapters/1_basic_mechanism.snbt"
+    },
+    {
+      "source": "4BA84AA3CF6F0A03",
+      "id": "4ba84aa3cf6f0a03",
+      "slug": "automated_82",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "4C97B5021A7C8A59",
+      "id": "4c97b5021a7c8a59",
+      "slug": "automated_49",
+      "chapter": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "4CF2302CF097EBC7",
+      "id": "4cf2302cf097ebc7",
+      "slug": "drill_machine",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "4D26FC51425A6A5E",
+      "id": "4d26fc51425a6a5e",
+      "slug": "ready_2",
+      "chapter": "chapters/1a_copper_mechanism.snbt"
+    },
+    {
+      "source": "4D2BA460D57DDD97",
+      "id": "4d2ba460d57ddd97",
+      "slug": "stone_age",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "4D58A490803AAC21",
+      "id": "4d58a490803aac21",
+      "slug": "precision_mechanism_2",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "4DBB222541CA2DB3",
+      "id": "4dbb222541ca2db3",
+      "slug": "quest_4dbb2225",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "4DE41EE2B2CC8077",
+      "id": "4de41ee2b2cc8077",
+      "slug": "automated_27",
+      "chapter": "chapters/1b_steel_mechanism.snbt"
+    },
+    {
+      "source": "4E374FD402FD991F",
+      "id": "4e374fd402fd991f",
+      "slug": "chapter_1_basic_mechanism",
+      "chapter": "chapters/progression.snbt"
+    },
+    {
+      "source": "4F0FCE13E0CA9E41",
+      "id": "4f0fce13e0ca9e41",
+      "slug": "melting_2",
+      "chapter": "chapters/metallurgy.snbt"
+    },
+    {
+      "source": "4F3A83E1AD490C76",
+      "id": "4f3a83e1ad490c76",
+      "slug": "quest_4f3a83e1",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "4F62B5A960F704D2",
+      "id": "4f62b5a960f704d2",
+      "slug": "already_automated_tuff",
+      "chapter": "chapters/1b_steel_mechanism.snbt"
+    },
+    {
+      "source": "4FAB6E634336B6DF",
+      "id": "4fab6e634336b6df",
+      "slug": "ready_9",
+      "chapter": "chapters/4_mystical_mechanism.snbt"
+    },
+    {
+      "source": "507C967065C41B42",
+      "id": "507c967065c41b42",
+      "slug": "automated_44",
+      "chapter": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "50930625F6403466",
+      "id": "50930625f6403466",
+      "slug": "drawers",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "51864EAB5CE24CBE",
+      "id": "51864eab5ce24cbe",
+      "slug": "automated_90",
+      "chapter": "chapters/4_mystical_mechanism.snbt"
+    },
+    {
+      "source": "5212D448543C8E44",
+      "id": "5212d448543c8e44",
+      "slug": "automated_57",
+      "chapter": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "521CCE497BB1454E",
+      "id": "521cce497bb1454e",
+      "slug": "automated_71",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "52E93F301110F12D",
+      "id": "52e93f301110f12d",
+      "slug": "copper_mechanism",
+      "chapter": "chapters/1a_copper_mechanism.snbt"
+    },
+    {
+      "source": "53CFB607F07239A0",
+      "id": "53cfb607f07239a0",
+      "slug": "automated_62",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "53F35BA98E747299",
+      "id": "53f35ba98e747299",
+      "slug": "automated_109",
+      "chapter": "chapters/5_creative_engine.snbt"
+    },
+    {
+      "source": "54A627086FBFC197",
+      "id": "54a627086fbfc197",
+      "slug": "already_automated_iron_nugget_4",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "54CC5AA8D1E24882",
+      "id": "54cc5aa8d1e24882",
+      "slug": "ready_11",
+      "chapter": "chapters/5_creative_engine.snbt"
+    },
+    {
+      "source": "55F4F11870C858DF",
+      "id": "55f4f11870c858df",
+      "slug": "quest_55f4f118",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "5655A603DB770590",
+      "id": "5655a603db770590",
+      "slug": "extendo_grip",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "5676570158090221",
+      "id": "5676570158090221",
+      "slug": "already_automated_desh_mechanism",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "56ADC75ECBFC29BE",
+      "id": "56adc75ecbfc29be",
+      "slug": "automated_103",
+      "chapter": "chapters/4a_calorite_mechanism.snbt"
+    },
+    {
+      "source": "57EE4EE9CDDDA87F",
+      "id": "57ee4ee9cddda87f",
+      "slug": "automated_78",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "588C5B92BB241008",
+      "id": "588c5b92bb241008",
+      "slug": "automated_21",
+      "chapter": "chapters/1a_copper_mechanism.snbt"
+    },
+    {
+      "source": "58B556D40904E3B3",
+      "id": "58b556d40904e3b3",
+      "slug": "first_tree",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "58D7022D8E0F61B7",
+      "id": "58d7022d8e0f61b7",
+      "slug": "automated_25",
+      "chapter": "chapters/1b_steel_mechanism.snbt"
+    },
+    {
+      "source": "5915677D69F91F63",
+      "id": "5915677d69f91f63",
+      "slug": "automated_34",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "5969D5B1220C0521",
+      "id": "5969d5b1220c0521",
+      "slug": "automated_64",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "597222D62BF32C13",
+      "id": "597222d62bf32c13",
+      "slug": "quest_597222d6",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "59F9E3342F6F8605",
+      "id": "59f9e3342f6f8605",
+      "slug": "automated_80",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "59FE09CD7BD1FC24",
+      "id": "59fe09cd7bd1fc24",
+      "slug": "farming_time",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "5A6D44CC2B9576AC",
+      "id": "5a6d44cc2b9576ac",
+      "slug": "quest_5a6d44cc",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "5A704D2A586CD47E",
+      "id": "5a704d2a586cd47e",
+      "slug": "super_glue",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "5A8D5BE62EE5CF7D",
+      "id": "5a8d5be62ee5cf7d",
+      "slug": "soul_sand",
+      "chapter": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "5AB92C8906723007",
+      "id": "5ab92c8906723007",
+      "slug": "molten_desh",
+      "chapter": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "5B5877435A56995B",
+      "id": "5b5877435a56995b",
+      "slug": "iron_sheet",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "5BDF7F6F261FA612",
+      "id": "5bdf7f6f261fa612",
+      "slug": "automated_93",
+      "chapter": "chapters/4_mystical_mechanism.snbt"
+    },
+    {
+      "source": "5BF238EDE29A4C73",
+      "id": "5bf238ede29a4c73",
+      "slug": "automated_60",
+      "chapter": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "5C36516516DD07E0",
+      "id": "5c36516516dd07e0",
+      "slug": "automated_79",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "5C55772ECC445ADB",
+      "id": "5c55772ecc445adb",
+      "slug": "automated_83",
+      "chapter": "chapters/4_mystical_mechanism.snbt"
+    },
+    {
+      "source": "5C725194716E5BBE",
+      "id": "5c725194716e5bbe",
+      "slug": "bigger_crafting",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "5D256A56162CA9C8",
+      "id": "5d256a56162ca9c8",
+      "slug": "automated_farms",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "5D70826A9886EA56",
+      "id": "5d70826a9886ea56",
+      "slug": "already_automated_basic_mechanism_2",
+      "chapter": "chapters/1b_steel_mechanism.snbt"
+    },
+    {
+      "source": "5EC4F34939A14186",
+      "id": "5ec4f34939a14186",
+      "slug": "automated_13",
+      "chapter": "chapters/1_basic_mechanism.snbt"
+    },
+    {
+      "source": "5EFA61FEFEA42118",
+      "id": "5efa61fefea42118",
+      "slug": "already_automated_planks",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "5F6E746F8A4AC058",
+      "id": "5f6e746f8a4ac058",
+      "slug": "already_automated_soul_sand",
+      "chapter": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "5FDA96A7152D586A",
+      "id": "5fda96a7152d586a",
+      "slug": "already_automated_cobblestone",
+      "chapter": "chapters/1a_copper_mechanism.snbt"
+    },
+    {
+      "source": "6008C44E5CDD984B",
+      "id": "6008c44e5cdd984b",
+      "slug": "ready_3",
+      "chapter": "chapters/1b_steel_mechanism.snbt"
+    },
+    {
+      "source": "602A87A654F26B49",
+      "id": "602a87a654f26b49",
+      "slug": "already_automated_molten_nether_quartz_2",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "616FA575A8C81CEF",
+      "id": "616fa575a8c81cef",
+      "slug": "already_automated_cobblestone_2",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "61CDA3576B1F9BE5",
+      "id": "61cda3576b1f9be5",
+      "slug": "automated_127",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "62380A0D63DF599D",
+      "id": "62380a0d63df599d",
+      "slug": "automated_85",
+      "chapter": "chapters/4_mystical_mechanism.snbt"
+    },
+    {
+      "source": "6289788A95742E8C",
+      "id": "6289788a95742e8c",
+      "slug": "automated_37",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "62C54E935B619933",
+      "id": "62c54e935b619933",
+      "slug": "automated_59",
+      "chapter": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "62D21594D8AFC6B4",
+      "id": "62d21594d8afc6b4",
+      "slug": "automated_94",
+      "chapter": "chapters/4_mystical_mechanism.snbt"
+    },
+    {
+      "source": "62D394F2CB42EFE4",
+      "id": "62d394f2cb42efe4",
+      "slug": "automated_110",
+      "chapter": "chapters/5_creative_engine.snbt"
+    },
+    {
+      "source": "62DEC1897E07F13E",
+      "id": "62dec1897e07f13e",
+      "slug": "automated_10",
+      "chapter": "chapters/1_basic_mechanism.snbt"
+    },
+    {
+      "source": "6358CF2B9F38ECC7",
+      "id": "6358cf2b9f38ecc7",
+      "slug": "already_automated_steel_mechanism",
+      "chapter": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "63C2325E4BE4D89C",
+      "id": "63c2325e4be4d89c",
+      "slug": "already_automated_tuff_alloy",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "64B2269D02090BA7",
+      "id": "64b2269d02090ba7",
+      "slug": "destabilized_redstone_3",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "65A97845C6368DA3",
+      "id": "65a97845c6368da3",
+      "slug": "chapter_3a_refined_mechanism",
+      "chapter": "chapters/progression.snbt"
+    },
+    {
+      "source": "67016AF2A68D985C",
+      "id": "67016af2a68d985c",
+      "slug": "already_automated_coal",
+      "chapter": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "6753406CA493D53C",
+      "id": "6753406ca493d53c",
+      "slug": "drawer_upgrade",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "676D2888BA53A06C",
+      "id": "676d2888ba53a06c",
+      "slug": "coal",
+      "chapter": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "68B405D3266A69EA",
+      "id": "68b405d3266a69ea",
+      "slug": "nether_quartz",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "69968C077C52082B",
+      "id": "69968c077c52082b",
+      "slug": "automated_130",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "6A707DE153377F27",
+      "id": "6a707de153377f27",
+      "slug": "already_automated_slimeball_2",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "6B926C1E9F1BB81E",
+      "id": "6b926c1e9f1bb81e",
+      "slug": "quest_6b926c1e",
+      "chapter": "chapters/5_creative_engine.snbt"
+    },
+    {
+      "source": "6B942F75DE244A35",
+      "id": "6b942f75de244a35",
+      "slug": "automated",
+      "chapter": "chapters/1_basic_mechanism.snbt"
+    },
+    {
+      "source": "6C31DE31AAF243B5",
+      "id": "6c31de31aaf243b5",
+      "slug": "automated_14",
+      "chapter": "chapters/1a_copper_mechanism.snbt"
+    },
+    {
+      "source": "6C39F0C74B767364",
+      "id": "6c39f0c74b767364",
+      "slug": "automated_69",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "6C73FFC99270C2B3",
+      "id": "6c73ffc99270c2b3",
+      "slug": "quest_6c73ffc9",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "6CB401A8DCFF8425",
+      "id": "6cb401a8dcff8425",
+      "slug": "sulfuric_heavy_oil",
+      "chapter": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "6CCC10CCD8078644",
+      "id": "6ccc10ccd8078644",
+      "slug": "automated_23",
+      "chapter": "chapters/1a_copper_mechanism.snbt"
+    },
+    {
+      "source": "6CDE3A5E3C49C111",
+      "id": "6cde3a5e3c49c111",
+      "slug": "automated_131",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "6D1B484621BDC25F",
+      "id": "6d1b484621bdc25f",
+      "slug": "automated_36",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "6D95E31430792B22",
+      "id": "6d95e31430792b22",
+      "slug": "automated_42",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "6E35B74387C1C73E",
+      "id": "6e35b74387c1c73e",
+      "slug": "automated_58",
+      "chapter": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "6EE13F9FD4E3F309",
+      "id": "6ee13f9fd4e3f309",
+      "slug": "cobblestone_2",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "6F3DAFF9083C0248",
+      "id": "6f3daff9083c0248",
+      "slug": "quest_6f3daff9",
+      "chapter": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "6F7A3C3CE8050586",
+      "id": "6f7a3c3ce8050586",
+      "slug": "fuel",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "707873B9C3D94DD6",
+      "id": "707873b9c3d94dd6",
+      "slug": "iron_rod",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "70CD7F581FF61A4A",
+      "id": "70cd7f581ff61a4a",
+      "slug": "kelp",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "70F35A930EF9B765",
+      "id": "70f35a930ef9b765",
+      "slug": "flint",
+      "chapter": "chapters/1b_steel_mechanism.snbt"
+    },
+    {
+      "source": "7107D6EC4452D0B7",
+      "id": "7107d6ec4452d0b7",
+      "slug": "automated_115",
+      "chapter": "chapters/5_creative_engine.snbt"
+    },
+    {
+      "source": "714652545730DD20",
+      "id": "714652545730dd20",
+      "slug": "molten_copper",
+      "chapter": "chapters/1a_copper_mechanism.snbt"
+    },
+    {
+      "source": "723D997EC9A3710C",
+      "id": "723d997ec9a3710c",
+      "slug": "automated_123",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "723FF6E171E57C48",
+      "id": "723ff6e171e57c48",
+      "slug": "chapter_1b_steel_mechanism",
+      "chapter": "chapters/progression.snbt"
+    },
+    {
+      "source": "724697AF32F08117",
+      "id": "724697af32f08117",
+      "slug": "already_automated_destabilized_redstone",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "7281DDA2E96C6538",
+      "id": "7281dda2e96c6538",
+      "slug": "already_automated_steel_plate",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "733088EFDFE9BB19",
+      "id": "733088efdfe9bb19",
+      "slug": "quest_733088ef",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "7376B71BCE5383C2",
+      "id": "7376b71bce5383c2",
+      "slug": "automated_29",
+      "chapter": "chapters/1b_steel_mechanism.snbt"
+    },
+    {
+      "source": "73906F36E96D3C7C",
+      "id": "73906f36e96d3c7c",
+      "slug": "slimeball_2",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "73918AF9A45BFAD4",
+      "id": "73918af9a45bfad4",
+      "slug": "automated_7",
+      "chapter": "chapters/1_basic_mechanism.snbt"
+    },
+    {
+      "source": "73AAF04423EAA19F",
+      "id": "73aaf04423eaa19f",
+      "slug": "quest_73aaf044",
+      "chapter": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "73C051ACDDC0DFBD",
+      "id": "73c051acddc0dfbd",
+      "slug": "automated_47",
+      "chapter": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "73CE2704CAAC9CA2",
+      "id": "73ce2704caac9ca2",
+      "slug": "quest_73ce2704",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "74C7869EC9DAA914",
+      "id": "74c7869ec9daa914",
+      "slug": "chapter_1a_copper_mechanism",
+      "chapter": "chapters/progression.snbt"
+    },
+    {
+      "source": "7550121616D57117",
+      "id": "7550121616d57117",
+      "slug": "already_automated_molten_nether_quartz",
+      "chapter": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "763E178D1A59286B",
+      "id": "763e178d1a59286b",
+      "slug": "ready_8",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "76BB378F739B6F50",
+      "id": "76bb378f739b6f50",
+      "slug": "automated_53",
+      "chapter": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "77723784892EBDC2",
+      "id": "77723784892ebdc2",
+      "slug": "quest_77723784",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "778FACD146758F46",
+      "id": "778facd146758f46",
+      "slug": "quick_info_2",
+      "chapter": "chapters/5_creative_engine.snbt"
+    },
+    {
+      "source": "77919E452EE0DAFE",
+      "id": "77919e452ee0dafe",
+      "slug": "automated_92",
+      "chapter": "chapters/4_mystical_mechanism.snbt"
+    },
+    {
+      "source": "77F25F4A29C92B1C",
+      "id": "77f25f4a29c92b1c",
+      "slug": "already_automated_iron_ingot_2",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "782072BDD2246C6D",
+      "id": "782072bdd2246c6d",
+      "slug": "automated_89",
+      "chapter": "chapters/4_mystical_mechanism.snbt"
+    },
+    {
+      "source": "7892468B9073161A",
+      "id": "7892468b9073161a",
+      "slug": "conductive_mechanism",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "78BA74A88275855B",
+      "id": "78ba74a88275855b",
+      "slug": "already_automated",
+      "chapter": "chapters/progression.snbt"
+    },
+    {
+      "source": "78FBF6E21B0F92C1",
+      "id": "78fbf6e21b0f92c1",
+      "slug": "automated_77",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "79518ACEC0C82553",
+      "id": "79518acec0c82553",
+      "slug": "automated_106",
+      "chapter": "chapters/4a_calorite_mechanism.snbt"
+    },
+    {
+      "source": "798B57A41ED34584",
+      "id": "798b57a41ed34584",
+      "slug": "heavy_oil",
+      "chapter": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "7AF872AB0B58DBBF",
+      "id": "7af872ab0b58dbbf",
+      "slug": "automated_19",
+      "chapter": "chapters/1a_copper_mechanism.snbt"
+    },
+    {
+      "source": "7C4C4BE117C6F97D",
+      "id": "7c4c4be117c6f97d",
+      "slug": "foundy_basin",
+      "chapter": "chapters/metallurgy.snbt"
+    },
+    {
+      "source": "7C5B0F394294B015",
+      "id": "7c5b0f394294b015",
+      "slug": "already_automated_precision_mechanism",
+      "chapter": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "7D0905E79CFD46C6",
+      "id": "7d0905e79cfd46c6",
+      "slug": "iron_ingot_2",
+      "chapter": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "7D399D1B2C78AA91",
+      "id": "7d399d1b2c78aa91",
+      "slug": "basic_mechanism_2",
+      "chapter": "chapters/1a_copper_mechanism.snbt"
+    },
+    {
+      "source": "7DB61E58A365E90C",
+      "id": "7db61e58a365e90c",
+      "slug": "iron_ingot",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "7DBE086D04592330",
+      "id": "7dbe086d04592330",
+      "slug": "automated_65",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "7E4123A6F0B3C0F0",
+      "id": "7e4123a6f0b3c0f0",
+      "slug": "automated_73",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "7EBDAFC26D1AE495",
+      "id": "7ebdafc26d1ae495",
+      "slug": "mining_time",
+      "chapter": "chapters/get_started.snbt"
+    },
+    {
+      "source": "7EF37B627F2A7726",
+      "id": "7ef37b627f2a7726",
+      "slug": "automated_100",
+      "chapter": "chapters/4a_calorite_mechanism.snbt"
+    },
+    {
+      "source": "7EFBF4CFFB582C8A",
+      "id": "7efbf4cffb582c8a",
+      "slug": "gravel",
+      "chapter": "chapters/1a_copper_mechanism.snbt"
+    },
+    {
+      "source": "7F420124385C65E5",
+      "id": "7f420124385c65e5",
+      "slug": "ready_12",
+      "chapter": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "7F6E87CA99B600D0",
+      "id": "7f6e87ca99b600d0",
+      "slug": "pulverize",
+      "chapter": "chapters/metallurgy.snbt"
+    },
+    {
+      "source": "7F94DD307C1F32DE",
+      "id": "7f94dd307c1f32de",
+      "slug": "automated_70",
+      "chapter": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "7FF0C5177E65FA38",
+      "id": "7ff0c5177e65fa38",
+      "slug": "automated_96",
+      "chapter": "chapters/4_mystical_mechanism.snbt"
+    }
+  ],
+  "chapters": [
+    {
+      "source": "01BEB84F2FF37177",
+      "id": "01beb84f2ff37177",
+      "slug": "3a_refined_mechanism",
+      "file": "chapters/3a_refined_mechanism.snbt"
+    },
+    {
+      "source": "0659158333F59EAF",
+      "id": "0659158333f59eaf",
+      "slug": "2b_desh_mechanism",
+      "file": "chapters/2a_desh_mechanism.snbt"
+    },
+    {
+      "source": "0F6E88FD8692B1D7",
+      "id": "0f6e88fd8692b1d7",
+      "slug": "3_conductive_mechanism",
+      "file": "chapters/3_conductive_mechanism.snbt"
+    },
+    {
+      "source": "1148E7A05BA9928E",
+      "id": "1148e7a05ba9928e",
+      "slug": "metallurgy",
+      "file": "chapters/metallurgy.snbt"
+    },
+    {
+      "source": "131288D380726FF3",
+      "id": "131288d380726ff3",
+      "slug": "4a_calorite_mechanism",
+      "file": "chapters/4a_calorite_mechanism.snbt"
+    },
+    {
+      "source": "18FD40C1AAB794E2",
+      "id": "18fd40c1aab794e2",
+      "slug": "2_precision_mechanism",
+      "file": "chapters/2_precision_mechanism.snbt"
+    },
+    {
+      "source": "1A738A73F0784D26",
+      "id": "1a738a73f0784d26",
+      "slug": "5_creative_mechanism",
+      "file": "chapters/5_creative_engine.snbt"
+    },
+    {
+      "source": "1F0908C640B15215",
+      "id": "1f0908c640b15215",
+      "slug": "1_basic_mechanism",
+      "file": "chapters/1_basic_mechanism.snbt"
+    },
+    {
+      "source": "324358ED38764397",
+      "id": "324358ed38764397",
+      "slug": "get_started",
+      "file": "chapters/get_started.snbt"
+    },
+    {
+      "source": "5581530B705A95B6",
+      "id": "5581530b705a95b6",
+      "slug": "1b_steel_mechanism",
+      "file": "chapters/1b_steel_mechanism.snbt"
+    },
+    {
+      "source": "55EE9E4BED503C5A",
+      "id": "55ee9e4bed503c5a",
+      "slug": "4_mystical_mechanism",
+      "file": "chapters/4_mystical_mechanism.snbt"
+    },
+    {
+      "source": "5FEC41F360953E2D",
+      "id": "5fec41f360953e2d",
+      "slug": "progression",
+      "file": "chapters/progression.snbt"
+    },
+    {
+      "source": "69BE8970351CDB40",
+      "id": "69be8970351cdb40",
+      "slug": "2a_enchanted_mechanism",
+      "file": "chapters/2a_enchanted_mechanism.snbt"
+    },
+    {
+      "source": "75B2263D6389D9B0",
+      "id": "75b2263d6389d9b0",
+      "slug": "3b_ostrum_mechanism",
+      "file": "chapters/chapter_3b_ostrum_mechanism.snbt"
+    },
+    {
+      "source": "7BCA6C0A44AF2622",
+      "id": "7bca6c0a44af2622",
+      "slug": "1a_copper_mechanism",
+      "file": "chapters/1a_copper_mechanism.snbt"
+    }
+  ],
+  "groups": [
+    {
+      "source": "5D483904BEF9BD19",
+      "id": "5d483904bef9bd19",
+      "slug": "progression_line"
+    }
+  ],
+  "tables": []
+}

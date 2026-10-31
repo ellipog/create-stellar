@@ -1,0 +1,40 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_20",
+  "title": "Automated",
+  "description": [
+    "Washing the soul sand will give you nether quartz and gold nuggets. "
+  ],
+  "icon": {
+    "item": "minecraft:quartz"
+  },
+  "x": 8,
+  "y": -280,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_21"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:quartz"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:command",
+      "command": "create ponder createbigcannons:basin_foundry_lid @p",
+      "title": "Ponder",
+      "icon": {
+        "item": "createbigcannons:basin_foundry_lid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_25",
+  "title": "Automated",
+  "description": [
+    "Pour the molten steel into a basin and smash it with a mechanical press. "
+  ],
+  "icon": {
+    "item": "ad_astra:steel_ingot"
+  },
+  "x": 72,
+  "y": 40,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "molten_steel"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:steel_ingot"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

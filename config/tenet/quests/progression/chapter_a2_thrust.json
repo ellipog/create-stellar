@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "chapter_a2_thrust",
+  "title": "Aeronautics A2) Thrust",
+  "icon": {
+    "item": "aeronautics:propeller_bearing"
+  },
+  "x": -150,
+  "y": 40,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "steel_mechanism",
+    "chapter_1b_steel_mechanism"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Ready"
+    }
+  ]
+}

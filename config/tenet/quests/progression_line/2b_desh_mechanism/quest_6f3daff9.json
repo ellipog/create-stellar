@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "quest_6f3daff9",
+  "title": "Sulfur",
+  "description": [
+    "Cycled around from the heavy oil",
+    ""
+  ],
+  "x": -408,
+  "y": 168,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_5"
+  ],
+  "prerequisiteMode": "one_started",
+  "minRequired": 1,
+  "hideDependencyLines": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "alexscaves:sulfur"
+    }
+  ]
+}

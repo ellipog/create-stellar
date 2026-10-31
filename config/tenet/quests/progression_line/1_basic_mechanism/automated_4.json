@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_4",
+  "title": "Automated",
+  "subtitle": "Metal on a saw??",
+  "description": [
+    "Place the tuff alloy on a saw to cut it into fine shafts. "
+  ],
+  "icon": {
+    "item": "create:shaft"
+  },
+  "x": -24,
+  "y": -56,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_2"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:shaft"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

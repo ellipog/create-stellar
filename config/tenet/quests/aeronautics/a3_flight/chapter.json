@@ -1,0 +1,71 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/chapter.schema.json",
+  "id": "a3_flight",
+  "title": "A3) Flight",
+  "icon": {
+    "item": "simulated:navigation_table"
+  },
+  "dependencyStyle": {
+    "form": "curved",
+    "bend": -0.22,
+    "arrowHead": "chevron",
+    "arrowPlace": "target",
+    "dash": "solid",
+    "weight": "thin"
+  },
+  "dependsOn": [
+    "2_precision_mechanism"
+  ],
+  "completesWhen": [
+    "aero_nav_table",
+    "aero_sails",
+    "aero_levitite_blend",
+    "aero_levitite",
+    "aero_pearlescent",
+    "aero_docking",
+    "aero_autopilot",
+    "aero_mastery",
+    "aero_air_artillery",
+    "aero_heavier_artillery",
+    "aero_ghostbuster",
+    "aero_song_of_the_sky",
+    "aero_sensors",
+    "aero_long_haul",
+    "aero_altitude_record"
+  ],
+  "quests": [
+    "aero_nav_table.json",
+    "aero_sails.json",
+    "aero_levitite_blend.json",
+    "aero_levitite.json",
+    "aero_pearlescent.json",
+    "aero_docking.json",
+    "aero_autopilot.json",
+    "aero_mastery.json",
+    "aero_air_artillery.json",
+    "aero_heavier_artillery.json",
+    "aero_ghostbuster.json",
+    "aero_song_of_the_sky.json",
+    "aero_sensors.json",
+    "aero_long_haul.json",
+    "aero_altitude_record.json"
+  ],
+  "theme": "vanilla_plus",
+  "themePatch": {
+    "canvasBackground": {
+      "pattern": "speckle",
+      "space": "graph",
+      "spacing": 42,
+      "size": 1,
+      "density": 3,
+      "direction": "slash",
+      "fit": "tile",
+      "texture": "",
+      "tile": 16
+    },
+    "colours": {
+      "canvas": "#FF070710",
+      "canvasPattern": "#CCCFE2FF"
+    }
+  }
+}

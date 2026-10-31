@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "solid_fuel_clump",
+  "title": "Solid Fuel Clump",
+  "description": [
+    "Compacting Heavy Oil"
+  ],
+  "icon": {
+    "item": "create_stellar:solid_fuel_clump"
+  },
+  "x": -216,
+  "y": 200,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "heavy_oil"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create_stellar:solid_fuel_clump"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

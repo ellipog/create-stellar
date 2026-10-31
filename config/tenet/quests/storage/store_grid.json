@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_grid",
+  "title": "Grid",
+  "description": [
+    "The network's terminal."
+  ],
+  "icon": {
+    "item": "refinedstorage:grid"
+  },
+  "x": 96,
+  "y": 120,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "store_disk"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "refinedstorage:grid"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "refinedstorage:stack_upgrade"
+    }
+  ],
+  "dependencyLines": {
+    "store_disk": {
+      "toAnchor": -82.6777773312452,
+      "fromAnchor": 100.08459631139259
+    }
+  }
+}

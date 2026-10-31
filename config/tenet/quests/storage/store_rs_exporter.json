@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_rs_exporter",
+  "title": "Exporter",
+  "description": [
+    "Pushes from the network into a connected inventory."
+  ],
+  "icon": {
+    "item": "refinedstorage:exporter"
+  },
+  "x": 32,
+  "y": 64,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "store_rs_importer"
+  ],
+  "dependencyLines": {
+    "store_rs_importer": {
+      "dash": "dotted",
+      "toAnchor": 97.90746853551353,
+      "fromAnchor": -73.5794203732678
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "refinedstorage:exporter"
+    }
+  ]
+}

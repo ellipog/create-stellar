@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "field_dungeon",
+  "title": "Dungeon",
+  "description": [
+    "Dungeon Crawl: rooms, doors, and something in the walls"
+  ],
+  "icon": {
+    "item": "minecraft:mossy_cobblestone"
+  },
+  "x": 126,
+  "y": -135,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "field_stronghold"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:structure",
+      "structure": "dungeoncrawl:dungeon"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:bread",
+      "count": 8
+    }
+  ]
+}

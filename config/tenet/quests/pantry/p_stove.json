@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "p_stove",
+  "title": "Stove",
+  "description": [
+    "Stove. Cooking without an open fire."
+  ],
+  "icon": {
+    "item": "farmersdelight:stove"
+  },
+  "x": 252,
+  "y": 0,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "p_pot"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "farmersdelight:stove"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:campfire"
+    }
+  ]
+}

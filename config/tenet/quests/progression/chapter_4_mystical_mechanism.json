@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "chapter_4_mystical_mechanism",
+  "title": "Chapter 4) Mystical Mechanism",
+  "icon": {
+    "item": "create_stellar:mystical_mechanism"
+  },
+  "x": 386,
+  "y": -94,
+  "shape": "hexagon",
+  "size": 60,
+  "iconScale": 1,
+  "dependsOn": [
+    "chapter_3_conductive_mechanism",
+    "quest_219bdcf1"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Ready"
+    }
+  ],
+  "dependencyLines": {
+    "chapter_3_conductive_mechanism": {
+      "bend": -0.11627906976744186,
+      "arrowHead": "chevron",
+      "arrowPlace": "mid"
+    }
+  }
+}

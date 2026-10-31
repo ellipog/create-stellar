@@ -1,0 +1,44 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_43",
+  "title": "Automated",
+  "icon": {
+    "item": "create_stellar:desh_mechanism"
+  },
+  "x": -36,
+  "y": 156,
+  "shape": "gear",
+  "size": 72,
+  "iconScale": 1,
+  "dependsOn": [
+    "molten_desh",
+    "automated_44",
+    "steel_mechanism_2",
+    "refined_fuel"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create_stellar:desh_mechanism"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:wheel",
+      "count": 2
+    },
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:steel_sliding_door"
+    },
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:mars_globe"
+    }
+  ]
+}

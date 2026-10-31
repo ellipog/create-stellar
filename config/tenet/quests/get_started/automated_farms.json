@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_farms",
+  "title": "Automated Farms",
+  "x": 872,
+  "y": 72,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "super_glue"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:deployer"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:mechanical_saw",
+      "count": 2
+    }
+  ]
+}

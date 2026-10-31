@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_steer",
+  "title": "Steer",
+  "description": [
+    "Steering wheel: two propellers, two directions"
+  ],
+  "icon": {
+    "item": "simulated:steering_wheel"
+  },
+  "x": -42,
+  "y": -108,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_throttle"
+  ],
+  "dependencyLines": {
+    "aero_throttle": {
+      "dash": "dashed"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "simulated:steering_wheel"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_throttle",
+  "title": "Throttle",
+  "description": [
+    "Stick + Steel mechanism -> throttle lever, 0 to 15"
+  ],
+  "icon": {
+    "item": "simulated:throttle_lever"
+  },
+  "x": -126,
+  "y": -108,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_wooden_props"
+  ],
+  "dependencyLines": {
+    "aero_wooden_props": {
+      "dash": "dashed"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "simulated:throttle_lever"
+    }
+  ]
+}

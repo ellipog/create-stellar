@@ -1,0 +1,34 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_anchor",
+  "title": "Anchor",
+  "description": [
+    "Rope Winch: park a balloon where you left it",
+    "The underrated part of aviation is not moving."
+  ],
+  "icon": {
+    "item": "simulated:rope_winch"
+  },
+  "x": 185,
+  "y": -199,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_first_lift"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "simulated:rope_winch"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "simulated:rope_coupling",
+      "count": 2
+    }
+  ]
+}

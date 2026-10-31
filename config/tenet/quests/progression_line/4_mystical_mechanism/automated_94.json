@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_94",
+  "title": "Automated",
+  "icon": {
+    "item": "mysticalagriculture:infusion_crystal"
+  },
+  "x": 168,
+  "y": 264,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_95"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "mysticalagriculture:infusion_crystal"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "p_compost",
+  "title": "Compost",
+  "description": [
+    "Organic compost. Spoiled food becomes soil."
+  ],
+  "icon": {
+    "item": "farmersdelight:organic_compost"
+  },
+  "x": -294,
+  "y": 240,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "p_basket"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "farmersdelight:organic_compost",
+      "count": 4
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "farmersdelight:rich_soil"
+    }
+  ]
+}

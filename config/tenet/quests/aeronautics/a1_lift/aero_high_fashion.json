@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_high_fashion",
+  "title": "High Fashion",
+  "description": [
+    "Wear the goggles, then look at a burner"
+  ],
+  "icon": {
+    "item": "aeronautics:aviators_goggles"
+  },
+  "x": -184,
+  "y": 167,
+  "shape": "diamond",
+  "size": 44,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_goggles"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:advancement",
+      "advancement": "aeronautics:high_fashion"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:brass_sheet",
+      "count": 4
+    }
+  ]
+}

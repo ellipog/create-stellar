@@ -23,12 +23,12 @@
       {
         "type": "BIOME_TAG",
         "negate": false,
-        "value": "forge:is_dense/overworld"
+        "value": "c:is_dense_overworld"
       },
       {
         "type": "BIOME_TAG",
         "negate": false,
-        "value": "forge:is_rare"
+        "value": "c:is_rare"
       }
     ],
     [

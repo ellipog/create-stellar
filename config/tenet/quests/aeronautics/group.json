@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/group.schema.json",
+  "id": "aeronautics",
+  "title": "Aeronautics",
+  "description": [
+    "Balloons, bearings and the sky between the ground and orbit."
+  ],
+  "icon": {
+    "item": "aeronautics:propeller_bearing"
+  },
+  "chapters": [
+    "a1_lift",
+    "a2_thrust",
+    "a3_flight"
+  ]
+}

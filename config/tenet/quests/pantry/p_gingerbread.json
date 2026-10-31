@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "p_gingerbread",
+  "title": "The Gingerbread Man",
+  "description": [
+    "Gingerbread man. Baked in a furnace, eaten anyway."
+  ],
+  "icon": {
+    "item": "create_confectionery:gingerbread_man"
+  },
+  "x": 210,
+  "y": 240,
+  "shape": "diamond",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "p_sweets"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create_confectionery:gingerbread_man"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create_confectionery:gingerbread",
+      "count": 4
+    }
+  ]
+}

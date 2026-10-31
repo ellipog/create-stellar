@@ -1,0 +1,47 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/chapter.schema.json",
+  "id": "1_basic_mechanism",
+  "title": "1) Basic Mechanism",
+  "icon": {
+    "item": "create_stellar:basic_mechanism"
+  },
+  "dependencyStyle": {
+    "form": "straight",
+    "arrowHead": "none"
+  },
+  "completesWhen": [
+    "basic_mechanism",
+    "automated",
+    "automated_2",
+    "automated_3",
+    "automated_4",
+    "automated_5",
+    "automated_6",
+    "automated_7",
+    "automated_8",
+    "automated_9",
+    "automated_10",
+    "automated_11",
+    "automated_12",
+    "automated_13",
+    "ready"
+  ],
+  "quests": [
+    "basic_mechanism.json",
+    "automated.json",
+    "automated_2.json",
+    "automated_3.json",
+    "automated_4.json",
+    "automated_5.json",
+    "automated_6.json",
+    "automated_7.json",
+    "automated_8.json",
+    "automated_9.json",
+    "automated_10.json",
+    "automated_11.json",
+    "automated_12.json",
+    "automated_13.json",
+    "ready.json"
+  ],
+  "theme": "vanilla_plus"
+}

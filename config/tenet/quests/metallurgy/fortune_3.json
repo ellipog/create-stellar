@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "fortune_3",
+  "title": "Fortune 3",
+  "subtitle": "1 -> 1-4",
+  "icon": {
+    "item": "minecraft:raw_iron"
+  },
+  "x": -120,
+  "y": -24,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "pickaxe"
+  ],
+  "prerequisiteMode": "one_completed",
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Done"
+    }
+  ]
+}

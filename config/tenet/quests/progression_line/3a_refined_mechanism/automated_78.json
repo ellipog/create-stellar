@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_78",
+  "title": "Automated",
+  "icon": {
+    "item": "refinedstorage:raw_basic_processor"
+  },
+  "x": -120,
+  "y": 40,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "iron_nugget_4",
+    "destabilized_redstone_3",
+    "automated_77",
+    "automated_76"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "refinedstorage:raw_basic_processor"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

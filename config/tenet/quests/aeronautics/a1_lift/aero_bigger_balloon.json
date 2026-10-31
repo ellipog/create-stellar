@@ -1,0 +1,34 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_bigger_balloon",
+  "title": "Bigger Balloon",
+  "description": [
+    "64 envelopes. Volume is lift, and lift is payload"
+  ],
+  "icon": {
+    "item": "aeronautics:white_envelope"
+  },
+  "x": 51,
+  "y": 20,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_first_lift"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "aeronautics:white_envelope",
+      "count": 64
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:white_sail",
+      "count": 4
+    }
+  ]
+}

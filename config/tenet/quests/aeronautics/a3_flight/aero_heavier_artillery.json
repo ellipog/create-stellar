@@ -1,0 +1,40 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_heavier_artillery",
+  "title": "Heavier Artillery",
+  "description": [
+    "Load a vegetable and pull the trigger"
+  ],
+  "icon": {
+    "item": "aeronautics:mounted_potato_cannon"
+  },
+  "x": -42,
+  "y": 192,
+  "shape": "diamond",
+  "size": 44,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_air_artillery"
+  ],
+  "dependencyLines": {
+    "aero_air_artillery": {
+      "dash": "dotted",
+      "form": "curved",
+      "fromHandle": [
+        0.32,
+        0.16
+      ],
+      "toHandle": [
+        0.68,
+        -0.16
+      ]
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:advancement",
+      "advancement": "aeronautics:heavier_artillery"
+    }
+  ]
+}

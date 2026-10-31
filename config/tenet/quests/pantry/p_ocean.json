@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "p_ocean",
+  "title": "From the Deep",
+  "description": [
+    "Guardian soup. Requires killing a guardian."
+  ],
+  "icon": {
+    "item": "oceansdelight:bowl_of_guardian_soup"
+  },
+  "x": 210,
+  "y": -120,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "p_pot"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "oceansdelight:bowl_of_guardian_soup"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:prismarine_shard",
+      "count": 8
+    }
+  ]
+}

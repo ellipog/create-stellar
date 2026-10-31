@@ -1,0 +1,66 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/chapter.schema.json",
+  "id": "2a_enchanted_mechanism",
+  "title": "2a) Enchanted Mechanism",
+  "icon": {
+    "item": "create_stellar:enchanted_mechanism"
+  },
+  "dependsOn": [
+    "2_precision_mechanism"
+  ],
+  "hideUntilDependenciesComplete": true,
+  "dependencyStyle": {
+    "form": "curved",
+    "arrowHead": "none"
+  },
+  "completesWhen": [
+    "automated_50",
+    "automated_51",
+    "automated_52",
+    "automated_53",
+    "automated_54",
+    "lava_2",
+    "already_automated_lava",
+    "automated_55",
+    "automated_56",
+    "automated_57",
+    "automated_58",
+    "automated_59",
+    "automated_60",
+    "automated_61",
+    "soul_sand",
+    "molten_nether_quartz_2",
+    "already_automated_soul_sand",
+    "already_automated_molten_nether_quartz",
+    "ready_6",
+    "precision_mechanism",
+    "already_automated_precision_mechanism"
+  ],
+  "quests": [
+    "automated_50.json",
+    "automated_51.json",
+    "automated_52.json",
+    "automated_53.json",
+    "automated_54.json",
+    "lava_2.json",
+    "already_automated_lava.json",
+    "automated_55.json",
+    "automated_56.json",
+    "automated_57.json",
+    "automated_58.json",
+    "automated_59.json",
+    "automated_60.json",
+    "automated_61.json",
+    "soul_sand.json",
+    "molten_nether_quartz_2.json",
+    "already_automated_soul_sand.json",
+    "already_automated_molten_nether_quartz.json",
+    "ready_6.json",
+    "precision_mechanism.json",
+    "already_automated_precision_mechanism.json"
+  ],
+  "theme": "terminal",
+  "themePatch": {
+    "cornerRadius": 8
+  }
+}

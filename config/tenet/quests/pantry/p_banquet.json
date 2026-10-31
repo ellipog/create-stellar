@@ -1,0 +1,46 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "p_banquet",
+  "title": "Set the Table",
+  "description": [
+    "Set the table and put food on it."
+  ],
+  "icon": {
+    "item": "farmersdelight:hamburger"
+  },
+  "x": 378,
+  "y": 0,
+  "shape": "gear",
+  "size": 96,
+  "iconScale": 1,
+  "dependsOn": [
+    "p_automate",
+    "p_ocean",
+    "p_gingerbread"
+  ],
+  "dependencyLines": {
+    "p_automate": {
+      "weight": "thin"
+    },
+    "p_ocean": {
+      "weight": "thin"
+    },
+    "p_gingerbread": {
+      "weight": "thin"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Served a full meal to somebody else"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:cake",
+      "count": 2
+    }
+  ]
+}

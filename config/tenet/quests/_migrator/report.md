@@ -1,0 +1,194 @@
+# Migration report
+
+0 errors, 157 warnings, 18 notes.
+
+## format-version (note, ×1)
+- data.snbt:1 — source format version 13 (Tenet versions its own files separately)
+
+## legacy-hide-key (note, ×12)
+- chapters/1_basic_mechanism.snbt:315 — hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads
+- chapters/1a_copper_mechanism.snbt:330 — hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads
+- chapters/1b_steel_mechanism.snbt:318 — hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads
+- chapters/2_precision_mechanism.snbt:522 — hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads
+- chapters/2a_desh_mechanism.snbt:196 — hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads
+- chapters/2a_enchanted_mechanism.snbt:349 — hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads
+- chapters/3_conductive_mechanism.snbt:581 — hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads
+- chapters/3a_refined_mechanism.snbt:440 — hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads
+- chapters/4_mystical_mechanism.snbt:371 — hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads
+- chapters/4a_calorite_mechanism.snbt:224 — hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads
+- chapters/5_creative_engine.snbt:119 — hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads
+- chapters/chapter_3b_ostrum_mechanism.snbt:342 — hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads
+
+## lod-off (note, ×1)
+- data.snbt:1 — the book draws without Tenet's zoom tiers (disableCanvasLod), as FTB Quests did; delete the key to opt into tiers
+
+## player-command-console (note, ×1)
+- chapters/1a_copper_mechanism.snbt:266 — a command reward of quest 22cc20489b6d62d7 ran from the console in FTB; in Tenet it runs as the collecting player
+
+## rounded-coordinate (note, ×1)
+- chapters/3_conductive_mechanism.snbt:129 — the quest's y of 0.6 centers at 38.4px; its top-left corner sits at 9
+
+## stripped-slash (note, ×1)
+- chapters/1a_copper_mechanism.snbt:266 — a command of quest 22cc20489b6d62d7 led with /; Tenet writes without
+
+## synthesised-title (warning, ×157)
+- chapters/1_basic_mechanism.snbt:57 — the quest 6b942f75de244a35 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1_basic_mechanism.snbt:76 — the quest 10a794a3289f66da has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1_basic_mechanism.snbt:98 — the quest 44def13a9934bcfb has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1_basic_mechanism.snbt:120 — the quest 28df3eb71425118a has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1_basic_mechanism.snbt:139 — the quest 162125bc2556ad73 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1_basic_mechanism.snbt:158 — the quest 0519068c35258c6b has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1_basic_mechanism.snbt:177 — the quest 73918af9a45bfad4 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1_basic_mechanism.snbt:196 — the quest 1a897f463e38094c has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1_basic_mechanism.snbt:215 — the quest 19c9ab859834e3d6 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1_basic_mechanism.snbt:234 — the quest 62dec1897e07f13e has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1_basic_mechanism.snbt:253 — the quest 49bb8723eb2e9dc2 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1_basic_mechanism.snbt:275 — the quest 161aeee031730ef3 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1_basic_mechanism.snbt:294 — the quest 5ec4f34939a14186 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1a_copper_mechanism.snbt:83 — the quest 6c31de31aaf243b5 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1a_copper_mechanism.snbt:116 — the quest 2755edae69281b47 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1a_copper_mechanism.snbt:135 — the quest 23670d0ee8a726ec has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1a_copper_mechanism.snbt:157 — the quest 0998b3ed4c56642f has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1a_copper_mechanism.snbt:176 — the quest 1254d6af436c0829 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1a_copper_mechanism.snbt:219 — the quest 7af872ab0b58dbbf has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1a_copper_mechanism.snbt:262 — the quest 22cc20489b6d62d7 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1a_copper_mechanism.snbt:309 — the quest 588c5b92bb241008 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1a_copper_mechanism.snbt:342 — the quest 003c83227b023483 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1a_copper_mechanism.snbt:364 — the quest 6ccc10ccd8078644 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1b_steel_mechanism.snbt:83 — the quest 47afe2384bd2bb5e has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1b_steel_mechanism.snbt:127 — the quest 58d7022d8e0f61b7 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1b_steel_mechanism.snbt:165 — the quest 0dd923dd5c53ae2d has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1b_steel_mechanism.snbt:184 — the quest 4de41ee2b2cc8077 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1b_steel_mechanism.snbt:215 — the quest 0d98e4de75721518 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/1b_steel_mechanism.snbt:249 — the quest 7376b71bce5383c2 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2_precision_mechanism.snbt:12 — the quest 39cbbd45d916eaed has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2_precision_mechanism.snbt:57 — the quest 3dd25ee5e9e4b852 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2_precision_mechanism.snbt:76 — the quest 2c88e940b5a8a0c6 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2_precision_mechanism.snbt:95 — the quest 73aaf04423eaa19f has no title; it reads "Quest 73aaf044" from nothing recognisable until an author words it
+- chapters/2_precision_mechanism.snbt:106 — the quest 104d0fdf239acab4 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2_precision_mechanism.snbt:128 — the quest 5915677d69f91f63 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2_precision_mechanism.snbt:200 — the quest 17a347e160c3a639 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2_precision_mechanism.snbt:268 — the quest 6d1b484621bdc25f has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2_precision_mechanism.snbt:287 — the quest 6289788a95742e8c has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2_precision_mechanism.snbt:351 — the quest 213a70340c15a957 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2_precision_mechanism.snbt:370 — the quest 42fbc731ebb8d0dd has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2_precision_mechanism.snbt:392 — the quest 1e8b22f79ef9f931 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2_precision_mechanism.snbt:436 — the quest 24fcc29685a38b86 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2_precision_mechanism.snbt:455 — the quest 6d95e31430792b22 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2a_desh_mechanism.snbt:11 — the quest 1ffe58c0d7428c57 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2a_desh_mechanism.snbt:74 — the quest 507c967065c41b42 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2a_desh_mechanism.snbt:105 — the quest 05a19a3bb36fad47 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2a_desh_mechanism.snbt:124 — the quest 1605026899aae3f5 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2a_desh_mechanism.snbt:143 — the quest 73c051acddc0dfbd has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2a_desh_mechanism.snbt:162 — the quest 22b25aa70ec610f8 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2a_desh_mechanism.snbt:240 — the quest 676d2888ba53a06c has no title; it reads "Coal" from its first titled task until an author words it
+- chapters/2a_desh_mechanism.snbt:252 — the quest 4c97b5021a7c8a59 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2a_desh_mechanism.snbt:271 — the quest 6f3daff9083c0248 has no title; it reads "Quest 6f3daff9" from nothing recognisable until an author words it
+- chapters/2a_enchanted_mechanism.snbt:11 — the quest 17ab18e2790bb03d has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2a_enchanted_mechanism.snbt:51 — the quest 0d7a3aa989d3ed5d has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2a_enchanted_mechanism.snbt:73 — the quest 307f85ac7172c300 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2a_enchanted_mechanism.snbt:95 — the quest 76bb378f739b6f50 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2a_enchanted_mechanism.snbt:115 — the quest 16433d374bdcae04 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2a_enchanted_mechanism.snbt:162 — the quest 39011101d1e3cefb has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2a_enchanted_mechanism.snbt:181 — the quest 3a375f4591b7be0f has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2a_enchanted_mechanism.snbt:200 — the quest 5212d448543c8e44 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2a_enchanted_mechanism.snbt:219 — the quest 6e35b74387c1c73e has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2a_enchanted_mechanism.snbt:238 — the quest 62c54e935b619933 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2a_enchanted_mechanism.snbt:257 — the quest 5bf238ede29a4c73 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/2a_enchanted_mechanism.snbt:276 — the quest 2819e4e2df073780 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/3_conductive_mechanism.snbt:11 — the quest 219bdcf15255eb0f has no title; it reads "Quest 219bdcf1" from nothing recognisable until an author words it
+- chapters/3_conductive_mechanism.snbt:57 — the quest 53cfb607f07239a0 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/3_conductive_mechanism.snbt:81 — the quest 18b03422974a5132 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/3_conductive_mechanism.snbt:105 — the quest 5969d5b1220c0521 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/3_conductive_mechanism.snbt:156 — the quest 7dbe086d04592330 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/3_conductive_mechanism.snbt:175 — the quest 071052080ec287f6 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/3_conductive_mechanism.snbt:194 — the quest 2844d91cb47165b8 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/3_conductive_mechanism.snbt:228 — the quest 0bb4369209245c6d has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/3_conductive_mechanism.snbt:259 — the quest 6c39f0c74b767364 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/3_conductive_mechanism.snbt:317 — the quest 7f94dd307c1f32de has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/3_conductive_mechanism.snbt:413 — the quest 521cce497bb1454e has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/3_conductive_mechanism.snbt:457 — the quest 12dababb5794b955 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/3_conductive_mechanism.snbt:476 — the quest 7e4123a6f0b3c0f0 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/3_conductive_mechanism.snbt:498 — the quest 45957049272cc997 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/3a_refined_mechanism.snbt:11 — the quest 06a075161a4d54ad has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/3a_refined_mechanism.snbt:52 — the quest 074808135b643547 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/3a_refined_mechanism.snbt:86 — the quest 78fbf6e21b0f92c1 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/3a_refined_mechanism.snbt:108 — the quest 57ee4ee9cddda87f has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/3a_refined_mechanism.snbt:244 — the quest 5c36516516dd07e0 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/3a_refined_mechanism.snbt:301 — the quest 59f9e3342f6f8605 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/3a_refined_mechanism.snbt:325 — the quest 48a3252fc1348a90 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/3a_refined_mechanism.snbt:360 — the quest 20e916cbada657b6 has no title; it reads "Quest 20e916cb" from nothing recognisable until an author words it
+- chapters/3a_refined_mechanism.snbt:395 — the quest 4ba84aa3cf6f0a03 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4_mystical_mechanism.snbt:11 — the quest 5c55772ecc445adb has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4_mystical_mechanism.snbt:50 — the quest 26255a66deed56be has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4_mystical_mechanism.snbt:72 — the quest 62380a0d63df599d has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4_mystical_mechanism.snbt:94 — the quest 418e28c6bd99ec04 has no title; it reads "Quest 418e28c6" from nothing recognisable until an author words it
+- chapters/4_mystical_mechanism.snbt:105 — the quest 2bed9e3f75725a8a has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4_mystical_mechanism.snbt:124 — the quest 26ad54005d23503f has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4_mystical_mechanism.snbt:143 — the quest 0f053cc798392f55 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4_mystical_mechanism.snbt:162 — the quest 782072bdd2246c6d has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4_mystical_mechanism.snbt:181 — the quest 51864eab5ce24cbe has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4_mystical_mechanism.snbt:200 — the quest 1025f7ce4301f74e has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4_mystical_mechanism.snbt:219 — the quest 77919e452ee0dafe has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4_mystical_mechanism.snbt:238 — the quest 5bdf7f6f261fa612 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4_mystical_mechanism.snbt:260 — the quest 62d21594d8afc6b4 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4_mystical_mechanism.snbt:291 — the quest 23cd434061ee36ea has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4_mystical_mechanism.snbt:310 — the quest 7ff0c5177e65fa38 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4_mystical_mechanism.snbt:330 — the quest 488d3a15ef5863e4 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4_mystical_mechanism.snbt:350 — the quest 2b9eccbaa5c22d20 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4a_calorite_mechanism.snbt:11 — the quest 20029b73ba195b4f has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4a_calorite_mechanism.snbt:50 — the quest 7ef37b627f2a7726 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4a_calorite_mechanism.snbt:70 — the quest 26136a688f2fcb81 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4a_calorite_mechanism.snbt:89 — the quest 333e23a3fb659e46 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4a_calorite_mechanism.snbt:108 — the quest 56adc75ecbfc29be has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4a_calorite_mechanism.snbt:127 — the quest 1990f8721abbed08 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4a_calorite_mechanism.snbt:146 — the quest 457597cfde8860ff has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4a_calorite_mechanism.snbt:165 — the quest 79518acec0c82553 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4a_calorite_mechanism.snbt:184 — the quest 2b2975894614e6ec has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/4a_calorite_mechanism.snbt:203 — the quest 1f0d5ba61dc0a8b2 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/5_creative_engine.snbt:11 — the quest 53f35ba98e747299 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/5_creative_engine.snbt:57 — the quest 62d394f2cb42efe4 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/5_creative_engine.snbt:79 — the quest 26ddcabb8edc615f has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/5_creative_engine.snbt:98 — the quest 15a5f30f530d5ea8 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/5_creative_engine.snbt:143 — the quest 11bdc90f0150a95d has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/5_creative_engine.snbt:163 — the quest 43af46d76543afc0 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/5_creative_engine.snbt:182 — the quest 7107d6ec4452d0b7 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/5_creative_engine.snbt:201 — the quest 02c268bab3d4d268 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/5_creative_engine.snbt:220 — the quest 3f9cf99ced3adad0 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/5_creative_engine.snbt:239 — the quest 1e961616f56f1749 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/5_creative_engine.snbt:262 — the quest 1b81ea4d88ed6c66 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/5_creative_engine.snbt:282 — the quest 36d2deee8c125ee9 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/5_creative_engine.snbt:301 — the quest 1c81e6222a8bae63 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/5_creative_engine.snbt:320 — the quest 6b926c1e9f1bb81e has no title; it reads "Quest 6b926c1e" from nothing recognisable until an author words it
+- chapters/chapter_3b_ostrum_mechanism.snbt:11 — the quest 2f509ed9ccfdc2ab has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/chapter_3b_ostrum_mechanism.snbt:56 — the quest 723d997ec9a3710c has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/chapter_3b_ostrum_mechanism.snbt:97 — the quest 182a04d8b493b224 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/chapter_3b_ostrum_mechanism.snbt:116 — the quest 2e0765c22a39dd59 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/chapter_3b_ostrum_mechanism.snbt:135 — the quest 19ecb06807f45fe4 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/chapter_3b_ostrum_mechanism.snbt:216 — the quest 61cda3576b1f9be5 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/chapter_3b_ostrum_mechanism.snbt:235 — the quest 10e03896ef9b10b3 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/chapter_3b_ostrum_mechanism.snbt:254 — the quest 352b121c2d97bb63 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/chapter_3b_ostrum_mechanism.snbt:273 — the quest 69968c077c52082b has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/chapter_3b_ostrum_mechanism.snbt:354 — the quest 6cde3a5e3c49c111 has no title; it reads "Automated" from its first titled task until an author words it
+- chapters/get_started.snbt:44 — the quest 3d81037ee620028c has no title; it reads "Wooden Pickaxe" from its first item task until an author words it
+- chapters/get_started.snbt:80 — the quest 186cab4c5b982da1 has no title; it reads "Quest 186cab4c" from nothing recognisable until an author words it
+- chapters/get_started.snbt:133 — the quest 55f4f11870c858df has no title; it reads "Quest 55f4f118" from nothing recognisable until an author words it
+- chapters/get_started.snbt:159 — the quest 083b7b50536f84a1 has no title; it reads "Quest 083b7b50" from nothing recognisable until an author words it
+- chapters/get_started.snbt:243 — the quest 1bd603a86a020153 has no title; it reads "Quest 1bd603a8" from nothing recognisable until an author words it
+- chapters/get_started.snbt:343 — the quest 2fed9866df846494 has no title; it reads "Quest 2fed9866" from nothing recognisable until an author words it
+- chapters/get_started.snbt:360 — the quest 4dbb222541ca2db3 has no title; it reads "Quest 4dbb2225" from nothing recognisable until an author words it
+- chapters/get_started.snbt:385 — the quest 597222d62bf32c13 has no title; it reads "Quest 597222d6" from nothing recognisable until an author words it
+- chapters/get_started.snbt:401 — the quest 22f892fd88926f82 has no title; it reads "Quest 22f892fd" from nothing recognisable until an author words it
+- chapters/get_started.snbt:418 — the quest 77723784892ebdc2 has no title; it reads "Quest 77723784" from nothing recognisable until an author words it
+- chapters/get_started.snbt:434 — the quest 73ce2704caac9ca2 has no title; it reads "Quest 73ce2704" from nothing recognisable until an author words it
+- chapters/get_started.snbt:451 — the quest 733088efdfe9bb19 has no title; it reads "Quest 733088ef" from nothing recognisable until an author words it
+- chapters/get_started.snbt:499 — the quest 5a6d44cc2b9576ac has no title; it reads "Quest 5a6d44cc" from nothing recognisable until an author words it
+- chapters/get_started.snbt:524 — the quest 5655a603db770590 has no title; it reads "Extendo Grip" from its first item task until an author words it
+- chapters/get_started.snbt:552 — the quest 4f3a83e1ad490c76 has no title; it reads "Quest 4f3a83e1" from nothing recognisable until an author words it
+- chapters/get_started.snbt:570 — the quest 6c73ffc99270c2b3 has no title; it reads "Quest 6c73ffc9" from nothing recognisable until an author words it
+- chapters/get_started.snbt:588 — the quest 3dfcc60037a9aafa has no title; it reads "Quest 3dfcc600" from nothing recognisable until an author words it
+- chapters/get_started.snbt:605 — the quest 5a704d2a586cd47e has no title; it reads "Super Glue" from its first item task until an author words it
+- chapters/get_started.snbt:669 — the quest 14f87c7fbc9f0501 has no title; it reads "Quest 14f87c7f" from nothing recognisable until an author words it
+
+## unused-loot-settings (note, ×1)
+- data.snbt:1 — loot-crate settings with dropping off change nothing; they are not emitted

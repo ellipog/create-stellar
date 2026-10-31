@@ -1,0 +1,13 @@
+name = "VeinMiner Mod"
+filename = "veinminer-neoforge-2.11.2+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "19f67a98cf5e7cfeefb089b5ec31450ac6d5bd53"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8512778
+project-id = 1556559

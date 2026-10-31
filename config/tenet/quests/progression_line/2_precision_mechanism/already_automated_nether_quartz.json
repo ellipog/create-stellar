@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "already_automated_nether_quartz",
+  "title": "Already Automated: Nether Quartz",
+  "icon": {
+    "item": "forbidden_arcanus:dark_matter"
+  },
+  "x": 392,
+  "y": -24,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_4"
+  ],
+  "hideDetailsUntilStartable": true,
+  "hideDependencyLines": true,
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

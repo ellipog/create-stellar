@@ -14,7 +14,7 @@
       {
         "type": "BIOME_TAG",
         "negate": false,
-        "value": "forge:is_coniferous"
+        "value": "c:is_coniferous"
       }
     ],
     [
@@ -134,6 +134,13 @@
         "type": "REGISTRY_NAME",
         "negate": false,
         "value": "terralith:alpine_grove"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:jade_cliffs"
       }
     ]
   ]

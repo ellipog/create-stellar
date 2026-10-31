@@ -1,0 +1,40 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_first_lift",
+  "title": "First Lift",
+  "description": [
+    "Fill an airtight envelope with hot air. Lift beats weight or it does not move",
+    "First flight: the ground stops being your problem."
+  ],
+  "icon": {
+    "item": "aeronautics:white_envelope"
+  },
+  "x": 84,
+  "y": -168,
+  "shape": "gear",
+  "size": 84,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_hot_air"
+  ],
+  "dependencyLines": {
+    "aero_hot_air": {
+      "weight": "thin",
+      "arrowHead": "diamond"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:advancement",
+      "advancement": "aeronautics:head_in_the_clouds"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:industrial_iron_block",
+      "count": 8
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_122",
+  "title": "Automated",
+  "icon": {
+    "item": "create_stellar:ostrum_mechanism"
+  },
+  "x": -36,
+  "y": 156,
+  "shape": "gear",
+  "size": 72,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_127",
+    "automated_123",
+    "oxygen",
+    "fuel",
+    "desh_mechanism"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create_stellar:ostrum_mechanism"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:cheese",
+      "count": 64
+    },
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:mercury_globe"
+    },
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:venus_globe"
+    }
+  ]
+}

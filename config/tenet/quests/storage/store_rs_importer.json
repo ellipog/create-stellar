@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_rs_importer",
+  "title": "Importer",
+  "description": [
+    "Pulls from a connected inventory into the network."
+  ],
+  "icon": {
+    "item": "refinedstorage:importer"
+  },
+  "x": -32,
+  "y": 176,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "store_rs_cable"
+  ],
+  "dependencyLines": {
+    "store_rs_cable": {
+      "dash": "dotted",
+      "toAnchor": -108.30434974705356,
+      "fromAnchor": 95.45607911856095
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "refinedstorage:importer"
+    }
+  ]
+}

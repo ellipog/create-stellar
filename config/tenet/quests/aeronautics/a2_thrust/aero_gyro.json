@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_gyro",
+  "title": "Gyroscope",
+  "description": [
+    "Precision mechanism -> sequenced assembly -> Gyroscopic Mechanism",
+    "Keeps the propeller up so you can think about something else."
+  ],
+  "icon": {
+    "item": "simulated:gyroscopic_mechanism"
+  },
+  "x": 42,
+  "y": 108,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_engine_assembly"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "simulated:gyroscopic_mechanism"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:precision_mechanism"
+    }
+  ]
+}

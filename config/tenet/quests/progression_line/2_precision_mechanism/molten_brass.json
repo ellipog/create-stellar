@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "molten_brass",
+  "title": "Molten Brass",
+  "description": [
+    "Mix molten copper and molten zinc in a basin. "
+  ],
+  "icon": {
+    "item": "create_stellar:molten_brass_bucket"
+  },
+  "x": -344,
+  "y": 168,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "molten_zinc",
+    "molten_copper_2"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create_stellar:molten_brass_bucket"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

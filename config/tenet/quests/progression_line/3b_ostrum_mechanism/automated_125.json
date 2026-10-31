@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_125",
+  "title": "Automated",
+  "description": [
+    "Milling or crushing mars cobblestone. "
+  ],
+  "icon": {
+    "item": "ad_astra:mars_sand"
+  },
+  "x": 200,
+  "y": -88,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_126"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:mars_sand"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

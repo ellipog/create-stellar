@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/group.schema.json",
+  "id": "progression_line",
+  "title": "Progression Line",
+  "chapters": [
+    "1_basic_mechanism",
+    "1a_copper_mechanism",
+    "1b_steel_mechanism",
+    "2_precision_mechanism",
+    "2a_enchanted_mechanism",
+    "2b_desh_mechanism",
+    "3_conductive_mechanism",
+    "3a_refined_mechanism",
+    "3b_ostrum_mechanism",
+    "4_mystical_mechanism",
+    "4a_calorite_mechanism",
+    "5_creative_mechanism"
+  ]
+}

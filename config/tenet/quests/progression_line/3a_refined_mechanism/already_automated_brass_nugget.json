@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "already_automated_brass_nugget",
+  "title": "Already Automated: Brass Nugget",
+  "icon": {
+    "item": "forbidden_arcanus:dark_matter"
+  },
+  "x": 264,
+  "y": -184,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_8"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

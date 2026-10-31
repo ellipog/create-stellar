@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "p_pot",
+  "title": "The Pot",
+  "description": [
+    "Cooking pot. Raw ingredients in, meals out."
+  ],
+  "icon": {
+    "item": "farmersdelight:cooking_pot"
+  },
+  "x": 0,
+  "y": 0,
+  "shape": "gear",
+  "size": 84,
+  "iconScale": 1,
+  "dependsOn": [
+    "p_cutting"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "farmersdelight:cooking_pot"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:bowl",
+      "count": 8
+    }
+  ]
+}

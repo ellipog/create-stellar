@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_53",
+  "title": "Automated",
+  "description": [
+    "Place a absorption hopper next to a mob farm, it will auto collect the xp and output it into a tank. ",
+    "Or use a disenchanter with nuggets of experience. "
+  ],
+  "icon": {
+    "item": "minecraft:experience_bottle"
+  },
+  "x": -24,
+  "y": 40,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_6"
+  ],
+  "hideDependencyLines": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:experience_bottle"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

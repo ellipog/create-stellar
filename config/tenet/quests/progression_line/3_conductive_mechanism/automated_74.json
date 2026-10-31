@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_74",
+  "title": "Automated",
+  "description": [
+    "Compact liquid = Ingot"
+  ],
+  "icon": {
+    "item": "minecraft:copper_ingot"
+  },
+  "x": -312,
+  "y": 72,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "molten_copper_3"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_toms_emitter",
+  "title": "Level Emitter",
+  "description": [
+    "Level emitter. Redstone signal once a stored item reaches a set count."
+  ],
+  "icon": {
+    "item": "toms_storage:level_emitter"
+  },
+  "x": 0,
+  "y": -144,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "store_toms_iface"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "toms_storage:level_emitter"
+    }
+  ],
+  "dependencyLines": {
+    "store_toms_iface": {
+      "form": "chamfered",
+      "fromAnchor": 102.51289221525167,
+      "toAnchor": -88.85604292871236
+    }
+  }
+}

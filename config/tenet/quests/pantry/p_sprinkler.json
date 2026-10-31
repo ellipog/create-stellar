@@ -1,0 +1,36 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "p_sprinkler",
+  "title": "Sprinkler",
+  "description": [
+    "Waters the crops so you don't have to."
+  ],
+  "icon": {
+    "item": "sliceanddice:sprinkler"
+  },
+  "x": -48,
+  "y": 248,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "p_slice"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "sliceanddice:sprinkler"
+    },
+    {
+      "type": "tenet:item",
+      "item": "sliceanddice:fertilizer_bucket"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "sliceanddice:fertilizer_bucket"
+    }
+  ]
+}

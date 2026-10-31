@@ -1,0 +1,46 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_109",
+  "title": "Automated",
+  "icon": {
+    "item": "create_stellar:creative_mechanism"
+  },
+  "x": -36,
+  "y": 156,
+  "shape": "gear",
+  "size": 72,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_113",
+    "automated_114",
+    "automated_115",
+    "automated_111",
+    "automated_112",
+    "automated_110"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create_stellar:creative_mechanism"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "computercraft:computer_advanced"
+    },
+    {
+      "type": "tenet:item",
+      "item": "computercraft:monitor_advanced",
+      "count": 32
+    },
+    {
+      "type": "tenet:item",
+      "item": "mysticalagriculture:awakened_supremium_sword"
+    }
+  ]
+}

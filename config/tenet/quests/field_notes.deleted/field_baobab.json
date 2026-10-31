@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "field_baobab",
+  "title": "Baobab Savanna",
+  "description": [
+    "A tree wider than your house"
+  ],
+  "icon": {
+    "item": "minecraft:acacia_log"
+  },
+  "x": -252,
+  "y": -270,
+  "shape": "hexagon",
+  "size": 52,
+  "iconScale": 1,
+  "dependsOn": [
+    "field_shrubland"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:biome",
+      "biome": "biomeswevegone:baobab_savanna"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:acacia_log",
+      "count": 16
+    }
+  ]
+}

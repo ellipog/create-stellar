@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "already_automated_iron_ingot",
+  "title": "Already Automated: Iron Ingot",
+  "icon": {
+    "item": "forbidden_arcanus:dark_matter"
+  },
+  "x": 136,
+  "y": -248,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_7"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ],
+  "dependencyLines": {
+    "ready_7": {
+      "toAnchor": -65.75593923306329,
+      "fromAnchor": -92.00552486414664
+    }
+  }
+}

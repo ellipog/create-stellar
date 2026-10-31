@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "field_cave_primordial",
+  "title": "Primordial Caves",
+  "description": [
+    "The floor is older than the idea of floors"
+  ],
+  "icon": {
+    "item": "minecraft:bone_block"
+  },
+  "x": -252,
+  "y": 0,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "field_cave_candy"
+  ],
+  "dependencyLines": {
+    "field_cave_candy": {
+      "dash": "dotted"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:biome",
+      "biome": "alexscaves:primordial_caves"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:bone",
+      "count": 16
+    }
+  ]
+}

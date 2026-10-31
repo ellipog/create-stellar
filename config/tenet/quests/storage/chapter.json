@@ -1,0 +1,83 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/chapter.schema.json",
+  "id": "storage",
+  "title": "Storage",
+  "icon": {
+    "item": "sophisticatedstorage:chest"
+  },
+  "dependencyStyle": {
+    "form": "orthogonal",
+    "arrowHead": "chevron",
+    "arrowPlace": "target",
+    "dash": "solid",
+    "weight": "thin"
+  },
+  "completesWhen": [
+    "store_drawers",
+    "store_drawers_upg",
+    "store_drawer_ctrl",
+    "store_drawer_io",
+    "store_compacting",
+    "store_backpack",
+    "store_backpack_upg",
+    "store_backpack_stack",
+    "store_backpack_magnet",
+    "store_toms",
+    "store_toms_conn",
+    "store_toms_iface",
+    "store_toms_emitter",
+    "store_toms_craft",
+    "store_rs_controller",
+    "store_rs_cable",
+    "store_rs_importer",
+    "store_rs_exporter",
+    "store_disk_drive",
+    "store_disk",
+    "store_grid",
+    "store_crafting",
+    "store_autocrafter"
+  ],
+  "quests": [
+    "store_drawers.json",
+    "store_drawers_upg.json",
+    "store_drawer_ctrl.json",
+    "store_drawer_io.json",
+    "store_compacting.json",
+    "store_backpack.json",
+    "store_backpack_upg.json",
+    "store_backpack_stack.json",
+    "store_backpack_magnet.json",
+    "store_toms.json",
+    "store_toms_conn.json",
+    "store_toms_iface.json",
+    "store_toms_emitter.json",
+    "store_toms_craft.json",
+    "store_rs_controller.json",
+    "store_rs_cable.json",
+    "store_rs_importer.json",
+    "store_rs_exporter.json",
+    "store_disk_drive.json",
+    "store_disk.json",
+    "store_grid.json",
+    "store_crafting.json",
+    "store_autocrafter.json"
+  ],
+  "theme": "vanilla_plus",
+  "themePatch": {
+    "canvasBackground": {
+      "pattern": "hatch",
+      "space": "graph",
+      "spacing": 18,
+      "size": 1,
+      "density": 4,
+      "direction": "slash",
+      "fit": "tile",
+      "texture": "",
+      "tile": 16
+    },
+    "colours": {
+      "canvas": "#FF12161A",
+      "canvasPattern": "#3F7FA8B8"
+    }
+  }
+}

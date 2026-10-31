@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_10",
+  "title": "Automated",
+  "description": [
+    "Using drills, water and lava you can automate the gathering of cobblestone, which is one of the most used resources. "
+  ],
+  "icon": {
+    "item": "minecraft:cobblestone"
+  },
+  "x": 72,
+  "y": -248,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

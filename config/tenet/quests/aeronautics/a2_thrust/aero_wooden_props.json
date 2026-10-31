@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_wooden_props",
+  "title": "First Blades",
+  "description": [
+    "Wooden propellers. Cheap, slow, and enough to move",
+    "Cheap blades, honest thrust, no promises."
+  ],
+  "icon": {
+    "item": "aeronautics:wooden_propeller"
+  },
+  "x": -210,
+  "y": 0,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_bearings"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "aeronautics:wooden_propeller",
+      "count": 8
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/chapter.schema.json",
+  "id": "4_mystical_mechanism",
+  "title": "4) Mystical Mechanism",
+  "icon": {
+    "item": "create_stellar:mystical_mechanism"
+  },
+  "dependsOn": [
+    "3_conductive_mechanism"
+  ],
+  "hideUntilDependenciesComplete": true,
+  "dependencyStyle": {
+    "form": "straight",
+    "arrowHead": "none"
+  },
+  "completesWhen": [
+    "automated_83",
+    "automated_84",
+    "automated_85",
+    "quest_418e28c6",
+    "automated_86",
+    "automated_87",
+    "automated_88",
+    "automated_89",
+    "automated_90",
+    "automated_91",
+    "automated_92",
+    "automated_93",
+    "automated_94",
+    "automated_95",
+    "automated_96",
+    "automated_97",
+    "automated_98",
+    "ready_9",
+    "quick_info"
+  ],
+  "quests": [
+    "automated_83.json",
+    "automated_84.json",
+    "automated_85.json",
+    "quest_418e28c6.json",
+    "automated_86.json",
+    "automated_87.json",
+    "automated_88.json",
+    "automated_89.json",
+    "automated_90.json",
+    "automated_91.json",
+    "automated_92.json",
+    "automated_93.json",
+    "automated_94.json",
+    "automated_95.json",
+    "automated_96.json",
+    "automated_97.json",
+    "automated_98.json",
+    "ready_9.json",
+    "quick_info.json"
+  ],
+  "theme": "deep_dark"
+}

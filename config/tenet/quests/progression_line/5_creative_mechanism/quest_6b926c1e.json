@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "quest_6b926c1e",
+  "title": "Master Infusion Crystal",
+  "description": [
+    "This wont need to be automated, since its unbreakable. "
+  ],
+  "x": 232,
+  "y": 296,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_11"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "mysticalagriculture:master_infusion_crystal"
+    }
+  ]
+}

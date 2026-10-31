@@ -1,0 +1,47 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_pearlescent",
+  "title": "Now Available in Pink",
+  "description": [
+    "Pearlescent levitite: the same lift, better manners"
+  ],
+  "icon": {
+    "item": "aeronautics:pearlescent_levitite"
+  },
+  "x": 42,
+  "y": -48,
+  "shape": "diamond",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_levitite"
+  ],
+  "dependencyLines": {
+    "aero_levitite": {
+      "weight": "thin",
+      "form": "curved",
+      "fromHandle": [
+        0.32,
+        -0.16
+      ],
+      "toHandle": [
+        0.68,
+        0.16
+      ]
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:advancement",
+      "advancement": "aeronautics:now_available_in_pink"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:polished_rose_quartz",
+      "count": 4
+    }
+  ]
+}

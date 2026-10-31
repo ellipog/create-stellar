@@ -1,0 +1,35 @@
+{
+  "$schema": "./_schema/index.schema.json",
+  "settings": {
+    "defaultAutoClaim": "disabled",
+    "bookTitle": "Create: Stellar",
+    "bookIcon": "ad_astra:tier_2_rocket",
+    "showLockIcons": true,
+    "disableCanvasLod": true,
+    "emergencyItemsCooldown": 300,
+    "giveBookOnFirstJoin": true
+  },
+  "entries": [
+    {
+      "chapter": "get_started"
+    },
+    {
+      "chapter": "metallurgy"
+    },
+    {
+      "chapter": "pantry"
+    },
+    {
+      "chapter": "storage"
+    },
+    {
+      "chapter": "progression"
+    },
+    {
+      "group": "progression_line"
+    },
+    {
+      "group": "aeronautics"
+    }
+  ]
+}

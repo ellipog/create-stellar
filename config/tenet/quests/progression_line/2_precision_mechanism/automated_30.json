@@ -1,0 +1,46 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_30",
+  "title": "Automated",
+  "icon": {
+    "item": "create:precision_mechanism"
+  },
+  "x": -36,
+  "y": 156,
+  "shape": "gear",
+  "size": 72,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_33",
+    "quest_73aaf044",
+    "automated_31",
+    "automated_32"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:precision_mechanism"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:content_observer"
+    },
+    {
+      "type": "tenet:item",
+      "item": "create:display_board",
+      "count": 32
+    },
+    {
+      "type": "tenet:item",
+      "item": "create:display_link",
+      "count": 2
+    }
+  ]
+}

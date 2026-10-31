@@ -9,12 +9,12 @@
       {
         "type": "BIOME_TAG",
         "negate": false,
-        "value": "forge:is_mushroom"
+        "value": "c:is_mushroom"
       },
       {
         "type": "BIOME_TAG",
         "negate": false,
-        "value": "forge:is_rare"
+        "value": "c:is_rare"
       }
     ],
     [

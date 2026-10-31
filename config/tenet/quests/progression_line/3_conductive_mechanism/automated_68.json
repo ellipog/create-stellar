@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_68",
+  "title": "Automated",
+  "description": [
+    "Cut the wood even more."
+  ],
+  "icon": {
+    "item": "minecraft:stick"
+  },
+  "x": -280,
+  "y": 296,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "planks"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:stick"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

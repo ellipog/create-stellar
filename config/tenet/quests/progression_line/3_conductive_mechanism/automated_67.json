@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_67",
+  "title": "Automated",
+  "description": [
+    "Pour destabilized redstone over the sticks. "
+  ],
+  "icon": {
+    "item": "minecraft:redstone_torch"
+  },
+  "x": -184,
+  "y": 264,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "destabilized_redstone_2",
+    "automated_68"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:redstone_torch"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

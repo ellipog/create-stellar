@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_123",
+  "title": "Automated",
+  "description": [
+    "Pour molten ostrum over a pipe, or make them in mechanical crafters. "
+  ],
+  "icon": {
+    "item": "ad_astra:ostrum_fluid_pipe"
+  },
+  "x": 72,
+  "y": 168,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "molten_ostrum",
+    "automated_131"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:ostrum_fluid_pipe"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

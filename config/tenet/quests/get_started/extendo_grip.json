@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "extendo_grip",
+  "title": "Extendo Grip",
+  "x": 488,
+  "y": 456,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "bigger_crafting"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:extendo_grip"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:diamond_pickaxe"
+    }
+  ]
+}

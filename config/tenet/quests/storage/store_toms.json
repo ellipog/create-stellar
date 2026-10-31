@@ -1,0 +1,37 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_toms",
+  "title": "One Screen",
+  "description": [
+    "Storage terminal. Every inventory on the network, one list."
+  ],
+  "icon": {
+    "item": "toms_storage:storage_terminal"
+  },
+  "x": -96,
+  "y": -208,
+  "shape": "gear",
+  "size": 84,
+  "iconScale": 1,
+  "dependsOn": [
+    "quest_186cab4c"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "toms_storage:storage_terminal"
+    },
+    {
+      "type": "tenet:item",
+      "item": "toms_storage:inventory_cable",
+      "count": 4
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "toms_storage:inventory_connector"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "p_automate",
+  "title": "Line Cook",
+  "description": [
+    "Deployer and mechanical arm. The kitchen runs without you."
+  ],
+  "icon": {
+    "item": "create:mechanical_arm"
+  },
+  "x": 216,
+  "y": 96,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "p_pot"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:deployer"
+    },
+    {
+      "type": "tenet:item",
+      "item": "create:mechanical_arm"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:brass_hand"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "drawer_upgrade",
+  "title": "Drawer Upgrade",
+  "x": 136,
+  "y": 200,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "drawers"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "storagedrawers:obsidian_storage_upgrade"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "storagedrawers:iron_storage_upgrade"
+    }
+  ]
+}

@@ -19,7 +19,7 @@
       {
         "type": "BIOME_TAG",
         "negate": true,
-        "value": "forge:is_cold/overworld"
+        "value": "c:is_cold_overworld"
       },
       {
         "type": "REGISTRY_NAME",
@@ -95,6 +95,13 @@
         "type": "REGISTRY_NAME",
         "negate": false,
         "value": "terralith:temperate_highlands"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:cherry_grove"
       }
     ]
   ]

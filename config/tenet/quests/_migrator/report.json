@@ -1,0 +1,1560 @@
+{
+  "entries": [
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 6b942f75de244a35 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1_basic_mechanism.snbt",
+      "line": 57,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 10a794a3289f66da has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1_basic_mechanism.snbt",
+      "line": 76,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 44def13a9934bcfb has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1_basic_mechanism.snbt",
+      "line": 98,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 28df3eb71425118a has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1_basic_mechanism.snbt",
+      "line": 120,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 162125bc2556ad73 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1_basic_mechanism.snbt",
+      "line": 139,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 0519068c35258c6b has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1_basic_mechanism.snbt",
+      "line": 158,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 73918af9a45bfad4 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1_basic_mechanism.snbt",
+      "line": 177,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 1a897f463e38094c has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1_basic_mechanism.snbt",
+      "line": 196,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 19c9ab859834e3d6 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1_basic_mechanism.snbt",
+      "line": 215,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 62dec1897e07f13e has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1_basic_mechanism.snbt",
+      "line": 234,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 49bb8723eb2e9dc2 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1_basic_mechanism.snbt",
+      "line": 253,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 161aeee031730ef3 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1_basic_mechanism.snbt",
+      "line": 275,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 5ec4f34939a14186 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1_basic_mechanism.snbt",
+      "line": 294,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 6c31de31aaf243b5 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1a_copper_mechanism.snbt",
+      "line": 83,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 2755edae69281b47 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1a_copper_mechanism.snbt",
+      "line": 116,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 23670d0ee8a726ec has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1a_copper_mechanism.snbt",
+      "line": 135,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 0998b3ed4c56642f has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1a_copper_mechanism.snbt",
+      "line": 157,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 1254d6af436c0829 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1a_copper_mechanism.snbt",
+      "line": 176,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 7af872ab0b58dbbf has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1a_copper_mechanism.snbt",
+      "line": 219,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 22cc20489b6d62d7 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1a_copper_mechanism.snbt",
+      "line": 262,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 588c5b92bb241008 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1a_copper_mechanism.snbt",
+      "line": 309,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 003c83227b023483 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1a_copper_mechanism.snbt",
+      "line": 342,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 6ccc10ccd8078644 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1a_copper_mechanism.snbt",
+      "line": 364,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 47afe2384bd2bb5e has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1b_steel_mechanism.snbt",
+      "line": 83,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 58d7022d8e0f61b7 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1b_steel_mechanism.snbt",
+      "line": 127,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 0dd923dd5c53ae2d has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1b_steel_mechanism.snbt",
+      "line": 165,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 4de41ee2b2cc8077 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1b_steel_mechanism.snbt",
+      "line": 184,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 0d98e4de75721518 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1b_steel_mechanism.snbt",
+      "line": 215,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 7376b71bce5383c2 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/1b_steel_mechanism.snbt",
+      "line": 249,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 39cbbd45d916eaed has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2_precision_mechanism.snbt",
+      "line": 12,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 3dd25ee5e9e4b852 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2_precision_mechanism.snbt",
+      "line": 57,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 2c88e940b5a8a0c6 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2_precision_mechanism.snbt",
+      "line": 76,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 73aaf04423eaa19f has no title; it reads \"Quest 73aaf044\" from nothing recognisable until an author words it",
+      "path": "chapters/2_precision_mechanism.snbt",
+      "line": 95,
+      "key": "title",
+      "value": "Quest 73aaf044"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 104d0fdf239acab4 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2_precision_mechanism.snbt",
+      "line": 106,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 5915677d69f91f63 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2_precision_mechanism.snbt",
+      "line": 128,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 17a347e160c3a639 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2_precision_mechanism.snbt",
+      "line": 200,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 6d1b484621bdc25f has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2_precision_mechanism.snbt",
+      "line": 268,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 6289788a95742e8c has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2_precision_mechanism.snbt",
+      "line": 287,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 213a70340c15a957 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2_precision_mechanism.snbt",
+      "line": 351,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 42fbc731ebb8d0dd has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2_precision_mechanism.snbt",
+      "line": 370,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 1e8b22f79ef9f931 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2_precision_mechanism.snbt",
+      "line": 392,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 24fcc29685a38b86 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2_precision_mechanism.snbt",
+      "line": 436,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 6d95e31430792b22 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2_precision_mechanism.snbt",
+      "line": 455,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 1ffe58c0d7428c57 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2a_desh_mechanism.snbt",
+      "line": 11,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 507c967065c41b42 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2a_desh_mechanism.snbt",
+      "line": 74,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 05a19a3bb36fad47 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2a_desh_mechanism.snbt",
+      "line": 105,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 1605026899aae3f5 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2a_desh_mechanism.snbt",
+      "line": 124,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 73c051acddc0dfbd has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2a_desh_mechanism.snbt",
+      "line": 143,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 22b25aa70ec610f8 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2a_desh_mechanism.snbt",
+      "line": 162,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 676d2888ba53a06c has no title; it reads \"Coal\" from its first titled task until an author words it",
+      "path": "chapters/2a_desh_mechanism.snbt",
+      "line": 240,
+      "key": "title",
+      "value": "Coal"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 4c97b5021a7c8a59 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2a_desh_mechanism.snbt",
+      "line": 252,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 6f3daff9083c0248 has no title; it reads \"Quest 6f3daff9\" from nothing recognisable until an author words it",
+      "path": "chapters/2a_desh_mechanism.snbt",
+      "line": 271,
+      "key": "title",
+      "value": "Quest 6f3daff9"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 17ab18e2790bb03d has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2a_enchanted_mechanism.snbt",
+      "line": 11,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 0d7a3aa989d3ed5d has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2a_enchanted_mechanism.snbt",
+      "line": 51,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 307f85ac7172c300 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2a_enchanted_mechanism.snbt",
+      "line": 73,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 76bb378f739b6f50 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2a_enchanted_mechanism.snbt",
+      "line": 95,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 16433d374bdcae04 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2a_enchanted_mechanism.snbt",
+      "line": 115,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 39011101d1e3cefb has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2a_enchanted_mechanism.snbt",
+      "line": 162,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 3a375f4591b7be0f has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2a_enchanted_mechanism.snbt",
+      "line": 181,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 5212d448543c8e44 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2a_enchanted_mechanism.snbt",
+      "line": 200,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 6e35b74387c1c73e has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2a_enchanted_mechanism.snbt",
+      "line": 219,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 62c54e935b619933 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2a_enchanted_mechanism.snbt",
+      "line": 238,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 5bf238ede29a4c73 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2a_enchanted_mechanism.snbt",
+      "line": 257,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 2819e4e2df073780 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/2a_enchanted_mechanism.snbt",
+      "line": 276,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 219bdcf15255eb0f has no title; it reads \"Quest 219bdcf1\" from nothing recognisable until an author words it",
+      "path": "chapters/3_conductive_mechanism.snbt",
+      "line": 11,
+      "key": "title",
+      "value": "Quest 219bdcf1"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 53cfb607f07239a0 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/3_conductive_mechanism.snbt",
+      "line": 57,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 18b03422974a5132 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/3_conductive_mechanism.snbt",
+      "line": 81,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 5969d5b1220c0521 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/3_conductive_mechanism.snbt",
+      "line": 105,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 7dbe086d04592330 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/3_conductive_mechanism.snbt",
+      "line": 156,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 071052080ec287f6 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/3_conductive_mechanism.snbt",
+      "line": 175,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 2844d91cb47165b8 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/3_conductive_mechanism.snbt",
+      "line": 194,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 0bb4369209245c6d has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/3_conductive_mechanism.snbt",
+      "line": 228,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 6c39f0c74b767364 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/3_conductive_mechanism.snbt",
+      "line": 259,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 7f94dd307c1f32de has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/3_conductive_mechanism.snbt",
+      "line": 317,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 521cce497bb1454e has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/3_conductive_mechanism.snbt",
+      "line": 413,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 12dababb5794b955 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/3_conductive_mechanism.snbt",
+      "line": 457,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 7e4123a6f0b3c0f0 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/3_conductive_mechanism.snbt",
+      "line": 476,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 45957049272cc997 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/3_conductive_mechanism.snbt",
+      "line": 498,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 06a075161a4d54ad has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/3a_refined_mechanism.snbt",
+      "line": 11,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 074808135b643547 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/3a_refined_mechanism.snbt",
+      "line": 52,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 78fbf6e21b0f92c1 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/3a_refined_mechanism.snbt",
+      "line": 86,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 57ee4ee9cddda87f has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/3a_refined_mechanism.snbt",
+      "line": 108,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 5c36516516dd07e0 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/3a_refined_mechanism.snbt",
+      "line": 244,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 59f9e3342f6f8605 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/3a_refined_mechanism.snbt",
+      "line": 301,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 48a3252fc1348a90 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/3a_refined_mechanism.snbt",
+      "line": 325,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 20e916cbada657b6 has no title; it reads \"Quest 20e916cb\" from nothing recognisable until an author words it",
+      "path": "chapters/3a_refined_mechanism.snbt",
+      "line": 360,
+      "key": "title",
+      "value": "Quest 20e916cb"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 4ba84aa3cf6f0a03 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/3a_refined_mechanism.snbt",
+      "line": 395,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 5c55772ecc445adb has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4_mystical_mechanism.snbt",
+      "line": 11,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 26255a66deed56be has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4_mystical_mechanism.snbt",
+      "line": 50,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 62380a0d63df599d has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4_mystical_mechanism.snbt",
+      "line": 72,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 418e28c6bd99ec04 has no title; it reads \"Quest 418e28c6\" from nothing recognisable until an author words it",
+      "path": "chapters/4_mystical_mechanism.snbt",
+      "line": 94,
+      "key": "title",
+      "value": "Quest 418e28c6"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 2bed9e3f75725a8a has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4_mystical_mechanism.snbt",
+      "line": 105,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 26ad54005d23503f has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4_mystical_mechanism.snbt",
+      "line": 124,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 0f053cc798392f55 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4_mystical_mechanism.snbt",
+      "line": 143,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 782072bdd2246c6d has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4_mystical_mechanism.snbt",
+      "line": 162,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 51864eab5ce24cbe has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4_mystical_mechanism.snbt",
+      "line": 181,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 1025f7ce4301f74e has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4_mystical_mechanism.snbt",
+      "line": 200,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 77919e452ee0dafe has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4_mystical_mechanism.snbt",
+      "line": 219,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 5bdf7f6f261fa612 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4_mystical_mechanism.snbt",
+      "line": 238,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 62d21594d8afc6b4 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4_mystical_mechanism.snbt",
+      "line": 260,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 23cd434061ee36ea has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4_mystical_mechanism.snbt",
+      "line": 291,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 7ff0c5177e65fa38 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4_mystical_mechanism.snbt",
+      "line": 310,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 488d3a15ef5863e4 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4_mystical_mechanism.snbt",
+      "line": 330,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 2b9eccbaa5c22d20 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4_mystical_mechanism.snbt",
+      "line": 350,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 20029b73ba195b4f has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4a_calorite_mechanism.snbt",
+      "line": 11,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 7ef37b627f2a7726 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4a_calorite_mechanism.snbt",
+      "line": 50,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 26136a688f2fcb81 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4a_calorite_mechanism.snbt",
+      "line": 70,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 333e23a3fb659e46 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4a_calorite_mechanism.snbt",
+      "line": 89,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 56adc75ecbfc29be has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4a_calorite_mechanism.snbt",
+      "line": 108,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 1990f8721abbed08 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4a_calorite_mechanism.snbt",
+      "line": 127,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 457597cfde8860ff has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4a_calorite_mechanism.snbt",
+      "line": 146,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 79518acec0c82553 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4a_calorite_mechanism.snbt",
+      "line": 165,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 2b2975894614e6ec has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4a_calorite_mechanism.snbt",
+      "line": 184,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 1f0d5ba61dc0a8b2 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/4a_calorite_mechanism.snbt",
+      "line": 203,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 53f35ba98e747299 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/5_creative_engine.snbt",
+      "line": 11,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 62d394f2cb42efe4 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/5_creative_engine.snbt",
+      "line": 57,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 26ddcabb8edc615f has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/5_creative_engine.snbt",
+      "line": 79,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 15a5f30f530d5ea8 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/5_creative_engine.snbt",
+      "line": 98,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 11bdc90f0150a95d has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/5_creative_engine.snbt",
+      "line": 143,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 43af46d76543afc0 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/5_creative_engine.snbt",
+      "line": 163,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 7107d6ec4452d0b7 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/5_creative_engine.snbt",
+      "line": 182,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 02c268bab3d4d268 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/5_creative_engine.snbt",
+      "line": 201,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 3f9cf99ced3adad0 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/5_creative_engine.snbt",
+      "line": 220,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 1e961616f56f1749 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/5_creative_engine.snbt",
+      "line": 239,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 1b81ea4d88ed6c66 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/5_creative_engine.snbt",
+      "line": 262,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 36d2deee8c125ee9 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/5_creative_engine.snbt",
+      "line": 282,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 1c81e6222a8bae63 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/5_creative_engine.snbt",
+      "line": 301,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 6b926c1e9f1bb81e has no title; it reads \"Quest 6b926c1e\" from nothing recognisable until an author words it",
+      "path": "chapters/5_creative_engine.snbt",
+      "line": 320,
+      "key": "title",
+      "value": "Quest 6b926c1e"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 2f509ed9ccfdc2ab has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/chapter_3b_ostrum_mechanism.snbt",
+      "line": 11,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 723d997ec9a3710c has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/chapter_3b_ostrum_mechanism.snbt",
+      "line": 56,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 182a04d8b493b224 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/chapter_3b_ostrum_mechanism.snbt",
+      "line": 97,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 2e0765c22a39dd59 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/chapter_3b_ostrum_mechanism.snbt",
+      "line": 116,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 19ecb06807f45fe4 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/chapter_3b_ostrum_mechanism.snbt",
+      "line": 135,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 61cda3576b1f9be5 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/chapter_3b_ostrum_mechanism.snbt",
+      "line": 216,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 10e03896ef9b10b3 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/chapter_3b_ostrum_mechanism.snbt",
+      "line": 235,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 352b121c2d97bb63 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/chapter_3b_ostrum_mechanism.snbt",
+      "line": 254,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 69968c077c52082b has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/chapter_3b_ostrum_mechanism.snbt",
+      "line": 273,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 6cde3a5e3c49c111 has no title; it reads \"Automated\" from its first titled task until an author words it",
+      "path": "chapters/chapter_3b_ostrum_mechanism.snbt",
+      "line": 354,
+      "key": "title",
+      "value": "Automated"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 3d81037ee620028c has no title; it reads \"Wooden Pickaxe\" from its first item task until an author words it",
+      "path": "chapters/get_started.snbt",
+      "line": 44,
+      "key": "title",
+      "value": "Wooden Pickaxe"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 186cab4c5b982da1 has no title; it reads \"Quest 186cab4c\" from nothing recognisable until an author words it",
+      "path": "chapters/get_started.snbt",
+      "line": 80,
+      "key": "title",
+      "value": "Quest 186cab4c"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 55f4f11870c858df has no title; it reads \"Quest 55f4f118\" from nothing recognisable until an author words it",
+      "path": "chapters/get_started.snbt",
+      "line": 133,
+      "key": "title",
+      "value": "Quest 55f4f118"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 083b7b50536f84a1 has no title; it reads \"Quest 083b7b50\" from nothing recognisable until an author words it",
+      "path": "chapters/get_started.snbt",
+      "line": 159,
+      "key": "title",
+      "value": "Quest 083b7b50"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 1bd603a86a020153 has no title; it reads \"Quest 1bd603a8\" from nothing recognisable until an author words it",
+      "path": "chapters/get_started.snbt",
+      "line": 243,
+      "key": "title",
+      "value": "Quest 1bd603a8"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 2fed9866df846494 has no title; it reads \"Quest 2fed9866\" from nothing recognisable until an author words it",
+      "path": "chapters/get_started.snbt",
+      "line": 343,
+      "key": "title",
+      "value": "Quest 2fed9866"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 4dbb222541ca2db3 has no title; it reads \"Quest 4dbb2225\" from nothing recognisable until an author words it",
+      "path": "chapters/get_started.snbt",
+      "line": 360,
+      "key": "title",
+      "value": "Quest 4dbb2225"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 597222d62bf32c13 has no title; it reads \"Quest 597222d6\" from nothing recognisable until an author words it",
+      "path": "chapters/get_started.snbt",
+      "line": 385,
+      "key": "title",
+      "value": "Quest 597222d6"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 22f892fd88926f82 has no title; it reads \"Quest 22f892fd\" from nothing recognisable until an author words it",
+      "path": "chapters/get_started.snbt",
+      "line": 401,
+      "key": "title",
+      "value": "Quest 22f892fd"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 77723784892ebdc2 has no title; it reads \"Quest 77723784\" from nothing recognisable until an author words it",
+      "path": "chapters/get_started.snbt",
+      "line": 418,
+      "key": "title",
+      "value": "Quest 77723784"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 73ce2704caac9ca2 has no title; it reads \"Quest 73ce2704\" from nothing recognisable until an author words it",
+      "path": "chapters/get_started.snbt",
+      "line": 434,
+      "key": "title",
+      "value": "Quest 73ce2704"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 733088efdfe9bb19 has no title; it reads \"Quest 733088ef\" from nothing recognisable until an author words it",
+      "path": "chapters/get_started.snbt",
+      "line": 451,
+      "key": "title",
+      "value": "Quest 733088ef"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 5a6d44cc2b9576ac has no title; it reads \"Quest 5a6d44cc\" from nothing recognisable until an author words it",
+      "path": "chapters/get_started.snbt",
+      "line": 499,
+      "key": "title",
+      "value": "Quest 5a6d44cc"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 5655a603db770590 has no title; it reads \"Extendo Grip\" from its first item task until an author words it",
+      "path": "chapters/get_started.snbt",
+      "line": 524,
+      "key": "title",
+      "value": "Extendo Grip"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 4f3a83e1ad490c76 has no title; it reads \"Quest 4f3a83e1\" from nothing recognisable until an author words it",
+      "path": "chapters/get_started.snbt",
+      "line": 552,
+      "key": "title",
+      "value": "Quest 4f3a83e1"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 6c73ffc99270c2b3 has no title; it reads \"Quest 6c73ffc9\" from nothing recognisable until an author words it",
+      "path": "chapters/get_started.snbt",
+      "line": 570,
+      "key": "title",
+      "value": "Quest 6c73ffc9"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 3dfcc60037a9aafa has no title; it reads \"Quest 3dfcc600\" from nothing recognisable until an author words it",
+      "path": "chapters/get_started.snbt",
+      "line": 588,
+      "key": "title",
+      "value": "Quest 3dfcc600"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 5a704d2a586cd47e has no title; it reads \"Super Glue\" from its first item task until an author words it",
+      "path": "chapters/get_started.snbt",
+      "line": 605,
+      "key": "title",
+      "value": "Super Glue"
+    },
+    {
+      "severity": "warning",
+      "code": "synthesised-title",
+      "message": "the quest 14f87c7fbc9f0501 has no title; it reads \"Quest 14f87c7f\" from nothing recognisable until an author words it",
+      "path": "chapters/get_started.snbt",
+      "line": 669,
+      "key": "title",
+      "value": "Quest 14f87c7f"
+    },
+    {
+      "severity": "note",
+      "code": "legacy-hide-key",
+      "message": "hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads",
+      "path": "chapters/1_basic_mechanism.snbt",
+      "line": 315,
+      "key": "hide"
+    },
+    {
+      "severity": "note",
+      "code": "player-command-console",
+      "message": "a command reward of quest 22cc20489b6d62d7 ran from the console in FTB; in Tenet it runs as the collecting player",
+      "path": "chapters/1a_copper_mechanism.snbt",
+      "line": 266,
+      "key": "player_command"
+    },
+    {
+      "severity": "note",
+      "code": "stripped-slash",
+      "message": "a command of quest 22cc20489b6d62d7 led with /; Tenet writes without",
+      "path": "chapters/1a_copper_mechanism.snbt",
+      "line": 266,
+      "key": "command",
+      "value": "/create ponder createbigcannons:basin_foundry_lid @p"
+    },
+    {
+      "severity": "note",
+      "code": "legacy-hide-key",
+      "message": "hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads",
+      "path": "chapters/1a_copper_mechanism.snbt",
+      "line": 330,
+      "key": "hide"
+    },
+    {
+      "severity": "note",
+      "code": "legacy-hide-key",
+      "message": "hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads",
+      "path": "chapters/1b_steel_mechanism.snbt",
+      "line": 318,
+      "key": "hide"
+    },
+    {
+      "severity": "note",
+      "code": "legacy-hide-key",
+      "message": "hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads",
+      "path": "chapters/2_precision_mechanism.snbt",
+      "line": 522,
+      "key": "hide"
+    },
+    {
+      "severity": "note",
+      "code": "legacy-hide-key",
+      "message": "hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads",
+      "path": "chapters/2a_desh_mechanism.snbt",
+      "line": 196,
+      "key": "hide"
+    },
+    {
+      "severity": "note",
+      "code": "legacy-hide-key",
+      "message": "hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads",
+      "path": "chapters/2a_enchanted_mechanism.snbt",
+      "line": 349,
+      "key": "hide"
+    },
+    {
+      "severity": "note",
+      "code": "rounded-coordinate",
+      "message": "the quest's y of 0.6 centers at 38.4px; its top-left corner sits at 9",
+      "path": "chapters/3_conductive_mechanism.snbt",
+      "line": 129,
+      "key": "y"
+    },
+    {
+      "severity": "note",
+      "code": "legacy-hide-key",
+      "message": "hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads",
+      "path": "chapters/3_conductive_mechanism.snbt",
+      "line": 581,
+      "key": "hide"
+    },
+    {
+      "severity": "note",
+      "code": "legacy-hide-key",
+      "message": "hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads",
+      "path": "chapters/3a_refined_mechanism.snbt",
+      "line": 440,
+      "key": "hide"
+    },
+    {
+      "severity": "note",
+      "code": "legacy-hide-key",
+      "message": "hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads",
+      "path": "chapters/4_mystical_mechanism.snbt",
+      "line": 371,
+      "key": "hide"
+    },
+    {
+      "severity": "note",
+      "code": "legacy-hide-key",
+      "message": "hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads",
+      "path": "chapters/4a_calorite_mechanism.snbt",
+      "line": 224,
+      "key": "hide"
+    },
+    {
+      "severity": "note",
+      "code": "legacy-hide-key",
+      "message": "hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads",
+      "path": "chapters/5_creative_engine.snbt",
+      "line": 119,
+      "key": "hide"
+    },
+    {
+      "severity": "note",
+      "code": "legacy-hide-key",
+      "message": "hide behaves as hide_until_deps_visible: the 1.20-era spelling still reads",
+      "path": "chapters/chapter_3b_ostrum_mechanism.snbt",
+      "line": 342,
+      "key": "hide"
+    },
+    {
+      "severity": "note",
+      "code": "format-version",
+      "message": "source format version 13 (Tenet versions its own files separately)",
+      "path": "data.snbt",
+      "line": 1,
+      "key": "version"
+    },
+    {
+      "severity": "note",
+      "code": "lod-off",
+      "message": "the book draws without Tenet's zoom tiers (disableCanvasLod), as FTB Quests did; delete the key to opt into tiers",
+      "path": "data.snbt",
+      "line": 1
+    },
+    {
+      "severity": "note",
+      "code": "unused-loot-settings",
+      "message": "loot-crate settings with dropping off change nothing; they are not emitted",
+      "path": "data.snbt",
+      "line": 1
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+name = "Create: Aeroworks"
+filename = "aeroworks-1.5.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a14ff1c30f3c824b36ee6e2e711a47fd537a5c5f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8743051
+project-id = 1522473

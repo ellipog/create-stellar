@@ -3,18 +3,23 @@
     [
       {
         "type": "BIOME_TAG",
-        "negate": false,
-        "value": "forge:is_hot/overworld"
+        "negate": true,
+        "value": "c:no_default_monsters"
       },
       {
         "type": "BIOME_TAG",
         "negate": false,
-        "value": "forge:is_dry/overworld"
+        "value": "c:is_hot_overworld"
       },
       {
         "type": "BIOME_TAG",
         "negate": false,
-        "value": "forge:is_sandy"
+        "value": "c:is_dry_overworld"
+      },
+      {
+        "type": "BIOME_TAG",
+        "negate": false,
+        "value": "c:is_sandy"
       }
     ],
     [

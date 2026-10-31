@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_docking",
+  "title": "Docking",
+  "description": [
+    "Docking connectors: park one ship on another, or on an orbit",
+    "Ships become buildings once they can hold still."
+  ],
+  "icon": {
+    "item": "simulated:docking_connector"
+  },
+  "x": 126,
+  "y": 24,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_pearlescent"
+  ],
+  "dependencyLines": {
+    "aero_pearlescent": {
+      "weight": "thin",
+      "form": "curved",
+      "fromHandle": [
+        0.32,
+        -0.16
+      ],
+      "toHandle": [
+        0.68,
+        0.16
+      ]
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "simulated:docking_connector",
+      "count": 2
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "simulated:rope_coupling",
+      "count": 4
+    }
+  ]
+}

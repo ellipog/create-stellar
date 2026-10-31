@@ -1,0 +1,42 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/chapter.schema.json",
+  "id": "metallurgy",
+  "title": "Metallurgy",
+  "icon": {
+    "item": "minecraft:iron_ingot"
+  },
+  "dependencyStyle": {
+    "form": "straight",
+    "arrowHead": "chevron",
+    "arrowPlace": "target",
+    "dash": "dashed",
+    "weight": "thick"
+  },
+  "completesWhen": [
+    "pickaxe",
+    "silk_touch",
+    "raw_ore",
+    "crushing",
+    "melting",
+    "foundy_basin",
+    "pulverize",
+    "melting_2",
+    "wash",
+    "ingot",
+    "fortune_3"
+  ],
+  "quests": [
+    "pickaxe.json",
+    "silk_touch.json",
+    "raw_ore.json",
+    "crushing.json",
+    "melting.json",
+    "foundy_basin.json",
+    "pulverize.json",
+    "melting_2.json",
+    "wash.json",
+    "ingot.json",
+    "fortune_3.json"
+  ],
+  "theme": "vanilla_plus"
+}

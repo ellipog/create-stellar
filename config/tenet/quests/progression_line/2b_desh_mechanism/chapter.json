@@ -1,0 +1,63 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/chapter.schema.json",
+  "id": "2b_desh_mechanism",
+  "title": "2b) Desh Mechanism",
+  "icon": {
+    "item": "create_stellar:desh_mechanism"
+  },
+  "dependsOn": [
+    "2_precision_mechanism"
+  ],
+  "hideUntilDependenciesComplete": true,
+  "dependencyStyle": {
+    "form": "straight",
+    "arrowHead": "none"
+  },
+  "completesWhen": [
+    "automated_43",
+    "molten_desh",
+    "automated_44",
+    "steel_mechanism_2",
+    "automated_45",
+    "automated_46",
+    "automated_47",
+    "automated_48",
+    "already_automated_steel_mechanism",
+    "ready_5",
+    "water",
+    "already_automated_coal",
+    "coal",
+    "automated_49",
+    "quest_6f3daff9",
+    "oil",
+    "sulfuric_heavy_oil",
+    "light_oil",
+    "heavy_oil",
+    "refined_fuel",
+    "solid_fuel_clump"
+  ],
+  "quests": [
+    "automated_43.json",
+    "molten_desh.json",
+    "automated_44.json",
+    "steel_mechanism_2.json",
+    "automated_45.json",
+    "automated_46.json",
+    "automated_47.json",
+    "automated_48.json",
+    "already_automated_steel_mechanism.json",
+    "ready_5.json",
+    "water.json",
+    "already_automated_coal.json",
+    "coal.json",
+    "automated_49.json",
+    "quest_6f3daff9.json",
+    "oil.json",
+    "sulfuric_heavy_oil.json",
+    "light_oil.json",
+    "heavy_oil.json",
+    "refined_fuel.json",
+    "solid_fuel_clump.json"
+  ],
+  "theme": "nether"
+}

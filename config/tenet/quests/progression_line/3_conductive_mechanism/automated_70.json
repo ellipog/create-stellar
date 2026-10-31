@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_70",
+  "title": "Automated",
+  "description": [
+    "Deploy the wires onto the empty spools. "
+  ],
+  "icon": {
+    "item": "createaddition:copper_spool"
+  },
+  "x": -120,
+  "y": -56,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_72",
+    "automated_73"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "createaddition:copper_spool"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

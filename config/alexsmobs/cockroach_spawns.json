@@ -14,7 +14,7 @@
       {
         "type": "BIOME_TAG",
         "negate": true,
-        "value": "forge:is_mushroom"
+        "value": "c:is_mushroom"
       },
       {
         "type": "REGISTRY_NAME",

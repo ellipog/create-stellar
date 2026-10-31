@@ -1,0 +1,34 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_andesite_props",
+  "title": "Andesite Blades",
+  "description": [
+    "Propeller + Shaft + Slab -> Andesite Propeller"
+  ],
+  "icon": {
+    "item": "aeronautics:andesite_propeller"
+  },
+  "x": -126,
+  "y": 0,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_wooden_props"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "aeronautics:andesite_propeller",
+      "count": 4
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:cogwheel",
+      "count": 16
+    }
+  ]
+}

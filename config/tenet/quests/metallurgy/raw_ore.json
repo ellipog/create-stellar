@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "raw_ore",
+  "title": "Raw Ore",
+  "subtitle": "1 -> 1",
+  "icon": {
+    "item": "minecraft:raw_iron"
+  },
+  "x": -216,
+  "y": -24,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "pickaxe"
+  ],
+  "prerequisiteMode": "one_completed",
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Done"
+    }
+  ]
+}

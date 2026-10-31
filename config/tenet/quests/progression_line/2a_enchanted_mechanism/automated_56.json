@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_56",
+  "title": "Automated",
+  "description": [
+    "Crushing or milling the kelp makes lime dye. "
+  ],
+  "icon": {
+    "item": "minecraft:lime_dye"
+  },
+  "x": 200,
+  "y": -56,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_57"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:lime_dye"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

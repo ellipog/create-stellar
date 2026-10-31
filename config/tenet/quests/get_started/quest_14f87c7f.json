@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "quest_14f87c7f",
+  "title": "Cutting Board",
+  "x": 200,
+  "y": -280,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "farming_time"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "farmersdelight:cutting_board"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "farmersdelight:pasta_with_mutton_chop"
+    },
+    {
+      "type": "tenet:item",
+      "item": "farmersdelight:roasted_mutton_chops"
+    }
+  ]
+}

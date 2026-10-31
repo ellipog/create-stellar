@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_16",
+  "title": "Automated",
+  "description": [
+    "Mix orange dye and sand in a basin. "
+  ],
+  "icon": {
+    "item": "biomesoplenty:orange_sand"
+  },
+  "x": 104,
+  "y": -56,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_18",
+    "automated_17"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "biomesoplenty:orange_sand"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

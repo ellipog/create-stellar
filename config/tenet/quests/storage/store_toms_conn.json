@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_toms_conn",
+  "title": "Connector",
+  "description": [
+    "Connector. Joins two inventories directly."
+  ],
+  "icon": {
+    "item": "toms_storage:inventory_connector"
+  },
+  "x": -16,
+  "y": -296,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "store_toms"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "toms_storage:inventory_connector"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "toms_storage:inventory_cable",
+      "count": 8
+    }
+  ],
+  "dependencyLines": {
+    "store_toms": {
+      "form": "chamfered",
+      "toAnchor": 102.69227069994585
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_song_of_the_sky",
+  "title": "Song of the Sky",
+  "description": [
+    "Toss a music disc into the clouds. Something answers",
+    "The clouds accept music. Nobody knows why."
+  ],
+  "icon": {
+    "item": "aeronautics:music_disc_cloud_skipper"
+  },
+  "x": -187,
+  "y": -132,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_levitite_blend"
+  ],
+  "dependencyLines": {
+    "aero_levitite_blend": {
+      "form": "curved",
+      "fromHandle": [
+        0.32,
+        0.16
+      ],
+      "toHandle": [
+        0.68,
+        -0.16
+      ]
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:advancement",
+      "advancement": "aeronautics:song_of_the_sky"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "aeronautics:music_disc_cloud_skipper"
+    }
+  ]
+}

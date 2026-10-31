@@ -1,0 +1,34 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_drawers",
+  "title": "Drawers",
+  "description": [
+    "Four drawers. One item per face, count on the front."
+  ],
+  "icon": {
+    "item": "storagedrawers:oak_full_drawers_1"
+  },
+  "x": -440,
+  "y": -232,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "quest_186cab4c"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "storagedrawers:oak_full_drawers_1",
+      "count": 4
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:oak_planks",
+      "count": 64
+    }
+  ]
+}

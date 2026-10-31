@@ -1,0 +1,20 @@
+{
+  "food": {
+    "// alwaysEdible": "Whether this mod\u0027s foods can be eaten on a full hunger bar, the way a golden apple can. On by default, because otherwise none of them can be eaten in creative at all. Off restores vanilla\u0027s rule.",
+    "alwaysEdible": true
+  },
+  "dishes": {
+    "// dishEffects": "Whether the exotic dishes apply their status effects at all. Turn this off on a server where the buffs are too strong; the dishes still feed you.",
+    "dishEffects": true,
+    "// dishDrawbacks": "Whether the exotic dishes apply their DOWNSIDES. On by default, because the downside is what the buff is paid for; turning it off is a cheat switch.",
+    "dishDrawbacks": true
+  },
+  "butchery": {
+    "// extraMeatDrops": "Whether animals that Alex\u0027s Mobs gives no meat drop of their own should drop a raw cut when killed. Turn this off to leave every vanilla loot table alone.",
+    "extraMeatDrops": true,
+    "// extraMeatDropChance": "Chance for one of those animals to drop its cut, from 0 (never) to 1 (always).",
+    "extraMeatDropChance": 1.0,
+    "// extraMeatDropMax": "Largest number of cuts one of those animals can drop. The actual count is a roll between one and this, scaled down for the smaller animals.",
+    "extraMeatDropMax": 2
+  }
+}

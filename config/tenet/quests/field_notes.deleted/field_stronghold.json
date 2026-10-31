@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "field_stronghold",
+  "title": "Stronghold",
+  "description": [
+    "It was under the village the whole time"
+  ],
+  "icon": {
+    "item": "minecraft:stone_bricks"
+  },
+  "x": 0,
+  "y": -135,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "field_airship_village"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:structure",
+      "structure": "integrated_stronghold:stronghold"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:ender_pearl",
+      "count": 2
+    }
+  ]
+}

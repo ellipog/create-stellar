@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "wash",
+  "title": "Wash",
+  "subtitle": "1 -> 1 + XP",
+  "icon": {
+    "item": "mysticalagriculture:water_essence"
+  },
+  "x": -600,
+  "y": 232,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "crushing"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Done"
+    }
+  ]
+}

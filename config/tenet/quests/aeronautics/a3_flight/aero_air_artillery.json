@@ -1,0 +1,47 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_air_artillery",
+  "title": "Air Artillery",
+  "description": [
+    "Mounted potato cannon: fire from the deck",
+    "A cannon. On a balloon. Someone had to."
+  ],
+  "icon": {
+    "item": "aeronautics:mounted_potato_cannon"
+  },
+  "x": -126,
+  "y": 120,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_levitite"
+  ],
+  "dependencyLines": {
+    "aero_levitite": {
+      "form": "curved",
+      "fromHandle": [
+        0.32,
+        -0.16
+      ],
+      "toHandle": [
+        0.68,
+        0.16
+      ]
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "aeronautics:mounted_potato_cannon"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:potato",
+      "count": 64
+    }
+  ]
+}

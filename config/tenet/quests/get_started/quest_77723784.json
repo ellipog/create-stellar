@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "quest_77723784",
+  "title": "Basin",
+  "x": 424,
+  "y": 104,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "tuff_age"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create:basin"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "createbigcannons:basin_foundry_lid"
+    }
+  ]
+}

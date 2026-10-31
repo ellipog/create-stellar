@@ -1,0 +1,44 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "steel_mechanism",
+  "title": "Steel Mechanism",
+  "icon": {
+    "item": "create_stellar:steel_mechanism"
+  },
+  "x": -36,
+  "y": 156,
+  "shape": "gear",
+  "size": 72,
+  "iconScale": 1,
+  "dependsOn": [
+    "basic_mechanism_3",
+    "molten_steel",
+    "automated_24"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create_stellar:steel_mechanism"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:launch_pad"
+    },
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:steel_tank",
+      "count": 2
+    },
+    {
+      "type": "tenet:item",
+      "item": "ad_astra:moon_globe"
+    }
+  ]
+}

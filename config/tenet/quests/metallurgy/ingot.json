@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "ingot",
+  "title": "Ingot",
+  "icon": {
+    "item": "minecraft:iron_ingot"
+  },
+  "x": -350,
+  "y": 354,
+  "shape": "hexagon",
+  "size": 60,
+  "iconScale": 1,
+  "dependsOn": [
+    "melting",
+    "melting_2",
+    "wash",
+    "foundy_basin"
+  ],
+  "prerequisiteMode": "one_completed",
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Done"
+    }
+  ]
+}

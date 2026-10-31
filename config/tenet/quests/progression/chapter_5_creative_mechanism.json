@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "chapter_5_creative_mechanism",
+  "title": "Chapter 5) Creative Mechanism",
+  "icon": {
+    "item": "create_stellar:creative_mechanism"
+  },
+  "x": 504,
+  "y": -160,
+  "shape": "star",
+  "size": 182,
+  "iconScale": 1,
+  "dependsOn": [
+    "chapter_4_mystical_mechanism",
+    "automated_83"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Ready"
+    }
+  ],
+  "dependencyLines": {
+    "chapter_4_mystical_mechanism": {
+      "bend": 0.16784527289472628,
+      "arrowHead": "chevron",
+      "arrowPlace": "mid",
+      "toAnchor": -185.22638697536857
+    }
+  },
+  "rotation": 0
+}

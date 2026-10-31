@@ -1,0 +1,35 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "field_notes_done",
+  "title": "Field Notes Complete",
+  "description": [
+    "You have been outside. Documented"
+  ],
+  "icon": {
+    "item": "minecraft:written_book"
+  },
+  "x": 378,
+  "y": -135,
+  "shape": "gear",
+  "size": 96,
+  "iconScale": 1,
+  "dependsOn": [
+    "field_bandit",
+    "field_dungeon",
+    "field_cave_abyssal"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Every entry signed"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:map",
+      "count": 2
+    }
+  ]
+}

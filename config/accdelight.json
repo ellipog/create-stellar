@@ -1,0 +1,22 @@
+{
+  "dishes": {
+    "// dishEffects": "Whether the exotic dishes apply their status effects at all. Turn this off on a server where the buffs are too strong; the dishes still feed you.",
+    "dishEffects": true,
+    "// dishDrawbacks": "Whether the exotic dishes apply their DOWNSIDES. On by default, because the downside is what the buff is paid for; turning it off is a cheat switch.",
+    "dishDrawbacks": true
+  },
+  "rawFood": {
+    "// rawMealSickness": "Whether eating raw cuts one after another makes you sick. Every food in this mod can be eaten on a full hunger bar, and this is what pays for that.",
+    "rawMealSickness": true,
+    "// rawMealWindow": "Seconds after a raw cut during which the next one counts as part of the same binge. The first raw cut is always free; the second inside this window is not.",
+    "rawMealWindow": 30
+  },
+  "butchery": {
+    "// extraMeatDrops": "Whether Alex\u0027s Caves mobs that give no food of their own should drop a raw cut when killed. Turn this off to leave every loot table exactly as it was.",
+    "extraMeatDrops": true,
+    "// extraMeatDropChance": "Chance for one of those mobs to drop its cut, from 0 (never) to 1 (always).",
+    "extraMeatDropChance": 1.0,
+    "// extraMeatDropMax": "Largest number of cuts one of those mobs can drop. The actual count is a flat roll between one and this.",
+    "extraMeatDropMax": 2
+  }
+}

@@ -1,4 +1,3 @@
-
 [client]
 	#If true, shows the hunger and saturation values of food in its tooltip while holding SHIFT
 	showFoodValuesInTooltip = true
@@ -19,6 +18,6 @@
 	#If true, health/hunger overlay will shake to match Minecraft's icon animations
 	showVanillaAnimationsOverlay = true
 	#Alpha value of the flashing icons at their most visible point (1.0 = fully opaque, 0.0 = fully transparent)
-	#Range: 0.0 ~ 1.0
+	# Default: 0.65
+	# Range: 0.0 ~ 1.0
 	maxHudOverlayFlashAlpha = 0.65
-

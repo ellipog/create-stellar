@@ -1,0 +1,34 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_toms_iface",
+  "title": "Interface",
+  "description": [
+    "Lets a machine read the network directly."
+  ],
+  "icon": {
+    "item": "toms_storage:inventory_interface"
+  },
+  "x": 72,
+  "y": -216,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "store_toms_conn"
+  ],
+  "dependencyLines": {
+    "store_toms_conn": {
+      "dash": "dashed",
+      "form": "chamfered",
+      "toAnchor": -90.80128733010702,
+      "fromAnchor": 69.46577509298533
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "toms_storage:inventory_interface"
+    }
+  ]
+}

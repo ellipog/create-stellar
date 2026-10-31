@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_62",
+  "title": "Automated",
+  "description": [
+    "Mix all the ingredients in a basin. "
+  ],
+  "icon": {
+    "item": "createaddition:connector"
+  },
+  "x": 99,
+  "y": 163,
+  "shape": "hexagon",
+  "size": 58,
+  "iconScale": 1,
+  "dependsOn": [
+    "slimeball",
+    "automated_69",
+    "tuff_alloy"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "createaddition:connector"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

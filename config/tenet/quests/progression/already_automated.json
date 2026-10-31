@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "already_automated",
+  "title": "\"Already automated\"?",
+  "description": [
+    "This black hole symbol will show in the quests whenever there is an item you've already automated, telling you that you dont have to automate it again. "
+  ],
+  "icon": {
+    "item": "forbidden_arcanus:dark_matter"
+  },
+  "x": 66,
+  "y": -382,
+  "shape": "hexagon",
+  "size": 60,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_set_go"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Okay :D"
+    }
+  ],
+  "dependencyLines": {
+    "ready_set_go": {
+      "bend": -0.13653846153846155
+    }
+  }
+}

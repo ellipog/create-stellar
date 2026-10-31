@@ -1,0 +1,46 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_11",
+  "title": "Automated",
+  "description": [
+    "Mix cobble and gray dye in a basin mixer.                                      Then... ta-da!"
+  ],
+  "icon": {
+    "item": "minecraft:tuff"
+  },
+  "x": 168,
+  "y": 40,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_13",
+    "automated_10"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:tuff"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ],
+  "dependencyLines": {
+    "automated_10": {
+      "form": "curved",
+      "fromHandle": [
+        0.20666337754302463,
+        -0.31140261775546335
+      ],
+      "toHandle": [
+        0.49650288765707984,
+        -0.44719505470586535
+      ],
+      "toAnchor": -35.584373608459686,
+      "fromAnchor": 35.30791925349797
+    }
+  }
+}

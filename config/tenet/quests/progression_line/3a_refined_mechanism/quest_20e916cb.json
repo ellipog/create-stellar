@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "quest_20e916cb",
+  "title": "Tesla Coil",
+  "description": [
+    "You will need this item, not automated though. "
+  ],
+  "x": 264,
+  "y": 8,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_8"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "createaddition:tesla_coil"
+    }
+  ]
+}

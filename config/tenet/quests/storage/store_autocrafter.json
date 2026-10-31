@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_autocrafter",
+  "title": "Autocrafter",
+  "description": [
+    "Builds what you request, on its own."
+  ],
+  "icon": {
+    "item": "refinedstorage:autocrafter"
+  },
+  "x": 192,
+  "y": 176,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "store_crafting"
+  ],
+  "dependencyLines": {
+    "store_crafting": {
+      "dash": "dashed",
+      "toAnchor": 97.19002550830952,
+      "fromAnchor": 78.66182150242466
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "refinedstorage:autocrafter"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "refinedstorage:advanced_processor"
+    }
+  ]
+}

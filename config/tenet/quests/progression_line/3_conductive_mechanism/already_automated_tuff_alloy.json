@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "already_automated_tuff_alloy",
+  "title": "Already Automated: Tuff Alloy",
+  "icon": {
+    "item": "forbidden_arcanus:dark_matter"
+  },
+  "x": 256,
+  "y": 16,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_7"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

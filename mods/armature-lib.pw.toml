@@ -1,0 +1,13 @@
+name = "Armature Lib"
+filename = "armature-neoforge-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "acfe446cde44e6a0abf34b8abf7acf003216ceea"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9162825
+project-id = 1732447

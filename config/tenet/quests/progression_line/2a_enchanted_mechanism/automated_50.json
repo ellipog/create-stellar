@@ -1,0 +1,41 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_50",
+  "title": "Automated",
+  "icon": {
+    "item": "create_stellar:enchanted_mechanism"
+  },
+  "x": -36,
+  "y": 156,
+  "shape": "gear",
+  "size": 72,
+  "iconScale": 1,
+  "dependsOn": [
+    "automated_53",
+    "automated_52",
+    "automated_51",
+    "precision_mechanism"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "create_stellar:enchanted_mechanism"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:bookshelf",
+      "count": 32
+    },
+    {
+      "type": "tenet:item",
+      "item": "create_enchantment_industry:experience_bucket",
+      "count": 2
+    }
+  ]
+}

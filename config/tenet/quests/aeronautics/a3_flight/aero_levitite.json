@@ -1,0 +1,47 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_levitite",
+  "title": "Unidentified Floating Object",
+  "description": [
+    "Crystallize the blend into Levitite: lift with no balloon at all",
+    "Lift with no balloon. Do not think about it too hard."
+  ],
+  "icon": {
+    "item": "aeronautics:levitite"
+  },
+  "x": -42,
+  "y": -120,
+  "shape": "diamond",
+  "size": 52,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_levitite_blend"
+  ],
+  "dependencyLines": {
+    "aero_levitite_blend": {
+      "form": "curved",
+      "fromHandle": [
+        0.32,
+        -0.16
+      ],
+      "toHandle": [
+        0.68,
+        0.16
+      ]
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:advancement",
+      "advancement": "aeronautics:unidentified_floating_object"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "aeronautics:levitite",
+      "count": 4
+    }
+  ]
+}

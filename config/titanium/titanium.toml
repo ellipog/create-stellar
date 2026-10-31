@@ -1,4 +1,3 @@
-
 [TitaniumConfig]
 	#A Boolean that is true by default
 	thisIsABoolean = true
@@ -11,4 +10,3 @@
 
 	[TitaniumConfig.TestBlock]
 		DUMB_VALUE = 135
-

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_hot_air",
+  "title": "Hot Air",
+  "description": [
+    "Iron sheet + Copper mechanism + Redstone, over any fire source -> Burner",
+    "Heat rises. Everything else is bookkeeping."
+  ],
+  "icon": {
+    "item": "aeronautics:adjustable_burner"
+  },
+  "x": -15,
+  "y": -111,
+  "shape": "gear",
+  "size": 72,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_seal_the_air"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "aeronautics:adjustable_burner"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:andesite_alloy",
+      "count": 8
+    }
+  ]
+}

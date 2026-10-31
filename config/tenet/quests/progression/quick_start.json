@@ -1,0 +1,52 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "quick_start",
+  "title": "Quick Start",
+  "description": [
+    "If you need something to help get you started go ahead and collect these items. :)))"
+  ],
+  "icon": {
+    "item": "ad_astra:marked_iron_pillar"
+  },
+  "x": 322,
+  "y": -382,
+  "shape": "hexagon",
+  "size": 60,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_set_go"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "You need some items to help you get started?"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:andesite_alloy",
+      "count": 32
+    },
+    {
+      "type": "tenet:item",
+      "item": "create:cogwheel",
+      "count": 8
+    },
+    {
+      "type": "tenet:item",
+      "item": "create:large_cogwheel",
+      "count": 4
+    },
+    {
+      "type": "tenet:item",
+      "item": "minecraft:leather",
+      "count": 30
+    }
+  ],
+  "dependencyLines": {
+    "ready_set_go": {
+      "bend": -0.13653846153846153
+    }
+  }
+}

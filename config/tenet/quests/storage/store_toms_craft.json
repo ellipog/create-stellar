@@ -1,0 +1,34 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "store_toms_craft",
+  "title": "Crafting Terminal",
+  "description": [
+    "Crafting terminal. Network items and a crafting grid in one block."
+  ],
+  "icon": {
+    "item": "toms_storage:crafting_terminal"
+  },
+  "x": 104,
+  "y": -152,
+  "shape": "gear",
+  "size": 72,
+  "iconScale": 1,
+  "dependsOn": [
+    "store_toms_emitter"
+  ],
+  "dependencyLines": {
+    "store_toms_emitter": {
+      "dash": "dashed",
+      "form": "chamfered",
+      "fromAnchor": 3.3154819404543012,
+      "toAnchor": -533.4266322387566
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "toms_storage:crafting_terminal"
+    }
+  ]
+}

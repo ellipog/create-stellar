@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_steam_vent",
+  "title": "Let Off Steam",
+  "description": [
+    "Steam Vent: the cheap way to trim altitude"
+  ],
+  "icon": {
+    "item": "aeronautics:steam_vent"
+  },
+  "x": 94,
+  "y": 121,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_bigger_balloon"
+  ],
+  "dependencyLines": {
+    "aero_bigger_balloon": {
+      "dash": "dashed"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "aeronautics:steam_vent",
+      "count": 4
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "create:copper_sheet",
+      "count": 4
+    }
+  ]
+}

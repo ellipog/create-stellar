@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "field_whale",
+  "title": "Cachalot Whale",
+  "description": [
+    "It sang at you. It did not mean it kindly"
+  ],
+  "icon": {
+    "item": "minecraft:nautilus_shell"
+  },
+  "x": 4,
+  "y": 80,
+  "shape": "diamond",
+  "size": 44,
+  "iconScale": 1,
+  "dependsOn": [
+    "field_cave_abyssal"
+  ],
+  "dependencyLines": {
+    "field_cave_abyssal": {
+      "dash": "dotted"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:kill",
+      "entity": "alexsmobs:cachalot_whale",
+      "value": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:nautilus_shell",
+      "count": 4
+    }
+  ]
+}

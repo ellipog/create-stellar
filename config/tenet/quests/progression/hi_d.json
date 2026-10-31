@@ -1,0 +1,47 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "hi_d",
+  "title": "Hi :D",
+  "icon": {
+    "item": "minecraft:player_head",
+    "components": {
+      "minecraft:profile": {
+        "name": "Ellipog",
+        "id": [
+          1566375638,
+          629948469,
+          -1633661106,
+          65962005
+        ],
+        "properties": [
+          {
+            "name": "textures",
+            "value": "ewogICJ0aW1lc3RhbXAiIDogMTc5MTg5ODU0MDgyNCwKICAicHJvZmlsZUlkIiA6ICI1ZDVjZmVkNjI1OGM0MDM1OWVhMDRmNGUwM2VlODAxNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbGxpcG9nIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIwOTE1MjZiNDc0ZWY1MDQ5YjQ0ODg5NDYxOWJiOWRjMDgwMzExYWI4ZmNlMjAyNjNkOWE1ZTk5YWYwZTFhNjIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ZTZmMzE5M2U3NGNkMTZjZGQ2NjM3ZDliYWU1NDg0ZTNhMzdmZjJhMTRjMmQxNTdjNjU5YTA3ODEwYjFiZGNhIgogICAgfQogIH0KfQ==",
+            "signature": "XfoYzOGzcIjO87hvDWEry7nmohM1Z52+o6W+b+7k6CqBSSVE3IXczDwPY9VXhOsCYB28rsLvZTqn6qv048hG5nF638shvAugCPhFkhcabzhYRLuLciMKFwKZuscmeViVMAHQjUJEvtSXldzoE1zdLK0qDQYpwHdt8IVyLtcAqlxZ8V+xv67lSGi+VFNj3xFtnCNDvNdtlOpEbEQPQdD0QzBbBgBEisG3XNvYLFSawkJnN4rsmMGJ00WtyC9w2ejIER90/pKeQpxGaAVVoaBeFNxk5nsHIir3foQZ58VRURrHdXFOYIRhXtQkGwmTmRuP9Y087Mb/0WhasjnTdU8MgbsAB/0SLuWWKNlrquwJFJWD7MK5vGO3Z6hrvM8wXH7wT08cfZHILMmvzeswS0SmIP+GsowDrteiNEYyI/YwarG3IylHja/KyDDiBLei47BT3QnJia0YVhzJg5K2cRNI7HMKpVmrHdQQstT1i13cIVAx8AqlBIPzMUosGymT8HF/D/gymq+bRevqQDo9lOBZOz7gfZbFwuQD/NyCh18CD1atZUOrXsUvuhQtJUBzekdQ5tQXYnTB8iSApjvfboUrT1DCxAnUFMDcUb4CClZ3ZLJUMErY4eS35D+rlIcaFKnEOcYwVY/3b07n0rxzWNsLm74P70nxxAIXbu7/gbH3CDk="
+          }
+        ]
+      }
+    }
+  },
+  "x": 470,
+  "y": -298,
+  "shape": "hexagon",
+  "size": 84,
+  "iconScale": 1,
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Hello :)"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:map"
+    },
+    {
+      "type": "tenet:item",
+      "item": "minecraft:compass"
+    }
+  ]
+}

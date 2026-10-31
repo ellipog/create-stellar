@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_60",
+  "title": "Automated",
+  "description": [
+    "Rotation + harvester = wheat"
+  ],
+  "icon": {
+    "item": "minecraft:wheat"
+  },
+  "x": 104,
+  "y": -152,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_6"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:wheat"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

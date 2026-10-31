@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "field_boreal",
+  "title": "Aspen Boreal",
+  "description": [
+    "Quiet, cold, and full of things that want your fire"
+  ],
+  "icon": {
+    "item": "minecraft:birch_log"
+  },
+  "x": -378,
+  "y": -135,
+  "shape": "hexagon",
+  "size": 52,
+  "iconScale": 1,
+  "dependsOn": [
+    "field_shrubland"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:biome",
+      "biome": "biomeswevegone:aspen_boreal"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:torch",
+      "count": 32
+    }
+  ]
+}

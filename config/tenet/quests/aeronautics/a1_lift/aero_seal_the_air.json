@@ -1,0 +1,35 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_seal_the_air",
+  "title": "Seal the Air",
+  "description": [
+    "Wool + Stick -> Envelopes; a cavity is what holds hot air",
+    "A balloon is a cave that refuses to sink."
+  ],
+  "icon": {
+    "item": "aeronautics:white_envelope"
+  },
+  "x": -84,
+  "y": -24,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_see_the_forces"
+  ],
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "aeronautics:white_envelope",
+      "count": 16
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:white_wool",
+      "count": 16
+    }
+  ]
+}

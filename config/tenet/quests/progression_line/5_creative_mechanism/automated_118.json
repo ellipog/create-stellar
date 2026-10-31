@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "automated_118",
+  "title": "Automated",
+  "icon": {
+    "item": "forbidden_arcanus:mundabitur_dust"
+  },
+  "x": -248,
+  "y": 104,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_11",
+    "automated_117"
+  ],
+  "hideDependencyLines": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "forbidden_arcanus:mundabitur_dust"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated"
+    }
+  ]
+}

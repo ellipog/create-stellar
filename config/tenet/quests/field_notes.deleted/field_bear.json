@@ -1,0 +1,39 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "field_bear",
+  "title": "Grizzly Bear",
+  "description": [
+    "He was there first. You had a knife"
+  ],
+  "icon": {
+    "item": "minecraft:honeycomb"
+  },
+  "x": -118,
+  "y": -348,
+  "shape": "diamond",
+  "size": 44,
+  "iconScale": 1,
+  "dependsOn": [
+    "field_temple"
+  ],
+  "dependencyLines": {
+    "field_temple": {
+      "dash": "dotted"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:kill",
+      "entity": "alexsmobs:grizzly_bear",
+      "value": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:honey_bottle",
+      "count": 4
+    }
+  ]
+}

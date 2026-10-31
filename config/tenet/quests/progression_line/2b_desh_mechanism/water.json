@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "water",
+  "title": "Water",
+  "icon": {
+    "item": "minecraft:water_bucket"
+  },
+  "x": -280,
+  "y": -120,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_5"
+  ],
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "type": "tenet:checkmark",
+      "title": "Automated",
+      "disableToast": true
+    }
+  ]
+}

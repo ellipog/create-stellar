@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "melting",
+  "title": "Melting",
+  "subtitle": "1 -> 1",
+  "icon": {
+    "item": "mysticalagriculture:fire_essence"
+  },
+  "x": -216,
+  "y": 104,
+  "shape": "hexagon",
+  "size": 48,
+  "iconScale": 1,
+  "dependsOn": [
+    "raw_ore",
+    "fortune_3"
+  ],
+  "prerequisiteMode": "one_completed",
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Done"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "chapter_1_basic_mechanism",
+  "title": "Chapter 1) Basic Mechanism",
+  "icon": {
+    "item": "create_stellar:basic_mechanism"
+  },
+  "x": -100,
+  "y": -100,
+  "shape": "hexagon",
+  "size": 72,
+  "iconScale": 1,
+  "dependsOn": [
+    "ready_set_go"
+  ],
+  "hideDependencyLines": true,
+  "tasks": [
+    {
+      "type": "tenet:checkmark",
+      "title": "Ready"
+    }
+  ]
+}

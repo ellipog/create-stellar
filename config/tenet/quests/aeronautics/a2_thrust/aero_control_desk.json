@@ -1,0 +1,43 @@
+{
+  "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
+  "id": "aero_control_desk",
+  "title": "Control Desk",
+  "description": [
+    "AeroWorks desk and joystick: fly from a chair, not a lever count",
+    "Flying from a chair was the fantasy. Now it is a build."
+  ],
+  "icon": {
+    "item": "aeroworks:control_desk"
+  },
+  "x": 126,
+  "y": -108,
+  "shape": "hexagon",
+  "size": 56,
+  "iconScale": 1,
+  "dependsOn": [
+    "aero_swivel"
+  ],
+  "dependencyLines": {
+    "aero_swivel": {
+      "dash": "dashed"
+    }
+  },
+  "hideDetailsUntilStartable": true,
+  "tasks": [
+    {
+      "type": "tenet:item",
+      "item": "aeroworks:control_desk"
+    },
+    {
+      "type": "tenet:item",
+      "item": "aeroworks:joystick"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "tenet:item",
+      "item": "aeroworks:mechanical_servo",
+      "count": 2
+    }
+  ]
+}
