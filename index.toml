@@ -3256,7 +3256,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-stellar-companion.pw.toml"
-hash = "3fceda61c1d58a43fd8caf5c318bb43a80eb3ab6870751d00dc5ff6ade13b4e6"
+hash = "26edf8b89ff8e3d01142b4b9f4c321536fc9e4c70956499d15564fc120141852"
 metafile = true
 
 [[files]]
