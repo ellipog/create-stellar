@@ -3,10 +3,12 @@
 </p>
 
 <p align="center">
-  <a href="https://www.curseforge.com/minecraft/modpacks/create-stellar"><img alt="Download on CurseForge" src="https://img.shields.io/badge/CurseForge-Download-F16436?style=for-the-badge&logo=curseforge&logoColor=white"></a>
-  <a href="https://discord.gg/stellar-834791723305009162"><img alt="Discord" src="https://img.shields.io/discord/834791723305009162?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=5865F2"></a>
-  <img alt="Minecraft 1.21.1" src="https://img.shields.io/badge/Minecraft-1.21.1-5B8731?style=for-the-badge">
-  <img alt="NeoForge 21.1.264" src="https://img.shields.io/badge/NeoForge-21.1.264-D7742F?style=for-the-badge">
+  <a href="https://www.curseforge.com/minecraft/modpacks/create-stellar"><img alt="Download on CurseForge" src=".github/badges/curseforge.png" width="314"></a>
+  <a href="https://discord.gg/stellar-834791723305009162"><img alt="Join the Discord" src=".github/badges/discord.png" width="228"></a>
+</p>
+<p align="center">
+  <img alt="Minecraft 1.21.1" src=".github/badges/minecraft.png" width="222">
+  <img alt="NeoForge 21.1.264" src=".github/badges/neoforge.png" width="248">
 </p>
 
 <p align="center">
@@ -93,6 +95,7 @@ config/          default configs shipped with the pack
   tenet/quests/  the quest book
 mods/            one .pw.toml per mod
 shaderpacks/     Complementary Reimagined
+site/            the website (Next.js), not part of the pack
 pack.toml        pack name and version, Minecraft and NeoForge versions
 index.toml       hashes of every file in the pack
 ```

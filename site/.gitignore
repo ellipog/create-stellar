@@ -1,0 +1,11 @@
+node_modules/
+
+# bun.lock is the committed lockfile.
+package-lock.json
+yarn.lock
+
+# Next.js build output
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts

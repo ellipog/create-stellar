@@ -1,0 +1,2683 @@
+{
+  "version": "2.0.2",
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.264",
+  "quests": 399,
+  "chapters": 20,
+  "ladder": [
+    {
+      "tier": 1,
+      "main": {
+        "key": "basic",
+        "title": "Basic Mechanism",
+        "number": "1",
+        "quests": 15,
+        "automate": 13,
+        "nodes": [
+          {
+            "id": "basic_mechanism",
+            "name": "Basic Mechanism",
+            "kind": "final",
+            "hint": "This item is the first step into automating everything!!!! Really a giant milestone.",
+            "x": -36,
+            "y": 156,
+            "deps": [
+              "automated_3",
+              "automated_2",
+              "automated"
+            ]
+          },
+          {
+            "id": "automated",
+            "name": "Upgrade Base",
+            "kind": "step",
+            "hint": "Planks -> Press -> Upgrade Base",
+            "x": -120,
+            "y": 40,
+            "deps": [
+              "automated_5"
+            ]
+          },
+          {
+            "id": "automated_2",
+            "name": "Andesite Alloy",
+            "kind": "step",
+            "hint": "Mixing 1 piece of tuff and 1 iron nugget will give you tuff alloy.",
+            "x": 72,
+            "y": 40,
+            "deps": [
+              "automated_8",
+              "automated_11"
+            ]
+          },
+          {
+            "id": "automated_3",
+            "name": "Cogwheel",
+            "kind": "step",
+            "hint": "Deploying planks on shafts will create cogs.",
+            "x": -24,
+            "y": 40,
+            "deps": [
+              "automated_4",
+              "automated_5"
+            ]
+          },
+          {
+            "id": "automated_4",
+            "name": "Shaft",
+            "kind": "step",
+            "hint": "Place the tuff alloy on a saw to cut it into fine shafts.",
+            "x": -24,
+            "y": -56,
+            "deps": [
+              "automated_2"
+            ]
+          },
+          {
+            "id": "automated_5",
+            "name": "Oak Planks",
+            "kind": "step",
+            "hint": "Stripped Log -> Saw -> Planks",
+            "x": -120,
+            "y": -56,
+            "deps": [
+              "automated_6"
+            ]
+          },
+          {
+            "id": "automated_6",
+            "name": "Stripped Oak Log",
+            "kind": "step",
+            "hint": "Log -> Saw -> Stripped Log",
+            "x": -216,
+            "y": -56,
+            "deps": [
+              "automated_7"
+            ]
+          },
+          {
+            "id": "automated_7",
+            "name": "Oak Log",
+            "kind": "step",
+            "hint": "For this you will need saws, deployers, and some rotational force.",
+            "x": -216,
+            "y": -152,
+            "deps": [
+              "ready"
+            ]
+          },
+          {
+            "id": "automated_8",
+            "name": "Iron Nugget",
+            "kind": "step",
+            "hint": "Wash the gravel to get this shiny nugget.",
+            "x": 72,
+            "y": -56,
+            "deps": [
+              "automated_9"
+            ]
+          },
+          {
+            "id": "automated_9",
+            "name": "Gravel",
+            "kind": "step",
+            "hint": "Dropping cobble into a millstone will result in gravel.",
+            "x": 72,
+            "y": -152,
+            "deps": [
+              "automated_10"
+            ]
+          },
+          {
+            "id": "automated_10",
+            "name": "Cobblestone",
+            "kind": "step",
+            "hint": "Using drills, water and lava you can automate the gathering of cobblestone, which is one of the most used resources.",
+            "x": 72,
+            "y": -248,
+            "deps": [
+              "ready"
+            ]
+          },
+          {
+            "id": "automated_11",
+            "name": "Tuff",
+            "kind": "step",
+            "hint": "Mix cobble and gray dye in a basin mixer. Then... ta-da!",
+            "x": 168,
+            "y": 40,
+            "deps": [
+              "automated_13",
+              "automated_10"
+            ]
+          },
+          {
+            "id": "automated_12",
+            "name": "Flint",
+            "kind": "step",
+            "hint": "Burning gravel will leave you with only the flint left.",
+            "x": 168,
+            "y": -152,
+            "deps": [
+              "automated_9"
+            ]
+          },
+          {
+            "id": "automated_13",
+            "name": "Gray Dye",
+            "kind": "step",
+            "hint": "Crush some flint to get this fine paste.",
+            "x": 168,
+            "y": -56,
+            "deps": [
+              "automated_12"
+            ]
+          },
+          {
+            "id": "ready",
+            "name": "Start",
+            "kind": "start",
+            "hint": "",
+            "x": -30,
+            "y": -318,
+            "deps": []
+          }
+        ]
+      },
+      "branches": [
+        {
+          "key": "copper",
+          "title": "Copper Mechanism",
+          "number": "1a",
+          "quests": 20,
+          "automate": 10,
+          "nodes": [
+            {
+              "id": "copper_mechanism",
+              "name": "Copper Mechanism",
+              "kind": "final",
+              "hint": "",
+              "x": -4,
+              "y": 156,
+              "deps": [
+                "basic_mechanism_2",
+                "molten_copper",
+                "automated_14"
+              ]
+            },
+            {
+              "id": "basic_mechanism_2",
+              "name": "Basic Mechanism",
+              "kind": "input",
+              "hint": "",
+              "x": -88,
+              "y": 40,
+              "deps": [
+                "ready_2"
+              ]
+            },
+            {
+              "id": "molten_copper",
+              "name": "Molten Copper",
+              "kind": "input",
+              "hint": "Melt the copper nuggets in a basin foundry.",
+              "x": 8,
+              "y": 40,
+              "deps": [
+                "automated_15"
+              ]
+            },
+            {
+              "id": "automated_14",
+              "name": "Cogwheel",
+              "kind": "step",
+              "hint": "Cogwheels are the backbone of automation.",
+              "x": 104,
+              "y": 40,
+              "deps": [
+                "molten_copper"
+              ]
+            },
+            {
+              "id": "automated_15",
+              "name": "Copper Nugget",
+              "kind": "step",
+              "hint": "Wash the orange sand to get copper nuggets.",
+              "x": 8,
+              "y": -56,
+              "deps": [
+                "automated_16"
+              ]
+            },
+            {
+              "id": "automated_16",
+              "name": "Orange Sand",
+              "kind": "step",
+              "hint": "Mix orange dye and sand in a basin.",
+              "x": 104,
+              "y": -56,
+              "deps": [
+                "automated_18",
+                "automated_17"
+              ]
+            },
+            {
+              "id": "automated_17",
+              "name": "Orange Dye",
+              "kind": "step",
+              "hint": "Crushing the granite will give you orange dye.",
+              "x": 8,
+              "y": -152,
+              "deps": [
+                "automated_19"
+              ]
+            },
+            {
+              "id": "automated_18",
+              "name": "Sand",
+              "kind": "step",
+              "hint": "Crushing gravel will give you sand, either via a millstone or curshing wheels.",
+              "x": 104,
+              "y": -152,
+              "deps": [
+                "gravel"
+              ]
+            },
+            {
+              "id": "gravel",
+              "name": "Gravel",
+              "kind": "input",
+              "hint": "",
+              "x": 200,
+              "y": -152,
+              "deps": [
+                "ready_2"
+              ]
+            },
+            {
+              "id": "automated_19",
+              "name": "Granite",
+              "kind": "step",
+              "hint": "Pour the molten quartz over the andesite (in a basin) and mix until granite comes out.",
+              "x": -88,
+              "y": -152,
+              "deps": [
+                "automated_23"
+              ]
+            },
+            {
+              "id": "cobblestone",
+              "name": "Cobblestone",
+              "kind": "input",
+              "hint": "",
+              "x": -280,
+              "y": -248,
+              "deps": [
+                "ready_2"
+              ]
+            },
+            {
+              "id": "automated_20",
+              "name": "Nether Quartz",
+              "kind": "step",
+              "hint": "Washing the soul sand will give you nether quartz and gold nuggets.",
+              "x": 8,
+              "y": -280,
+              "deps": [
+                "automated_21"
+              ]
+            },
+            {
+              "id": "molten_nether_quartz",
+              "name": "Molten Nether Quartz",
+              "kind": "input",
+              "hint": "Melt quartz in a basin foundry. For info, ponder the basin foundry lid.",
+              "x": -88,
+              "y": -280,
+              "deps": [
+                "automated_20"
+              ]
+            },
+            {
+              "id": "automated_21",
+              "name": "Soul Sand",
+              "kind": "step",
+              "hint": "Haunting sand will make it spooky!!! D;",
+              "x": 104,
+              "y": -248,
+              "deps": [
+                "automated_18"
+              ]
+            },
+            {
+              "id": "ready_2",
+              "name": "Start",
+              "kind": "start",
+              "hint": "",
+              "x": 2,
+              "y": -446,
+              "deps": []
+            },
+            {
+              "id": "automated_22",
+              "name": "Diorite",
+              "kind": "step",
+              "hint": "Pour the molten quartz over the cobblestone (in a basin) and mix until diorite comes out.",
+              "x": -184,
+              "y": -248,
+              "deps": [
+                "molten_nether_quartz",
+                "cobblestone"
+              ]
+            },
+            {
+              "id": "automated_23",
+              "name": "Andesite",
+              "kind": "step",
+              "hint": "Pour the molten quartz over the diorite (in a basin) and mix until andesite comes out.",
+              "x": -184,
+              "y": -152,
+              "deps": [
+                "automated_22"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "steel",
+          "title": "Steel Mechanism",
+          "number": "1b",
+          "quests": 18,
+          "automate": 6,
+          "nodes": [
+            {
+              "id": "steel_mechanism",
+              "name": "Steel Mechanism",
+              "kind": "final",
+              "hint": "",
+              "x": -36,
+              "y": 156,
+              "deps": [
+                "basic_mechanism_3",
+                "molten_steel",
+                "automated_24"
+              ]
+            },
+            {
+              "id": "molten_steel",
+              "name": "Molten Steel",
+              "kind": "input",
+              "hint": "Mix the molten iron and the coal to get molten steel.",
+              "x": -24,
+              "y": 40,
+              "deps": [
+                "molten_iron",
+                "automated_26"
+              ]
+            },
+            {
+              "id": "automated_24",
+              "name": "Steel Plate",
+              "kind": "step",
+              "hint": "Press the steel ingots.",
+              "x": 72,
+              "y": 136,
+              "deps": [
+                "automated_25"
+              ]
+            },
+            {
+              "id": "basic_mechanism_3",
+              "name": "Basic Mechanism",
+              "kind": "input",
+              "hint": "",
+              "x": -120,
+              "y": 40,
+              "deps": [
+                "ready_3"
+              ]
+            },
+            {
+              "id": "automated_25",
+              "name": "Steel Ingot",
+              "kind": "step",
+              "hint": "Pour the molten steel into a basin and smash it with a mechanical press.",
+              "x": 72,
+              "y": 40,
+              "deps": [
+                "molten_steel"
+              ]
+            },
+            {
+              "id": "molten_iron",
+              "name": "Molten Iron",
+              "kind": "input",
+              "hint": "Melt iron nuggets in a foundry basin.",
+              "x": 72,
+              "y": -56,
+              "deps": [
+                "iron_nugget"
+              ]
+            },
+            {
+              "id": "automated_26",
+              "name": "Coal",
+              "kind": "step",
+              "hint": "Compacting black sand will smash it completely and only leave coal.",
+              "x": -24,
+              "y": -56,
+              "deps": [
+                "automated_28"
+              ]
+            },
+            {
+              "id": "automated_27",
+              "name": "Cobbled Deepslate",
+              "kind": "step",
+              "hint": "Haunting tuff will give you cobbled deepslate.",
+              "x": -312,
+              "y": -56,
+              "deps": [
+                "tuff"
+              ]
+            },
+            {
+              "id": "flint",
+              "name": "Flint",
+              "kind": "input",
+              "hint": "",
+              "x": -120,
+              "y": -152,
+              "deps": [
+                "ready_3"
+              ]
+            },
+            {
+              "id": "automated_28",
+              "name": "Black Sand",
+              "kind": "step",
+              "hint": "Mix blackstone and flint to get this fine dust.",
+              "x": -120,
+              "y": -56,
+              "deps": [
+                "automated_29",
+                "flint"
+              ]
+            },
+            {
+              "id": "tuff",
+              "name": "Tuff",
+              "kind": "input",
+              "hint": "",
+              "x": -312,
+              "y": -152,
+              "deps": [
+                "ready_3"
+              ]
+            },
+            {
+              "id": "automated_29",
+              "name": "Blackstone",
+              "kind": "step",
+              "hint": "Haunting cobbled deeplsate will give you blackstone.",
+              "x": -216,
+              "y": -56,
+              "deps": [
+                "automated_27"
+              ]
+            },
+            {
+              "id": "iron_nugget",
+              "name": "Iron Nugget",
+              "kind": "input",
+              "hint": "",
+              "x": 168,
+              "y": -56,
+              "deps": [
+                "ready_3"
+              ]
+            },
+            {
+              "id": "ready_3",
+              "name": "Start",
+              "kind": "start",
+              "hint": "",
+              "x": -30,
+              "y": -382,
+              "deps": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "main": {
+        "key": "precision",
+        "title": "Precision Mechanism",
+        "number": "2",
+        "quests": 30,
+        "automate": 12,
+        "nodes": [
+          {
+            "id": "automated_30",
+            "name": "Precision Mechanism",
+            "kind": "final",
+            "hint": "",
+            "x": -36,
+            "y": 156,
+            "deps": [
+              "automated_33",
+              "quest_73aaf044",
+              "automated_31",
+              "automated_32"
+            ]
+          },
+          {
+            "id": "automated_31",
+            "name": "Brass Sheet",
+            "kind": "step",
+            "hint": "Press the brass bar flat.",
+            "x": -152,
+            "y": 232,
+            "deps": [
+              "automated_34"
+            ]
+          },
+          {
+            "id": "automated_32",
+            "name": "Brass Nugget",
+            "kind": "step",
+            "hint": "Crush or mill the brass ingots. Or autocraft the nuggets.",
+            "x": -152,
+            "y": 104,
+            "deps": [
+              "automated_34"
+            ]
+          },
+          {
+            "id": "quest_73aaf044",
+            "name": "Basic Mechanism",
+            "kind": "input",
+            "hint": "",
+            "x": -24,
+            "y": 296,
+            "deps": [
+              "ready_4"
+            ]
+          },
+          {
+            "id": "automated_33",
+            "name": "Electron Tube",
+            "kind": "step",
+            "hint": "Pour the destabilized redstone onto the iron sheet.",
+            "x": 104,
+            "y": 168,
+            "deps": [
+              "automated_36",
+              "destabilized_redstone"
+            ]
+          },
+          {
+            "id": "automated_34",
+            "name": "Brass Ingot",
+            "kind": "step",
+            "hint": "Press the molten brass in a basin.",
+            "x": -248,
+            "y": 168,
+            "deps": [
+              "molten_brass"
+            ]
+          },
+          {
+            "id": "molten_brass",
+            "name": "Molten Brass",
+            "kind": "input",
+            "hint": "Mix molten copper and molten zinc in a basin.",
+            "x": -344,
+            "y": 168,
+            "deps": [
+              "molten_zinc",
+              "molten_copper_2"
+            ]
+          },
+          {
+            "id": "molten_zinc",
+            "name": "Molten Zinc",
+            "kind": "input",
+            "hint": "Melt the zinc in a foundry basin.",
+            "x": -344,
+            "y": 264,
+            "deps": [
+              "automated_35"
+            ]
+          },
+          {
+            "id": "molten_copper_2",
+            "name": "Molten Copper",
+            "kind": "input",
+            "hint": "",
+            "x": -344,
+            "y": 72,
+            "deps": [
+              "ready_4"
+            ]
+          },
+          {
+            "id": "automated_35",
+            "name": "Zinc Nugget",
+            "kind": "step",
+            "hint": "Haunting iron nuggets will give you zinc nuggets.",
+            "x": -440,
+            "y": 264,
+            "deps": [
+              "iron_nugget_2"
+            ]
+          },
+          {
+            "id": "iron_nugget_2",
+            "name": "Iron Nugget",
+            "kind": "input",
+            "hint": "",
+            "x": -536,
+            "y": 264,
+            "deps": [
+              "ready_4"
+            ]
+          },
+          {
+            "id": "molten_iron_2",
+            "name": "Molten Iron",
+            "kind": "input",
+            "hint": "",
+            "x": 296,
+            "y": 264,
+            "deps": [
+              "ready_4"
+            ]
+          },
+          {
+            "id": "automated_36",
+            "name": "Iron Sheet",
+            "kind": "step",
+            "hint": "Smash that iron. >:D",
+            "x": 104,
+            "y": 264,
+            "deps": [
+              "automated_37"
+            ]
+          },
+          {
+            "id": "automated_37",
+            "name": "Iron Ingot",
+            "kind": "step",
+            "hint": "Compacting molten iron will give you iron ingots.",
+            "x": 200,
+            "y": 264,
+            "deps": [
+              "molten_iron_2"
+            ]
+          },
+          {
+            "id": "destabilized_redstone",
+            "name": "Destabilized Redstone",
+            "kind": "input",
+            "hint": "Melt the polished rose quartz in a foundry basin.",
+            "x": 104,
+            "y": 72,
+            "deps": [
+              "automated_38"
+            ]
+          },
+          {
+            "id": "automated_38",
+            "name": "Polished Rose Quartz",
+            "kind": "step",
+            "hint": "Wash the rose quartz, or use sandpaper, your choice.",
+            "x": 200,
+            "y": 72,
+            "deps": [
+              "automated_39"
+            ]
+          },
+          {
+            "id": "automated_39",
+            "name": "Rose Quartz",
+            "kind": "step",
+            "hint": "Mix redstone and quartz in a basin.",
+            "x": 200,
+            "y": -24,
+            "deps": [
+              "automated_40",
+              "nether_quartz"
+            ]
+          },
+          {
+            "id": "automated_40",
+            "name": "Redstone Dust",
+            "kind": "step",
+            "hint": "Blasting cinder flour will give you this more refined dust.",
+            "x": 200,
+            "y": -120,
+            "deps": [
+              "automated_41"
+            ]
+          },
+          {
+            "id": "nether_quartz",
+            "name": "Nether Quartz",
+            "kind": "input",
+            "hint": "",
+            "x": 296,
+            "y": -24,
+            "deps": [
+              "ready_4"
+            ]
+          },
+          {
+            "id": "automated_41",
+            "name": "Cinder Flour",
+            "kind": "step",
+            "hint": "Milling or crushing netherrack will give you cinder flour.",
+            "x": 104,
+            "y": -120,
+            "deps": [
+              "automated_42"
+            ]
+          },
+          {
+            "id": "automated_42",
+            "name": "Netherrack",
+            "kind": "step",
+            "hint": "Mix lava and cobblestone.",
+            "x": 104,
+            "y": -216,
+            "deps": [
+              "cobblestone_2",
+              "lava"
+            ]
+          },
+          {
+            "id": "lava",
+            "name": "Lava",
+            "kind": "input",
+            "hint": "There are lots of ways to automate lava, one of the easier ones is using dripstones and cauldrons.",
+            "x": 200,
+            "y": -216,
+            "deps": [
+              "ready_4"
+            ]
+          },
+          {
+            "id": "cobblestone_2",
+            "name": "Cobblestone",
+            "kind": "input",
+            "hint": "",
+            "x": 8,
+            "y": -216,
+            "deps": [
+              "ready_4"
+            ]
+          },
+          {
+            "id": "ready_4",
+            "name": "Start",
+            "kind": "start",
+            "hint": "",
+            "x": -30,
+            "y": -30,
+            "deps": []
+          }
+        ]
+      },
+      "branches": [
+        {
+          "key": "enchanted",
+          "title": "Enchanted Mechanism",
+          "number": "2a",
+          "quests": 21,
+          "automate": 11,
+          "nodes": [
+            {
+              "id": "automated_50",
+              "name": "Enchanted Mechanism",
+              "kind": "final",
+              "hint": "",
+              "x": -36,
+              "y": 156,
+              "deps": [
+                "automated_53",
+                "automated_52",
+                "automated_51",
+                "precision_mechanism"
+              ]
+            },
+            {
+              "id": "automated_51",
+              "name": "Gem Dust",
+              "kind": "step",
+              "hint": "Pouring liquid experience over glowstone dust will give this gem.",
+              "x": -120,
+              "y": 40,
+              "deps": [
+                "automated_55",
+                "automated_53"
+              ]
+            },
+            {
+              "id": "automated_52",
+              "name": "Magma Cream",
+              "kind": "step",
+              "hint": "HOT SLIME!?!??!?!?",
+              "x": 72,
+              "y": 40,
+              "deps": [
+                "lava_2",
+                "automated_54"
+              ]
+            },
+            {
+              "id": "automated_53",
+              "name": "Bottle o' Enchanting",
+              "kind": "step",
+              "hint": "Place a absorption hopper next to a mob farm, it will auto collect the xp and output it into a tank. Or use a disenchanter with nuggets of experience.",
+              "x": -24,
+              "y": 40,
+              "deps": [
+                "ready_6"
+              ]
+            },
+            {
+              "id": "automated_54",
+              "name": "Slimeball",
+              "kind": "step",
+              "hint": "Dough + lime dye?????",
+              "x": 104,
+              "y": -56,
+              "deps": [
+                "automated_56",
+                "automated_58"
+              ]
+            },
+            {
+              "id": "lava_2",
+              "name": "Lava",
+              "kind": "input",
+              "hint": "",
+              "x": 168,
+              "y": 40,
+              "deps": [
+                "ready_6"
+              ]
+            },
+            {
+              "id": "automated_55",
+              "name": "Glowstone Dust",
+              "kind": "step",
+              "hint": "CRUSH CRUSH CRUSH CRUSH",
+              "x": -152,
+              "y": -56,
+              "deps": [
+                "automated_61"
+              ]
+            },
+            {
+              "id": "automated_56",
+              "name": "Lime Dye",
+              "kind": "step",
+              "hint": "Crushing or milling the kelp makes lime dye.",
+              "x": 200,
+              "y": -56,
+              "deps": [
+                "automated_57"
+              ]
+            },
+            {
+              "id": "automated_57",
+              "name": "Kelp",
+              "kind": "step",
+              "hint": "Rotation + harvester + water = kelp",
+              "x": 200,
+              "y": -152,
+              "deps": [
+                "ready_6"
+              ]
+            },
+            {
+              "id": "automated_58",
+              "name": "Dough",
+              "kind": "step",
+              "hint": "Washing the flour will give you dough.",
+              "x": -24,
+              "y": -56,
+              "deps": [
+                "automated_59"
+              ]
+            },
+            {
+              "id": "automated_59",
+              "name": "Wheat Flour",
+              "kind": "step",
+              "hint": "Crushing wheat gives you its flour.",
+              "x": -24,
+              "y": -152,
+              "deps": [
+                "automated_60"
+              ]
+            },
+            {
+              "id": "automated_60",
+              "name": "Wheat",
+              "kind": "step",
+              "hint": "Rotation + harvester = wheat",
+              "x": 104,
+              "y": -152,
+              "deps": [
+                "ready_6"
+              ]
+            },
+            {
+              "id": "automated_61",
+              "name": "Glowstone",
+              "kind": "step",
+              "hint": "Pour molten nether quartz over soul sand.",
+              "x": -152,
+              "y": -152,
+              "deps": [
+                "soul_sand",
+                "molten_nether_quartz_2"
+              ]
+            },
+            {
+              "id": "soul_sand",
+              "name": "Soul Sand",
+              "kind": "input",
+              "hint": "",
+              "x": -248,
+              "y": -152,
+              "deps": [
+                "ready_6"
+              ]
+            },
+            {
+              "id": "molten_nether_quartz_2",
+              "name": "Molten Nether Quartz",
+              "kind": "input",
+              "hint": "",
+              "x": -120,
+              "y": -248,
+              "deps": [
+                "ready_6"
+              ]
+            },
+            {
+              "id": "ready_6",
+              "name": "Start",
+              "kind": "start",
+              "hint": "",
+              "x": -30,
+              "y": -414,
+              "deps": []
+            },
+            {
+              "id": "precision_mechanism",
+              "name": "Precision Mechanism",
+              "kind": "input",
+              "hint": "",
+              "x": -152,
+              "y": 168,
+              "deps": [
+                "ready_6"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "desh",
+          "title": "Desh Mechanism",
+          "number": "2b",
+          "quests": 21,
+          "automate": 6,
+          "nodes": [
+            {
+              "id": "automated_43",
+              "name": "Desh Mechanism",
+              "kind": "final",
+              "hint": "",
+              "x": -36,
+              "y": 156,
+              "deps": [
+                "molten_desh",
+                "automated_44",
+                "steel_mechanism_2",
+                "refined_fuel"
+              ]
+            },
+            {
+              "id": "molten_desh",
+              "name": "Molten Desh",
+              "kind": "input",
+              "hint": "Melt the nuggets.",
+              "x": 104,
+              "y": 168,
+              "deps": [
+                "automated_46"
+              ]
+            },
+            {
+              "id": "automated_44",
+              "name": "Desh Plate",
+              "kind": "step",
+              "hint": "SMASH!!!",
+              "x": -24,
+              "y": 40,
+              "deps": [
+                "automated_45"
+              ]
+            },
+            {
+              "id": "steel_mechanism_2",
+              "name": "Steel Mechanism",
+              "kind": "input",
+              "hint": "",
+              "x": -24,
+              "y": 296,
+              "deps": [
+                "ready_5"
+              ]
+            },
+            {
+              "id": "automated_45",
+              "name": "Desh Ingot",
+              "kind": "step",
+              "hint": "Compacting the molten desh will give you its ingot form.",
+              "x": 72,
+              "y": 72,
+              "deps": [
+                "molten_desh"
+              ]
+            },
+            {
+              "id": "automated_46",
+              "name": "Desh Nugget",
+              "kind": "step",
+              "hint": "Washing moon sand has a chance of leaving you with desh nuggets.",
+              "x": 200,
+              "y": 168,
+              "deps": [
+                "automated_47"
+              ]
+            },
+            {
+              "id": "automated_47",
+              "name": "Moon Sand",
+              "kind": "step",
+              "hint": "Mill moon cobblestone into sand.",
+              "x": 296,
+              "y": 168,
+              "deps": [
+                "automated_48"
+              ]
+            },
+            {
+              "id": "automated_48",
+              "name": "Moon Cobblestone",
+              "kind": "step",
+              "hint": "Look at the recipe for this in JEI. Make a cobble gen with a desh block underneath.",
+              "x": 296,
+              "y": 72,
+              "deps": [
+                "ready_5"
+              ]
+            },
+            {
+              "id": "ready_5",
+              "name": "Start",
+              "kind": "start",
+              "hint": "",
+              "x": -30,
+              "y": -158,
+              "deps": []
+            },
+            {
+              "id": "water",
+              "name": "Water",
+              "kind": "input",
+              "hint": "",
+              "x": -280,
+              "y": -120,
+              "deps": [
+                "ready_5"
+              ]
+            },
+            {
+              "id": "coal",
+              "name": "Coal",
+              "kind": "input",
+              "hint": "",
+              "x": -408,
+              "y": -120,
+              "deps": [
+                "ready_5"
+              ]
+            },
+            {
+              "id": "automated_49",
+              "name": "Sulfur Dust",
+              "kind": "step",
+              "hint": "Crushing wheels",
+              "x": -408,
+              "y": 8,
+              "deps": [
+                "quest_6f3daff9"
+              ]
+            },
+            {
+              "id": "quest_6f3daff9",
+              "name": "Sulfur",
+              "kind": "input",
+              "hint": "Cycled around from the heavy oil",
+              "x": -408,
+              "y": 168,
+              "deps": [
+                "ready_5"
+              ]
+            },
+            {
+              "id": "oil",
+              "name": "Oil",
+              "kind": "input",
+              "hint": "Heated mixing",
+              "x": -248,
+              "y": 8,
+              "deps": [
+                "water",
+                "coal",
+                "automated_49"
+              ]
+            },
+            {
+              "id": "sulfuric_heavy_oil",
+              "name": "Sulfuric Heavy Oil",
+              "kind": "input",
+              "hint": "Heated mixing of oil and water Produced at the same time as the light oil",
+              "x": -312,
+              "y": 104,
+              "deps": [
+                "oil"
+              ]
+            },
+            {
+              "id": "light_oil",
+              "name": "Light Oil",
+              "kind": "input",
+              "hint": "Heated mixing of oil and water Produced at the same time as the sulfuric heavy oil",
+              "x": -184,
+              "y": 104,
+              "deps": [
+                "oil"
+              ]
+            },
+            {
+              "id": "heavy_oil",
+              "name": "Heavy Oil",
+              "kind": "input",
+              "hint": "Heated basin compacting",
+              "x": -312,
+              "y": 200,
+              "deps": [
+                "sulfuric_heavy_oil"
+              ]
+            },
+            {
+              "id": "refined_fuel",
+              "name": "Refined Fuel",
+              "kind": "input",
+              "hint": "mix solid fuel with light oil",
+              "x": -152,
+              "y": 296,
+              "deps": [
+                "light_oil",
+                "solid_fuel_clump"
+              ]
+            },
+            {
+              "id": "solid_fuel_clump",
+              "name": "Solid Fuel Clump",
+              "kind": "input",
+              "hint": "Compacting Heavy Oil",
+              "x": -216,
+              "y": 200,
+              "deps": [
+                "heavy_oil"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tier": 3,
+      "main": {
+        "key": "conductive",
+        "title": "Conductive Mechanism",
+        "number": "3",
+        "quests": 36,
+        "automate": 13,
+        "nodes": [
+          {
+            "id": "quest_219bdcf1",
+            "name": "Conductive Mechanism",
+            "kind": "final",
+            "hint": "",
+            "x": -36,
+            "y": 156,
+            "deps": [
+              "automated_63",
+              "automated_62",
+              "automated_64",
+              "precision_mechanism_2"
+            ]
+          },
+          {
+            "id": "automated_62",
+            "name": "Small Connector",
+            "kind": "step",
+            "hint": "Mix all the ingredients in a basin.",
+            "x": 99,
+            "y": 163,
+            "deps": [
+              "slimeball",
+              "automated_69",
+              "tuff_alloy"
+            ]
+          },
+          {
+            "id": "automated_63",
+            "name": "Capacitor",
+            "kind": "step",
+            "hint": "Mechanical crafters are your friends now.",
+            "x": -157,
+            "y": 163,
+            "deps": [
+              "automated_67",
+              "automated_65",
+              "automated_66"
+            ]
+          },
+          {
+            "id": "automated_64",
+            "name": "Alternator",
+            "kind": "step",
+            "hint": "UNLIMITED POWER!!! Literally... this turns rotation into electricity.",
+            "x": -29,
+            "y": 9,
+            "deps": [
+              "tuff_alloy",
+              "automated_70",
+              "iron_sheet",
+              "iron_rod",
+              "automated_63"
+            ]
+          },
+          {
+            "id": "precision_mechanism_2",
+            "name": "Precision Mechanism",
+            "kind": "input",
+            "hint": "",
+            "x": -24,
+            "y": 296,
+            "deps": [
+              "ready_7"
+            ]
+          },
+          {
+            "id": "automated_65",
+            "name": "Zinc Sheet",
+            "kind": "step",
+            "hint": "Smashing ingots give you their sheet form.",
+            "x": -280,
+            "y": 168,
+            "deps": [
+              "automated_71"
+            ]
+          },
+          {
+            "id": "automated_66",
+            "name": "Copper Sheet",
+            "kind": "step",
+            "hint": "Holy sheet!",
+            "x": -216,
+            "y": 40,
+            "deps": [
+              "automated_74"
+            ]
+          },
+          {
+            "id": "automated_67",
+            "name": "Redstone Torch",
+            "kind": "step",
+            "hint": "Pour destabilized redstone over the sticks.",
+            "x": -184,
+            "y": 264,
+            "deps": [
+              "destabilized_redstone_2",
+              "automated_68"
+            ]
+          },
+          {
+            "id": "destabilized_redstone_2",
+            "name": "Destabilized Redstone",
+            "kind": "input",
+            "hint": "",
+            "x": -184,
+            "y": 360,
+            "deps": [
+              "ready_7"
+            ]
+          },
+          {
+            "id": "automated_68",
+            "name": "Stick",
+            "kind": "step",
+            "hint": "Cut the wood even more.",
+            "x": -280,
+            "y": 296,
+            "deps": [
+              "planks"
+            ]
+          },
+          {
+            "id": "slimeball",
+            "name": "Slimeball",
+            "kind": "input",
+            "hint": "",
+            "x": 136,
+            "y": 264,
+            "deps": [
+              "ready_7"
+            ]
+          },
+          {
+            "id": "automated_69",
+            "name": "Copper Rod",
+            "kind": "step",
+            "hint": "Rolling ingots give you rods.",
+            "x": 104,
+            "y": 32,
+            "deps": [
+              "automated_74"
+            ]
+          },
+          {
+            "id": "tuff_alloy",
+            "name": "Tuff Alloy",
+            "kind": "input",
+            "hint": "",
+            "x": 200,
+            "y": 168,
+            "deps": [
+              "ready_7"
+            ]
+          },
+          {
+            "id": "iron_rod",
+            "name": "Iron Rod",
+            "kind": "input",
+            "hint": "Rolling ingots give you rods.",
+            "x": 72,
+            "y": -56,
+            "deps": [
+              "iron_ingot"
+            ]
+          },
+          {
+            "id": "automated_70",
+            "name": "Copper Spool",
+            "kind": "step",
+            "hint": "Deploy the wires onto the empty spools.",
+            "x": -120,
+            "y": -56,
+            "deps": [
+              "automated_72",
+              "automated_73"
+            ]
+          },
+          {
+            "id": "iron_sheet",
+            "name": "Iron Sheet",
+            "kind": "input",
+            "hint": "",
+            "x": -24,
+            "y": -152,
+            "deps": [
+              "ready_7"
+            ]
+          },
+          {
+            "id": "planks",
+            "name": "Planks",
+            "kind": "input",
+            "hint": "",
+            "x": -376,
+            "y": 296,
+            "deps": [
+              "ready_7"
+            ]
+          },
+          {
+            "id": "automated_71",
+            "name": "Zinc Ingot",
+            "kind": "step",
+            "hint": "Compact liquid = Ingot",
+            "x": -408,
+            "y": 168,
+            "deps": [
+              "molten_zinc_2"
+            ]
+          },
+          {
+            "id": "molten_zinc_2",
+            "name": "Molten Zinc",
+            "kind": "input",
+            "hint": "",
+            "x": -536,
+            "y": 168,
+            "deps": [
+              "ready_7"
+            ]
+          },
+          {
+            "id": "automated_72",
+            "name": "Copper Wire",
+            "kind": "step",
+            "hint": "Snip snip, rolling sheets give you wires.",
+            "x": -248,
+            "y": -56,
+            "deps": [
+              "automated_66"
+            ]
+          },
+          {
+            "id": "automated_73",
+            "name": "Empty Spool",
+            "kind": "step",
+            "hint": "Nugget + bing bang boom = Spool",
+            "x": -184,
+            "y": -152,
+            "deps": [
+              "iron_nugget_3",
+              "iron_sheet"
+            ]
+          },
+          {
+            "id": "automated_74",
+            "name": "Copper Ingot",
+            "kind": "step",
+            "hint": "Compact liquid = Ingot",
+            "x": -312,
+            "y": 72,
+            "deps": [
+              "molten_copper_3"
+            ]
+          },
+          {
+            "id": "molten_copper_3",
+            "name": "Molten Copper",
+            "kind": "input",
+            "hint": "",
+            "x": -408,
+            "y": 8,
+            "deps": [
+              "ready_7"
+            ]
+          },
+          {
+            "id": "iron_nugget_3",
+            "name": "Iron Nugget",
+            "kind": "input",
+            "hint": "",
+            "x": -184,
+            "y": -248,
+            "deps": [
+              "ready_7"
+            ]
+          },
+          {
+            "id": "ready_7",
+            "name": "Start",
+            "kind": "start",
+            "hint": "",
+            "x": 370,
+            "y": -70,
+            "deps": []
+          },
+          {
+            "id": "iron_ingot",
+            "name": "Iron Ingot",
+            "kind": "input",
+            "hint": "",
+            "x": 136,
+            "y": -120,
+            "deps": [
+              "ready_7"
+            ]
+          }
+        ]
+      },
+      "branches": [
+        {
+          "key": "refined",
+          "title": "Refined Mechanism",
+          "number": "3a",
+          "quests": 28,
+          "automate": 7,
+          "nodes": [
+            {
+              "id": "automated_75",
+              "name": "Refined Mechanism",
+              "kind": "final",
+              "hint": "",
+              "x": -36,
+              "y": 156,
+              "deps": [
+                "molten_nether_quartz_3",
+                "automated_76",
+                "automated_78",
+                "automated_77",
+                "conductive_mechanism",
+                "automated_80",
+                "automated_82"
+              ]
+            },
+            {
+              "id": "automated_76",
+              "name": "Silicon",
+              "kind": "step",
+              "hint": "",
+              "x": -216,
+              "y": 104,
+              "deps": [
+                "tuff_alloy_2",
+                "molten_nether_quartz_3"
+              ]
+            },
+            {
+              "id": "molten_nether_quartz_3",
+              "name": "Molten Nether Quartz",
+              "kind": "input",
+              "hint": "",
+              "x": -184,
+              "y": 200,
+              "deps": [
+                "ready_8"
+              ]
+            },
+            {
+              "id": "automated_77",
+              "name": "Processor Binding",
+              "kind": "step",
+              "hint": "",
+              "x": -24,
+              "y": 8,
+              "deps": [
+                "slimeball_2",
+                "automated_79"
+              ]
+            },
+            {
+              "id": "automated_78",
+              "name": "Raw Basic Processor",
+              "kind": "step",
+              "hint": "",
+              "x": -120,
+              "y": 40,
+              "deps": [
+                "iron_nugget_4",
+                "destabilized_redstone_3",
+                "automated_77",
+                "automated_76"
+              ]
+            },
+            {
+              "id": "conductive_mechanism",
+              "name": "Conductive Mechanism",
+              "kind": "input",
+              "hint": "",
+              "x": -24,
+              "y": 296,
+              "deps": [
+                "ready_8"
+              ]
+            },
+            {
+              "id": "tuff_alloy_2",
+              "name": "Tuff Alloy",
+              "kind": "input",
+              "hint": "",
+              "x": -280,
+              "y": 40,
+              "deps": [
+                "ready_8"
+              ]
+            },
+            {
+              "id": "iron_nugget_4",
+              "name": "Iron Nugget",
+              "kind": "input",
+              "hint": "",
+              "x": -216,
+              "y": -24,
+              "deps": [
+                "ready_8"
+              ]
+            },
+            {
+              "id": "destabilized_redstone_3",
+              "name": "Destabilized Redstone",
+              "kind": "input",
+              "hint": "",
+              "x": -120,
+              "y": -56,
+              "deps": [
+                "ready_8"
+              ]
+            },
+            {
+              "id": "slimeball_2",
+              "name": "Slimeball",
+              "kind": "input",
+              "hint": "",
+              "x": -88,
+              "y": -152,
+              "deps": [
+                "ready_8"
+              ]
+            },
+            {
+              "id": "automated_79",
+              "name": "String",
+              "kind": "step",
+              "hint": "",
+              "x": 40,
+              "y": -56,
+              "deps": [
+                "kelp"
+              ]
+            },
+            {
+              "id": "kelp",
+              "name": "Kelp",
+              "kind": "input",
+              "hint": "",
+              "x": 40,
+              "y": -152,
+              "deps": [
+                "ready_8"
+              ]
+            },
+            {
+              "id": "automated_80",
+              "name": "Raw Improved Processor",
+              "kind": "step",
+              "hint": "",
+              "x": 72,
+              "y": 40,
+              "deps": [
+                "automated_76",
+                "destabilized_redstone_3",
+                "automated_81",
+                "automated_77"
+              ]
+            },
+            {
+              "id": "automated_81",
+              "name": "Gold Nugget",
+              "kind": "step",
+              "hint": "Place the tesla coil over a conveyor belt or a depot with a brass nugget underneath and then give the tesla coil power.",
+              "x": 168,
+              "y": -24,
+              "deps": [
+                "brass_nugget",
+                "quest_20e916cb"
+              ]
+            },
+            {
+              "id": "quest_20e916cb",
+              "name": "Tesla Coil",
+              "kind": "input",
+              "hint": "You will need this item, not automated though.",
+              "x": 264,
+              "y": 8,
+              "deps": [
+                "ready_8"
+              ]
+            },
+            {
+              "id": "brass_nugget",
+              "name": "Brass Nugget",
+              "kind": "input",
+              "hint": "",
+              "x": 200,
+              "y": -120,
+              "deps": [
+                "ready_8"
+              ]
+            },
+            {
+              "id": "automated_82",
+              "name": "Quartz Enriched Iron",
+              "kind": "step",
+              "hint": "",
+              "x": 104,
+              "y": 168,
+              "deps": [
+                "iron_ingot_2"
+              ]
+            },
+            {
+              "id": "iron_ingot_2",
+              "name": "Iron Ingot",
+              "kind": "input",
+              "hint": "",
+              "x": 200,
+              "y": 168,
+              "deps": [
+                "ready_8"
+              ]
+            },
+            {
+              "id": "ready_8",
+              "name": "Start",
+              "kind": "start",
+              "hint": "",
+              "x": 450,
+              "y": -62,
+              "deps": []
+            }
+          ]
+        },
+        {
+          "key": "ostrum",
+          "title": "Ostrum Mechanism",
+          "number": "3b",
+          "quests": 22,
+          "automate": 9,
+          "nodes": [
+            {
+              "id": "automated_122",
+              "name": "Ostrum Mechanism",
+              "kind": "final",
+              "hint": "",
+              "x": -36,
+              "y": 156,
+              "deps": [
+                "automated_127",
+                "automated_123",
+                "oxygen",
+                "fuel",
+                "desh_mechanism"
+              ]
+            },
+            {
+              "id": "automated_123",
+              "name": "Ostrum Fluid Pipe",
+              "kind": "step",
+              "hint": "Pour molten ostrum over a pipe, or make them in mechanical crafters.",
+              "x": 72,
+              "y": 168,
+              "deps": [
+                "molten_ostrum",
+                "automated_131"
+              ]
+            },
+            {
+              "id": "molten_ostrum",
+              "name": "Molten Ostrum",
+              "kind": "input",
+              "hint": "Melt the ostrum ingots in a foundry basin.",
+              "x": 136,
+              "y": 104,
+              "deps": [
+                "automated_124"
+              ]
+            },
+            {
+              "id": "automated_124",
+              "name": "Ostrum Nugget",
+              "kind": "step",
+              "hint": "Putting mars sand into a centrifugal seperator will spin in until it hardens into ostrum nuggets.",
+              "x": 168,
+              "y": 8,
+              "deps": [
+                "automated_125"
+              ]
+            },
+            {
+              "id": "automated_125",
+              "name": "Mars Sand",
+              "kind": "step",
+              "hint": "Milling or crushing mars cobblestone.",
+              "x": 200,
+              "y": -88,
+              "deps": [
+                "automated_126"
+              ]
+            },
+            {
+              "id": "automated_126",
+              "name": "Mars Cobblestone",
+              "kind": "step",
+              "hint": "Place a block of ostrum under a cobble gen to generate moon cobble.",
+              "x": 264,
+              "y": -152,
+              "deps": [
+                "ready_12"
+              ]
+            },
+            {
+              "id": "fuel",
+              "name": "Fuel",
+              "kind": "input",
+              "hint": "Put the oil in a fuel refinery.",
+              "x": 8,
+              "y": 72,
+              "deps": [
+                "oil_2"
+              ]
+            },
+            {
+              "id": "oil_2",
+              "name": "Oil",
+              "kind": "input",
+              "hint": "",
+              "x": 40,
+              "y": -24,
+              "deps": [
+                "ready_12"
+              ]
+            },
+            {
+              "id": "oxygen",
+              "name": "Oxygen",
+              "kind": "input",
+              "hint": "Water in an oxygen loader.",
+              "x": -56,
+              "y": 72,
+              "deps": [
+                "water_2"
+              ]
+            },
+            {
+              "id": "water_2",
+              "name": "Water",
+              "kind": "input",
+              "hint": "",
+              "x": -88,
+              "y": -24,
+              "deps": [
+                "ready_12"
+              ]
+            },
+            {
+              "id": "automated_127",
+              "name": "Ostrum Engine",
+              "kind": "step",
+              "hint": "",
+              "x": -120,
+              "y": 168,
+              "deps": [
+                "automated_128"
+              ]
+            },
+            {
+              "id": "automated_128",
+              "name": "Fan",
+              "kind": "step",
+              "hint": "Same as the engine frame, just different recipe.",
+              "x": -184,
+              "y": 104,
+              "deps": [
+                "automated_129"
+              ]
+            },
+            {
+              "id": "automated_129",
+              "name": "Engine Frame",
+              "kind": "step",
+              "hint": "Mechanical crafting, steel rods + steel plates.",
+              "x": -216,
+              "y": 8,
+              "deps": [
+                "automated_130"
+              ]
+            },
+            {
+              "id": "automated_130",
+              "name": "Steel Rod",
+              "kind": "step",
+              "hint": "Put the steel plates in a rolling mill to get steel rods.",
+              "x": -248,
+              "y": -88,
+              "deps": [
+                "steel_plate"
+              ]
+            },
+            {
+              "id": "steel_plate",
+              "name": "Steel Plate",
+              "kind": "input",
+              "hint": "",
+              "x": -312,
+              "y": -152,
+              "deps": [
+                "ready_12"
+              ]
+            },
+            {
+              "id": "ready_12",
+              "name": "Start",
+              "kind": "start",
+              "hint": "",
+              "x": -30,
+              "y": -254,
+              "deps": []
+            },
+            {
+              "id": "automated_131",
+              "name": "Fluid Pipe",
+              "kind": "step",
+              "hint": "You already have the required items automated, just put them in a mechanical crafter.",
+              "x": 136,
+              "y": 232,
+              "deps": [
+                "ready_12"
+              ]
+            },
+            {
+              "id": "desh_mechanism",
+              "name": "Desh Mechanism",
+              "kind": "input",
+              "hint": "",
+              "x": -24,
+              "y": 264,
+              "deps": [
+                "ready_12"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tier": 4,
+      "main": {
+        "key": "mystical",
+        "title": "Mystical Mechanism",
+        "number": "4",
+        "quests": 19,
+        "automate": 15,
+        "nodes": [
+          {
+            "id": "automated_83",
+            "name": "Mystical Mechanism",
+            "kind": "final",
+            "hint": "",
+            "x": -36,
+            "y": 156,
+            "deps": [
+              "quest_418e28c6",
+              "automated_85",
+              "automated_84"
+            ]
+          },
+          {
+            "id": "automated_84",
+            "name": "Prosperity Shard",
+            "kind": "step",
+            "hint": "",
+            "x": -152,
+            "y": 168,
+            "deps": [
+              "automated_86",
+              "automated_88"
+            ]
+          },
+          {
+            "id": "automated_85",
+            "name": "Imperium Essence",
+            "kind": "step",
+            "hint": "",
+            "x": 104,
+            "y": 168,
+            "deps": [
+              "automated_94",
+              "automated_93"
+            ]
+          },
+          {
+            "id": "quest_418e28c6",
+            "name": "Conductive Mechanism",
+            "kind": "input",
+            "hint": "",
+            "x": -24,
+            "y": 40,
+            "deps": [
+              "ready_9"
+            ]
+          },
+          {
+            "id": "automated_86",
+            "name": "Glass Shard",
+            "kind": "step",
+            "hint": "",
+            "x": -216,
+            "y": 264,
+            "deps": [
+              "automated_87"
+            ]
+          },
+          {
+            "id": "automated_87",
+            "name": "Glass",
+            "kind": "step",
+            "hint": "",
+            "x": -312,
+            "y": 264,
+            "deps": [
+              "ready_9"
+            ]
+          },
+          {
+            "id": "automated_88",
+            "name": "Snowball",
+            "kind": "step",
+            "hint": "",
+            "x": -216,
+            "y": 72,
+            "deps": [
+              "automated_89"
+            ]
+          },
+          {
+            "id": "automated_89",
+            "name": "Packed Ice",
+            "kind": "step",
+            "hint": "",
+            "x": -312,
+            "y": 104,
+            "deps": [
+              "automated_90"
+            ]
+          },
+          {
+            "id": "automated_90",
+            "name": "Blue Ice",
+            "kind": "step",
+            "hint": "",
+            "x": -408,
+            "y": 72,
+            "deps": [
+              "automated_91"
+            ]
+          },
+          {
+            "id": "automated_91",
+            "name": "Packed Ice",
+            "kind": "step",
+            "hint": "",
+            "x": -440,
+            "y": -24,
+            "deps": [
+              "automated_92"
+            ]
+          },
+          {
+            "id": "automated_92",
+            "name": "Ice",
+            "kind": "step",
+            "hint": "",
+            "x": -408,
+            "y": -120,
+            "deps": [
+              "ready_9"
+            ]
+          },
+          {
+            "id": "automated_93",
+            "name": "Inferium Seeds",
+            "kind": "step",
+            "hint": "",
+            "x": 168,
+            "y": 72,
+            "deps": [
+              "automated_98",
+              "automated_97"
+            ]
+          },
+          {
+            "id": "automated_94",
+            "name": "Infusion Crystal",
+            "kind": "step",
+            "hint": "",
+            "x": 168,
+            "y": 264,
+            "deps": [
+              "automated_95"
+            ]
+          },
+          {
+            "id": "automated_95",
+            "name": "Ice Shard",
+            "kind": "step",
+            "hint": "",
+            "x": 264,
+            "y": 296,
+            "deps": [
+              "automated_96"
+            ]
+          },
+          {
+            "id": "automated_96",
+            "name": "Mercury Stone",
+            "kind": "step",
+            "hint": "",
+            "x": 360,
+            "y": 264,
+            "deps": [
+              "ready_9"
+            ]
+          },
+          {
+            "id": "automated_97",
+            "name": "Wheat Seeds",
+            "kind": "step",
+            "hint": "",
+            "x": 264,
+            "y": 136,
+            "deps": [
+              "ready_9"
+            ]
+          },
+          {
+            "id": "automated_98",
+            "name": "Inferium Essence",
+            "kind": "step",
+            "hint": "",
+            "x": 264,
+            "y": 8,
+            "deps": [
+              "ready_9"
+            ]
+          },
+          {
+            "id": "ready_9",
+            "name": "Start",
+            "kind": "start",
+            "hint": "",
+            "x": -30,
+            "y": -126,
+            "deps": []
+          }
+        ]
+      },
+      "branches": [
+        {
+          "key": "calorite",
+          "title": "Calorite Mechanism",
+          "number": "4a",
+          "quests": 11,
+          "automate": 9,
+          "nodes": [
+            {
+              "id": "automated_99",
+              "name": "Calorite Mechanism",
+              "kind": "final",
+              "hint": "",
+              "x": -36,
+              "y": 156,
+              "deps": [
+                "automated_101",
+                "automated_100",
+                "automated_105",
+                "automated_103",
+                "automated_104"
+              ]
+            },
+            {
+              "id": "automated_100",
+              "name": "Ostrum Mechanism",
+              "kind": "step",
+              "hint": "",
+              "x": -24,
+              "y": 296,
+              "deps": [
+                "ready_10"
+              ]
+            },
+            {
+              "id": "automated_101",
+              "name": "Calorite Ingot",
+              "kind": "step",
+              "hint": "",
+              "x": 104,
+              "y": 104,
+              "deps": [
+                "automated_102"
+              ]
+            },
+            {
+              "id": "automated_102",
+              "name": "Venus Sand",
+              "kind": "step",
+              "hint": "",
+              "x": 200,
+              "y": 72,
+              "deps": [
+                "ready_10"
+              ]
+            },
+            {
+              "id": "automated_103",
+              "name": "Cryo Fuel Bucket",
+              "kind": "step",
+              "hint": "",
+              "x": -152,
+              "y": 200,
+              "deps": [
+                "automated_107"
+              ]
+            },
+            {
+              "id": "automated_104",
+              "name": "Solid Fuel Clump",
+              "kind": "step",
+              "hint": "",
+              "x": -152,
+              "y": 104,
+              "deps": [
+                "automated_108"
+              ]
+            },
+            {
+              "id": "automated_105",
+              "name": "Cheese",
+              "kind": "step",
+              "hint": "",
+              "x": 104,
+              "y": 200,
+              "deps": [
+                "automated_106"
+              ]
+            },
+            {
+              "id": "automated_106",
+              "name": "Molten Gold Bucket",
+              "kind": "step",
+              "hint": "",
+              "x": 200,
+              "y": 232,
+              "deps": [
+                "ready_10"
+              ]
+            },
+            {
+              "id": "automated_107",
+              "name": "Ice Shard",
+              "kind": "step",
+              "hint": "",
+              "x": -248,
+              "y": 232,
+              "deps": [
+                "ready_10"
+              ]
+            },
+            {
+              "id": "automated_108",
+              "name": "Sulfur",
+              "kind": "step",
+              "hint": "",
+              "x": -248,
+              "y": 72,
+              "deps": [
+                "ready_10"
+              ]
+            },
+            {
+              "id": "ready_10",
+              "name": "Start",
+              "kind": "start",
+              "hint": "",
+              "x": -30,
+              "y": -62,
+              "deps": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tier": 5,
+      "main": {
+        "key": "creative",
+        "title": "Creative Mechanism",
+        "number": "5",
+        "quests": 16,
+        "automate": 12,
+        "nodes": [
+          {
+            "id": "automated_109",
+            "name": "Creative Mechanism",
+            "kind": "final",
+            "hint": "",
+            "x": -36,
+            "y": 156,
+            "deps": [
+              "automated_113",
+              "automated_114",
+              "automated_115",
+              "automated_111",
+              "automated_112",
+              "automated_110"
+            ]
+          },
+          {
+            "id": "automated_110",
+            "name": "Deorum Ingot",
+            "kind": "step",
+            "hint": "",
+            "x": -152,
+            "y": 104,
+            "deps": [
+              "automated_118",
+              "automated_117"
+            ]
+          },
+          {
+            "id": "automated_111",
+            "name": "Netherite Seeds",
+            "kind": "step",
+            "hint": "",
+            "x": 104,
+            "y": 200,
+            "deps": [
+              "automated_120"
+            ]
+          },
+          {
+            "id": "automated_112",
+            "name": "64k Storage Part",
+            "kind": "step",
+            "hint": "",
+            "x": -24,
+            "y": 40,
+            "deps": [
+              "automated_121"
+            ]
+          },
+          {
+            "id": "ready_11",
+            "name": "Start",
+            "kind": "start",
+            "hint": "",
+            "x": 290,
+            "y": 162,
+            "deps": []
+          },
+          {
+            "id": "automated_113",
+            "name": "Glacio Stone",
+            "kind": "step",
+            "hint": "",
+            "x": -152,
+            "y": 200,
+            "deps": [
+              "ready_11"
+            ]
+          },
+          {
+            "id": "automated_114",
+            "name": "Mystical Mechanism",
+            "kind": "step",
+            "hint": "",
+            "x": -24,
+            "y": 296,
+            "deps": [
+              "ready_11"
+            ]
+          },
+          {
+            "id": "automated_115",
+            "name": "Molten Diamond Bucket",
+            "kind": "step",
+            "hint": "",
+            "x": 104,
+            "y": 104,
+            "deps": [
+              "automated_116"
+            ]
+          },
+          {
+            "id": "automated_116",
+            "name": "Diamond Seeds",
+            "kind": "step",
+            "hint": "",
+            "x": 136,
+            "y": 8,
+            "deps": [
+              "ready_11"
+            ]
+          },
+          {
+            "id": "automated_117",
+            "name": "Arcane Crystal Dust",
+            "kind": "step",
+            "hint": "",
+            "x": -184,
+            "y": 8,
+            "deps": [
+              "automated_119"
+            ]
+          },
+          {
+            "id": "automated_118",
+            "name": "Mundabitur Dust",
+            "kind": "step",
+            "hint": "",
+            "x": -248,
+            "y": 104,
+            "deps": [
+              "ready_11",
+              "automated_117"
+            ]
+          },
+          {
+            "id": "automated_119",
+            "name": "Crushing Wheel",
+            "kind": "step",
+            "hint": "",
+            "x": -312,
+            "y": 8,
+            "deps": [
+              "ready_11"
+            ]
+          },
+          {
+            "id": "automated_120",
+            "name": "Supremium Essence",
+            "kind": "step",
+            "hint": "",
+            "x": 136,
+            "y": 296,
+            "deps": [
+              "quest_6b926c1e"
+            ]
+          },
+          {
+            "id": "automated_121",
+            "name": "16k Storage Part",
+            "kind": "step",
+            "hint": "",
+            "x": -24,
+            "y": -56,
+            "deps": [
+              "ready_11"
+            ]
+          },
+          {
+            "id": "quest_6b926c1e",
+            "name": "Master Infusion Crystal",
+            "kind": "input",
+            "hint": "This wont need to be automated, since its unbreakable.",
+            "x": 232,
+            "y": 296,
+            "deps": [
+              "ready_11"
+            ]
+          }
+        ]
+      },
+      "branches": []
+    }
+  ],
+  "mods": [
+    "Ad Astra",
+    "Alex's Caves",
+    "Alex's Mobs",
+    "Amendments",
+    "Apotheosis",
+    "Apothic Attributes",
+    "Apothic Enchanting",
+    "Apothic Spawners",
+    "AppleSkin",
+    "Armature Lib",
+    "Artifacts",
+    "Bad Wither No Cookie - Reloaded",
+    "BadOptimizations",
+    "BaguetteLib",
+    "Balm",
+    "Better Advanced Tooltips",
+    "Biomes O' Plenty",
+    "BisectHosting Server Integration Menu",
+    "Bookshelf",
+    "Builder's Delight",
+    "Citadel",
+    "Clumps",
+    "Common Storage Lib",
+    "Controlling",
+    "Copycats+ aeronautics weight",
+    "CorgiLib",
+    "Corpse",
+    "Create",
+    "Create Aeronautics",
+    "Create Big Cannons",
+    "Create Confectionery",
+    "Create Crafts & Additions",
+    "Create Deco",
+    "Create Sifting",
+    "Create Slice & Dice",
+    "Create Stellar Companion",
+    "Create: Aeroworks",
+    "Create: Alloyed",
+    "Create: Copycats+",
+    "Create: Diesel Generators",
+    "Create: Dragons Plus",
+    "Create: Enchantment Industry",
+    "CreativeCore",
+    "Cucumber Library",
+    "Curios API",
+    "EMI",
+    "EMI Enchanting",
+    "EMI Extra Integrations",
+    "EMI Loot",
+    "EMI Ores",
+    "EMI professions (EMIP)",
+    "EMIffect (Status Effects EMI Plugin)",
+    "Enchantment Descriptions",
+    "Entity Culling",
+    "Expanded Delight",
+    "Explorify – Dungeons & Structures",
+    "Farmer's Delight",
+    "FerriteCore",
+    "Forbidden and Arcanus",
+    "Fragmentum",
+    "Fusion (Connected Textures)",
+    "Fzzy Config",
+    "GeckoLib",
+    "GlitchCore",
+    "Iceberg",
+    "ImmediatelyFast",
+    "Integrated API",
+    "Integrated Dungeons and Structures",
+    "Integrated Dungeons Arise",
+    "Integrated Patches",
+    "Integrated Stronghold",
+    "Integrated Villages",
+    "Inventory Profiles Next",
+    "Iris Shaders",
+    "Item Highlighter",
+    "ItemPhysic Lite",
+    "Jade",
+    "Jade Addons",
+    "Just Enough Items (JEI)",
+    "Kotlin for Forge",
+    "KotlinLangForge",
+    "Leaves Be Gone",
+    "libIPN",
+    "Lithium",
+    "Lithostitched",
+    "Lootr",
+    "Max Health Fix",
+    "Mechanicals Lib",
+    "MezzConfig",
+    "ModernFix",
+    "Moonlight Lib",
+    "Mouse Tweaks",
+    "Mystical Agriculture",
+    "Mystical Customization",
+    "Nature's Compass",
+    "Obscure Tooltips",
+    "Ocean's Delight",
+    "Oh The Biomes We've Gone",
+    "Oh The Trees You'll Grow",
+    "Open Parties and Claims",
+    "Patchouli",
+    "Placebo",
+    "Polymorph",
+    "Pretty Pipes",
+    "Prickle",
+    "Puzzles Lib",
+    "Quark",
+    "Rechiseled",
+    "Refined Storage",
+    "Resourceful Config",
+    "Resourceful Lib",
+    "Ritchie's Projectile Library",
+    "Sable",
+    "Searchables",
+    "Sodium",
+    "Sophisticated Backpacks",
+    "Sophisticated Core",
+    "Sophisticated Storage",
+    "Sophisticated Storage Create Integration",
+    "Storage Drawers",
+    "SuperMartijn642's Config Lib",
+    "SuperMartijn642's Core Lib",
+    "Supplementaries",
+    "Tenet",
+    "TerraBlender",
+    "Terralith",
+    "Tom's Simple Storage Mod",
+    "Valhelsia Core",
+    "VeinMiner Hotkey",
+    "VeinMiner Mod",
+    "Waystones",
+    "When Dungeons Arise",
+    "Xaero's Minimap",
+    "Xaero's World Map",
+    "YUNG's API",
+    "YUNG's Better Nether Fortresses",
+    "YUNG's Bridges",
+    "Zeta"
+  ]
+}
