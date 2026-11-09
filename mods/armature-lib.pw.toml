@@ -1,13 +1,13 @@
 name = "Armature Lib"
-filename = "armature-neoforge-1.21.1-1.0.0.jar"
+filename = "armature-neoforge-1.21.1-1.2.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "acfe446cde44e6a0abf34b8abf7acf003216ceea"
+hash = "51d9d43a36c5c188460027377945da5d0b259c54"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9162825
+file-id = 9408060
 project-id = 1732447

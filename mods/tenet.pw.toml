@@ -1,13 +1,13 @@
 name = "Tenet"
-filename = "tenet-neoforge-1.21.1-1.0.0.jar"
+filename = "tenet-neoforge-1.21.1-1.2.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "1bd5bebe033120cac3929bd0259284a6425b616a"
+hash = "57794d8a793626f8683120bebdaef60e1308aa35"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9162922
+file-id = 9408064
 project-id = 1732451

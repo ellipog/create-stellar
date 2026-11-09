@@ -3110,8 +3110,13 @@ hash = "3f910a2722d6884203aba5eee8f5c129ea3c2e0b78bc683b2d7b5604fec755f5"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
+metafile = true
+
+[[files]]
 file = "mods/armature-lib.pw.toml"
-hash = "dbfb252f492931eae9a59147b96de825e2a2ec479d708a377e7d88189ea34317"
+hash = "7376436d8944bfee9b3209ad410f5b7b8ff797445c1f4d4778c58531f529ab7b"
 metafile = true
 
 [[files]]
@@ -3256,7 +3261,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-stellar-companion.pw.toml"
-hash = "26edf8b89ff8e3d01142b4b9f4c321536fc9e4c70956499d15564fc120141852"
+hash = "0fdcaab3c75e7841c4ad4a82da69aea5d9d2747c76ec6a45f7972baeea76a452"
 metafile = true
 
 [[files]]
@@ -3357,6 +3362,11 @@ metafile = true
 [[files]]
 file = "mods/fragmentum-neoforge.pw.toml"
 hash = "49e92bbcb8d8705b053dcf0d3be39b5224a411c8d2d38fff8643e402b56aa52d"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "df64ca595f6f0f79e3a4a844fd0a887b44f5e007f5deb9ac011b5cf67b3a2127"
 metafile = true
 
 [[files]]
@@ -3681,7 +3691,7 @@ metafile = true
 
 [[files]]
 file = "mods/tenet.pw.toml"
-hash = "1537bbdf06197fbb0bc9bbb3db3ac715df1d7ca37456894e6184c9089f80f23f"
+hash = "57d9128c351d8dc73c36901535f00e44090d4b659e1eea2982cd9e6f0313cbfb"
 metafile = true
 
 [[files]]
@@ -3753,6 +3763,10 @@ metafile = true
 file = "mods/zeta.pw.toml"
 hash = "d1baffd370868590fcb2785146c278df5781d20994022749c53c0f9b2bffc7fc"
 metafile = true
+
+[[files]]
+file = "servers.dat"
+hash = "9bd9c55d2064322915be82df748f0e0d649bcc2453c6b0d3a053fe804b74b6bf"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
