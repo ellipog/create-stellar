@@ -3,6 +3,10 @@
   "id": "crushing",
   "title": "Crushing",
   "subtitle": "1 -> 1-2",
+  "description": [
+    "Crushing wheels turn an ore block into 1 crushed ore, plus a second 75% of the time.",
+    "Raw ore crushes 1 to 1, with a chance at an experience nugget."
+  ],
   "icon": {
     "item": "create:crushing_wheel"
   },

@@ -1,8 +1,11 @@
 {
   "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
   "id": "melting",
-  "title": "Melting",
+  "title": "Smelting",
   "subtitle": "1 -> 1",
+  "description": [
+    "A furnace or blast furnace smelts raw ore 1 to 1. Easy, but a foundry basin gets twice as much."
+  ],
   "icon": {
     "item": "mysticalagriculture:fire_essence"
   },

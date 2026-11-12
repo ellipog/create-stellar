@@ -1,8 +1,12 @@
 {
   "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
   "id": "foundy_basin",
-  "title": "Foundy Basin",
+  "title": "Foundry Basin",
   "subtitle": "1 -> 2",
+  "description": [
+    "A basin on a heated blaze burner melts crushed or raw ore into 180 mB of molten metal, two ingots' worth. No mixer needed.",
+    "The metal goes into the basin's output tank. Pump it out or put another basin diagonally below, then press it with a mechanical press: 90 mB makes an ingot, 10 mB a nugget."
+  ],
   "icon": {
     "item": "create:basin"
   },

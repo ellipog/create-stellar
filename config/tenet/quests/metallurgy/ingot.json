@@ -2,6 +2,13 @@
   "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
   "id": "ingot",
   "title": "Ingot",
+  "description": [
+    "Ingots per iron ore block, best first:",
+    "Silk Touch, deepslate crushing, foundry basin: about 4.5",
+    "Fortune III, foundry basin: about 4.4",
+    "Silk Touch, crushing, foundry basin: about 3.5",
+    "Raw ore in a furnace: 1"
+  ],
   "icon": {
     "item": "minecraft:iron_ingot"
   },

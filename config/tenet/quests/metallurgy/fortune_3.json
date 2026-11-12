@@ -3,6 +3,10 @@
   "id": "fortune_3",
   "title": "Fortune 3",
   "subtitle": "1 -> 1-4",
+  "description": [
+    "Fortune III drops 1 to 4 raw ore per block, about 2.2 on average.",
+    "Smelt them, or melt them in a foundry basin for twice as much."
+  ],
   "icon": {
     "item": "minecraft:raw_iron"
   },

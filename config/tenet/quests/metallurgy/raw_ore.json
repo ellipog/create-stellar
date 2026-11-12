@@ -3,6 +3,10 @@
   "id": "raw_ore",
   "title": "Raw Ore",
   "subtitle": "1 -> 1",
+  "description": [
+    "Mine normally for one raw ore per block.",
+    "Raw ore melts in a foundry basin too: 180 mB, two ingots."
+  ],
   "icon": {
     "item": "minecraft:raw_iron"
   },

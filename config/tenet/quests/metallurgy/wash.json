@@ -2,7 +2,11 @@
   "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
   "id": "wash",
   "title": "Wash",
-  "subtitle": "1 -> 1 + XP",
+  "subtitle": "1 -> 1 + bonus",
+  "description": [
+    "An encased fan blowing through water washes crushed ore into 9 nuggets, one ingot's worth.",
+    "Each ore adds a chance at a bonus: redstone from iron, clay from copper, quartz from gold, gunpowder from zinc."
+  ],
   "icon": {
     "item": "mysticalagriculture:water_essence"
   },

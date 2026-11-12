@@ -3,6 +3,9 @@
   "id": "silk_touch",
   "title": "Silk Touch",
   "subtitle": "1 -> 1",
+  "description": [
+    "Mine the ore block itself. Ore blocks get the most out of crushing wheels."
+  ],
   "icon": {
     "item": "minecraft:iron_ore"
   },

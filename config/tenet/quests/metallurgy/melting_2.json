@@ -1,8 +1,11 @@
 {
   "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
   "id": "melting_2",
-  "title": "Melting",
+  "title": "Smelting",
   "subtitle": "1 -> 1",
+  "description": [
+    "Crushed ore smelts 1 to 1 in a furnace, a blast furnace, or in front of an encased fan blowing through lava."
+  ],
   "icon": {
     "item": "mysticalagriculture:fire_essence"
   },

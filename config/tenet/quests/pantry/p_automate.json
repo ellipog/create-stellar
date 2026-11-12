@@ -30,7 +30,7 @@
   "rewards": [
     {
       "type": "tenet:item",
-      "item": "create:brass_hand"
+      "item": "create_stellar:zinc_hand"
     }
   ]
 }

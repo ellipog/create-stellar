@@ -2,6 +2,10 @@
   "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
   "id": "pickaxe",
   "title": "Pickaxe",
+  "description": [
+    "Every way to turn ore into ingots, and how many you get.",
+    "Numbers are for iron. Gold and zinc are close, and copper drops several raw copper per block."
+  ],
   "icon": {
     "item": "minecraft:stone_pickaxe"
   },

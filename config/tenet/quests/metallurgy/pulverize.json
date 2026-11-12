@@ -1,8 +1,12 @@
 {
   "$schema": "https://ellipog.dev/tenet/_schema/quest.schema.json",
   "id": "pulverize",
-  "title": "Pulverize",
-  "subtitle": "1 -> 2",
+  "title": "Deepslate Crushing",
+  "subtitle": "1 -> 2-3",
+  "description": [
+    "Deepslate ore blocks crush into 2 crushed ore, plus a third 25% of the time.",
+    "Worth bringing a Silk Touch pick to the deepslate layers."
+  ],
   "icon": {
     "item": "create:crushing_wheel"
   },

@@ -31,15 +31,6 @@
   "rewards": [
     {
       "type": "tenet:item",
-      "item": "computercraft:computer_advanced"
-    },
-    {
-      "type": "tenet:item",
-      "item": "computercraft:monitor_advanced",
-      "count": 32
-    },
-    {
-      "type": "tenet:item",
       "item": "mysticalagriculture:awakened_supremium_sword"
     }
   ]

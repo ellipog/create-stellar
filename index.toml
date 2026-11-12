@@ -1578,47 +1578,47 @@ hash = "855f48e68b655596ffd27699a2e55a19d39364359b92504f0d2cb8319eb61d1e"
 
 [[files]]
 file = "config/tenet/quests/metallurgy/crushing.json"
-hash = "0017652f11597ec1630b640e496df35b210ef7f2fb6683c8a34d58035e8627e3"
+hash = "16d39de16577c84c11657ade262203166dbcda8526cb82bf04f008a3621167d7"
 
 [[files]]
 file = "config/tenet/quests/metallurgy/fortune_3.json"
-hash = "98d5522ce190570f7e5f7fd0e9ec8353c73d0e57c5207be09f6adb7627343d07"
+hash = "73547d1e86f401f6bb26d86d22b39e9df8848ce5939a0bba948335f62e4d8dda"
 
 [[files]]
 file = "config/tenet/quests/metallurgy/foundy_basin.json"
-hash = "fa38a41062d87c014a68ba4cfe1fb5d94c808c6fa9a30818aa42cc8871eddcc4"
+hash = "31b065f33d153edbe10ab14367c36ae9a0881453fbbaff0e38e51ee6650c51ee"
 
 [[files]]
 file = "config/tenet/quests/metallurgy/ingot.json"
-hash = "46b3c0932e54a54f1d792d9a6c15087c541fce233bac2a5287c83beef0b5e57f"
+hash = "a25dd29cfa14ab096e7a74de301a720218dfa5a2a30c566b1a9b61d2d642025b"
 
 [[files]]
 file = "config/tenet/quests/metallurgy/melting.json"
-hash = "b1ffa4b8beb73b1e4ad99c4ea42243783f40682b6e887db37d661d63ea34b260"
+hash = "c5fca71ffaaaa4557103b5e302c1dd80e91caf251f9ba19d2c0340b320ae131f"
 
 [[files]]
 file = "config/tenet/quests/metallurgy/melting_2.json"
-hash = "c5d34e773a66a8572e718b4228f067e9624f095f858541baceeb2908363732b3"
+hash = "9c9e1a43e31b39b3d4313396c7ff55176df891877efe249c8e15f9175311ed6b"
 
 [[files]]
 file = "config/tenet/quests/metallurgy/pickaxe.json"
-hash = "bfa849be826034c6a029b66ee2dd6c6b1c75f4309917dee1519f13e4fef5f739"
+hash = "c612c8e4acf9eac2dc0c98f5045e57068cbea5ee292a02b6e62343610a3351ca"
 
 [[files]]
 file = "config/tenet/quests/metallurgy/pulverize.json"
-hash = "dafcafa03639fcd9b7f22cb58580a10b269722b70b2837624225cfebf1f17e5e"
+hash = "d6b4ed6b34b6ac823a6be9750376d868ad434f1f016eed6125f021cc3c6da145"
 
 [[files]]
 file = "config/tenet/quests/metallurgy/raw_ore.json"
-hash = "21ef9f2151288353fd2e6c2a3a9f96485a3576944e121b9cbb8c3b1f1bc4272e"
+hash = "76923c09e9ef7adf5b917034073786c9138904029838923e0920527c9d1dc34a"
 
 [[files]]
 file = "config/tenet/quests/metallurgy/silk_touch.json"
-hash = "822ea9605e19bc1f9905b1d506996a6b331d7dce63249d4bbc05b5da27992452"
+hash = "50d1887af7d466a060873b9c92507287d4c8bc6cae647889721325d937612b31"
 
 [[files]]
 file = "config/tenet/quests/metallurgy/wash.json"
-hash = "49e4d8c4290e6fce4511235889d349ee451467a61c0154e2ce1a9c9840963366"
+hash = "a068e75786b036bc6efc2a65456a86fd36476c69e1c472679f5eee1d9a004dfd"
 
 [[files]]
 file = "config/tenet/quests/pantry/chapter.json"
@@ -1630,7 +1630,7 @@ hash = "37d235e8ff5fb1fb58303b8c330101800aad5fbc1d0f3774dc7b1a7042c8a056"
 
 [[files]]
 file = "config/tenet/quests/pantry/p_automate.json"
-hash = "e6a6fd154cbff2923e927eecffef9234e0807818fa44f1c86a881ba440a3023e"
+hash = "8c6363468f09fe444c8ed5ba238e3d19bec4216171702beb6871280b4841685e"
 
 [[files]]
 file = "config/tenet/quests/pantry/p_banquet.json"
@@ -2778,7 +2778,7 @@ hash = "cfa5227247ba103190a72b7bd1a8199aae30277910cf5235a0bf6bf3a8fb4ca9"
 
 [[files]]
 file = "config/tenet/quests/progression_line/5_creative_mechanism/automated_109.json"
-hash = "5271ece39265e1075ea9b3b8c1fc8a0e6c975f37b03fe3251e6a639653ad38d3"
+hash = "8019972c2585ac4dcecf7cbf012943addb159b063822e0771061a3bc74bafab1"
 
 [[files]]
 file = "config/tenet/quests/progression_line/5_creative_mechanism/automated_110.json"
