@@ -1,12 +1,12 @@
 name = "Create Stellar v2.0"
 author = "ellipog"
-version = "2.0.4"
+version = "2.0.5"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "b0858b2f6bb9650421352ae8a17178b8b5f250d84ead49a3bb803de87ff9acec"
+hash = "791ac773e8909fd09c0c0d1eca0097d20803e9476aaee7a54832899c6cfcf095"
 
 [versions]
 minecraft = "1.21.1"

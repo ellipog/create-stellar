@@ -3116,7 +3116,7 @@ metafile = true
 
 [[files]]
 file = "mods/armature-lib.pw.toml"
-hash = "7376436d8944bfee9b3209ad410f5b7b8ff797445c1f4d4778c58531f529ab7b"
+hash = "fe25af0e52845beadb74aa2c90ec4ac5df0bae0cabb0e026fa02477cf148fa64"
 metafile = true
 
 [[files]]
@@ -3261,7 +3261,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-stellar-companion.pw.toml"
-hash = "d362464e330d35e068df33834c30161a0aa7343a717d7ba0d3568f9cf645cdbf"
+hash = "68f024425c28aa440d4593d2eb4056d0491649b268bc0352fc5eee2b51cfed70"
 metafile = true
 
 [[files]]
@@ -3691,7 +3691,7 @@ metafile = true
 
 [[files]]
 file = "mods/tenet.pw.toml"
-hash = "57d9128c351d8dc73c36901535f00e44090d4b659e1eea2982cd9e6f0313cbfb"
+hash = "9a281b196510d6632cb85dbe5d6a02c1c162a837c234977576733b2b9dd4f18d"
 metafile = true
 
 [[files]]
